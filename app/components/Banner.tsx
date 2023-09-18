@@ -2,7 +2,7 @@ import CustomButton from "./CustomButton";
 
 export default function Banner() {
   return (
-    <section className=" dark:bg-gray-900">
+    <section className=" dark:bg-gray-900 ">
       <div className="grid py-8  mx-auto  lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="place-self-center  lg:col-span-4">
           <p className="font-dm text-grey text-3xl  max-w-2xl font-normal  lg:mb-8 md:text-5xl lg:text-6xl dark:text-gray-400">

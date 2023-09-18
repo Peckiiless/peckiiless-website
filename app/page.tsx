@@ -1,9 +1,13 @@
 import Banner from "./components/Banner";
+import HealthcareBanner from "./components/HealthcareBanner";
+import HealthcareList from "./components/HealthcareList";
 
 export default function Home() {
   return (
-    <main className="px-16 mx-auto">
-      <Banner />
+    <main>
+      <header className="px-16 mx-auto"><Banner /></header>      
+      <HealthcareBanner />
+      <HealthcareList />
     </main>
   );
 }
