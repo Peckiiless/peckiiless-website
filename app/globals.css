@@ -8,7 +8,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    #dbdfe2 -14.1%,
+    rgba(219, 223, 226, 0) 507.62%
+  );
 }
 
 .graidient {

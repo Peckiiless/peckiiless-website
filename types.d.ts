@@ -1,9 +1,3 @@
-type BlogPost = {
-    id: string,
-    title: string,
-    date: string,
-}
-
 export interface CustomButtonProps {
   isDisabled?: boolean;
   btnType?: "button" | "submit";
@@ -12,4 +6,4 @@ export interface CustomButtonProps {
   title: string;
   rightIcon?: string;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
-}``
+}
