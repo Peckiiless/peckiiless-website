@@ -22,6 +22,7 @@ export default function Banner() {
               fill="#123C69"
             />
           </svg>
+          
         </div>
         <div className="place-self-center  lg:col-span-4">
           <p className=" text-grey text-3xl  max-w-2xl font-normal  lg:mb-8 md:text-5xl lg:text-3xl dark:text-gray-400">

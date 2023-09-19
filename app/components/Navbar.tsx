@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-1xl lg:text-2xl">
           <Link
             className="text-white font-bold  hover:text-white/90 no-underline"
-            href="/home"
+            href="/"
           >
             Home
           </Link>
