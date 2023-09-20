@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Vision() {
+export default function AboutCompanyFamily() {
   return (
     <section className="p-10">
       <div className="grid py-8 mx-auto gap-5 grid-cols-12">
