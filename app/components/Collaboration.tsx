@@ -17,13 +17,13 @@ export const Collaboration = () => {
   const scale = useTransform(
     scrollYProgressIncludingOverlap,
     [0.1, 0.4, 0.75, 1],
-    [1, 2.5, 4.2, 1]
+    [1, 1, 4.2, 1]
   );
-  const x = useTransform(
-    scrollYProgressIncludingOverlap,
-    [0.1, 0.25, 0.75, 1],
-    ["0vw", "-55vw", "-135vw", "-18vw"]
-  );
+//   const x = useTransform(
+//     scrollYProgressIncludingOverlap,
+//     [0.1, 0.25, 0.75, 1],
+//     ["0vw", "-55vw", "-135vw", "-18vw"]
+//   );
   const y = useTransform(
     scrollYProgressIncludingOverlap,
     [0.75, 1],
@@ -68,36 +68,17 @@ export const Collaboration = () => {
   );
 
   return (
-    <section ref={targetRef} className="relative z-10 mt-[-30vh] h-[300vh]">
+    <section ref={targetRef} className="relative z-10 mt-[-90vh] h-[300vh]">
       <div ref={extendedRef} className="mb-[-120vh] h-[420vh] w-full">
-        <div className="sticky top-[10vh]">
+        <div className="sticky top-0">
           <div className="flex justify-center">
-            <motion.div style={{ scale, x, y }} className="origin-top">
+            <motion.div style={{ scale,  y }} className="origin-top">
               <motion.img
                 style={{ opacity }}
-                src="/main-screen.svg"
-                className="h-auto max-h-none w-[70vw]"
-              />
-              <motion.div
-                style={{ opacity: avatarGroupOpacity, x: avatarGroupX }}
-                className="absolute right-[10%] top-[1.5%] flex gap-2"
-              >
-                <motion.img
-                  style={{ scale: avatarOneScale }}
-                  className="h-[1.5vw] w-[1.5vw] rounded-full border border-[#4ca] object-cover"
-                  src="https://unsplash.com/photos/_H6wpor9mjs/download?force=true&w=128&h=128"
-                />
-                <motion.img
-                  style={{ scale: avatarTwoScale, opacity: avatarTwoOpacity }}
-                  className="h-[1.5vw] w-[1.5vw] rounded-full border border-[#c82] object-cover"
-                  src="https://unsplash.com/photos/sibVwORYqs0/download?force=true&w=128&h=128"
-                />
-                <motion.img
-                  style={{ scale: avatarThreeScale }}
-                  className="h-[1.5vw] w-[1.5vw] rounded-full border border-[#f0f] object-cover"
-                  src="https://unsplash.com/photos/7YVZYZeITc8/download?force=true&w=128&h=128"
-                />
-              </motion.div>
+                src="/main-screen.png"
+                className="h-auto max-h-none w-[30vw]"
+              />      
+            
             </motion.div>
           </div>
         </div>
