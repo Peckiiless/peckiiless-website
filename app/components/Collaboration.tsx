@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useTransform, useScroll, motion } from "framer-motion";
 import { useRef } from "react";
 
@@ -16,69 +16,32 @@ export const Collaboration = () => {
 
   const scale = useTransform(
     scrollYProgressIncludingOverlap,
-    [0.1, 0.4, 0.75, 1],
-    [1, 1, 4.2, 1]
+    [0.1, 0.4, 0.5, 0.75, 1],
+    [1, 5, 8, 9, 10]
   );
-//   const x = useTransform(
-//     scrollYProgressIncludingOverlap,
-//     [0.1, 0.25, 0.75, 1],
-//     ["0vw", "-55vw", "-135vw", "-18vw"]
-//   );
+  const x = useTransform(
+    scrollYProgressIncludingOverlap,
+    [0.1, 0.25, 0.75, 1],
+    ["0vw", "-2vw", "-3vw", "-4vw"]
+  );
   const y = useTransform(
     scrollYProgressIncludingOverlap,
-    [0.75, 1],
-    ["0vh", "40vh"]
+    [0.1, 0.25, 0.75, 0.09, 1],
+    ["0", "0", "-720vh", "-750vh", "-820vh"]
   );
   const opacity = useTransform(scrollYProgress, [0.9, 1], [1, 0]);
 
-  const avatarGroupOpacity = useTransform(
-    scrollYProgress,
-    [0, 0.23, 0.25],
-    [0, 0, 1]
-  );
-
-  const avatarGroupX = useTransform(
-    scrollYProgress,
-    [0, 0.23, 0.25, 0.4, 0.45, 0.6, 0.65],
-    ["60px", "60px", "40px", "40px", "20px", "20px", "0px"]
-  );
-
-  const avatarOneScale = useTransform(
-    scrollYProgress,
-    [0, 0.23, 0.25, 0.85, 0.9],
-    [0, 0, 1, 1, 0]
-  );
-
-  const avatarTwoScale = useTransform(
-    scrollYProgress,
-    [0, 0.4, 0.45],
-    [0, 0, 1]
-  );
-
-  const avatarTwoOpacity = useTransform(
-    scrollYProgressIncludingOverlap,
-    [0.9999, 1],
-    [1, 0]
-  );
-
-  const avatarThreeScale = useTransform(
-    scrollYProgress,
-    [0, 0.6, 0.65, 0.85, 0.9],
-    [0, 0, 1, 1, 0]
-  );
-
   return (
-    <section ref={targetRef} className="relative z-10 mt-[-90vh] h-[300vh]">
+    <section ref={targetRef} className="relative z-10 mt-[-70vh] h-[300vh]">
       <div ref={extendedRef} className="mb-[-120vh] h-[420vh] w-full">
         <div className="sticky top-0">
           <div className="flex justify-center">
-            <motion.div style={{ scale,  y }} className="origin-top">
+            <motion.div style={{ scale, y }} className="">
               <motion.img
                 style={{ opacity }}
                 src="/main-screen.png"
-                className="h-auto max-h-none w-[30vw]"
-              />      
-            
+                className="h-auto max-h-none w-[50vw]"
+              />
             </motion.div>
           </div>
         </div>
