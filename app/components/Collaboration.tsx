@@ -17,7 +17,7 @@ export const Collaboration = () => {
   const scale = useTransform(
     scrollYProgressIncludingOverlap,
     [0.1, 0.4, 0.5, 0.75, 1],
-    [1, 5, 8, 9, 10]
+    [1, 5, 8, 15, 19]
   );
   const x = useTransform(
     scrollYProgressIncludingOverlap,
@@ -27,7 +27,7 @@ export const Collaboration = () => {
   const y = useTransform(
     scrollYProgressIncludingOverlap,
     [0.1, 0.25, 0.75, 0.09, 1],
-    ["0", "0", "-720vh", "-750vh", "-820vh"]
+    ["0", "0", "-720vh", "-950vh", "-750vh"]
   );
   const opacity = useTransform(scrollYProgress, [0.9, 1], [1, 0]);
 

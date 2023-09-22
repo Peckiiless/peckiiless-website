@@ -42,9 +42,7 @@ export const Hero = () => {
        
 
         <h1 className=" text-center font-heading text-3xl leading-[1]">
-          Development
-          <br />
-          reimagined.
+         Peckilless
         </h1>
 
        
