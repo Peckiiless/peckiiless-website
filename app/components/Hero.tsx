@@ -41,9 +41,9 @@ export const Hero = () => {
       >
        
 
-        <h1 className=" text-center font-heading text-3xl leading-[1]">
+        {/* <h1 className=" text-center font-heading text-3xl leading-[1]">
          Peckilless
-        </h1>
+        </h1> */}
 
        
       </motion.div>

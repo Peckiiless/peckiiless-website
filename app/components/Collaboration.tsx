@@ -16,8 +16,8 @@ export const Collaboration = () => {
 
   const scale = useTransform(
     scrollYProgressIncludingOverlap,
-    [0.1, 0.4, 0.5, 0.75, 1],
-    [1, 5, 8, 15, 19]
+    [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+    [1, 5, 10, 15, 20, 25, 35, 40, 45]
   );
   const x = useTransform(
     scrollYProgressIncludingOverlap,
@@ -26,13 +26,24 @@ export const Collaboration = () => {
   );
   const y = useTransform(
     scrollYProgressIncludingOverlap,
-    [0.1, 0.25, 0.75, 0.09, 1],
-    ["0", "0", "-720vh", "-950vh", "-750vh"]
+    [0.2, 0.3, 0.35, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+    [
+      "0",
+      "-150vh",
+      "-250vh",
+      "-350vh",
+      "-550vh",
+      "-750vh",
+      "-950vh",
+      "-850vh",
+      "-950vh",
+      "-1000vh",
+    ]
   );
-  const opacity = useTransform(scrollYProgress, [0.9, 1], [1, 0]);
+  const opacity = useTransform(scrollYProgress, [0.8, 1], [1, 0]);
 
   return (
-    <section ref={targetRef} className="relative z-10 mt-[-70vh] h-[300vh]">
+    <section ref={targetRef} className="relative  mt-[-94vh] h-[300vh]">
       <div ref={extendedRef} className="mb-[-120vh] h-[420vh] w-full">
         <div className="sticky top-0">
           <div className="flex justify-center">
@@ -40,7 +51,7 @@ export const Collaboration = () => {
               <motion.img
                 style={{ opacity }}
                 src="/main-screen.png"
-                className="h-auto max-h-none w-[50vw]"
+                className="h-auto max-h-none w-[34vw]"
               />
             </motion.div>
           </div>

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="relative z-10 w-full overflow-x-clip">
+      <div className=" overflow-x-clip">
         <Collaboration />
       </div>
       <header className="px-16 mx-auto">
