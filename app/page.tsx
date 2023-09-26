@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Banner from "./components/Banner";
-import { Collaboration } from "./components/Collaboration";
+import { MainPage } from "./components/MainPage";
 import HealthcareBanner from "./components/HealthcareBanner";
 import HealthcareList from "./components/HealthcareList";
 
@@ -14,10 +14,9 @@ export default function Home() {
   }, []);
   return (
     <main>
-      <div className="">
-        <Collaboration />
-      </div>
-      <header className="px-16 mx-auto">
+      <MainPage />
+
+      <header className="px-16 mx-auto mt-[-220vh]">
         <Banner />
       </header>
       <HealthcareBanner />

@@ -22,22 +22,3 @@ body {
 .graidient {
   background: linear-gradient(90deg, #9a1750 -46.94%, #e7717d 99.94%);
 }
-
-/* section {
-  height: 100vh;
-} */
-section .zoom {
-  position: relative;
-  margin: 0 auto;
-  /* width: 2500px;
-  height: 2500px; */
-  overflow: hidden;
-}
-/* section .zoom .image {
-  grid-area: 1/1/2/2;
-} */
-/* section .zoom .image img {
-  width: 90%;
-  height: 90%;
-  object-fit: cover;
-} */
