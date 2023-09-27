@@ -22,3 +22,8 @@ body {
 .graidient {
   background: linear-gradient(90deg, #9a1750 -46.94%, #e7717d 99.94%);
 }
+
+#rect {
+  stroke: #5CD3F1;
+  stroke-width: 4px;
+}
