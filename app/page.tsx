@@ -16,7 +16,7 @@ export default function Home() {
     <main>
       <MainPage />
 
-      <header className="px-16 mx-auto mt-[-220vh]">
+      <header className="px-16 mx-auto mt-[-200vh]">
         <Banner />
       </header>
       <HealthcareBanner />
