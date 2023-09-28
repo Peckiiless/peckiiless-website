@@ -34,7 +34,7 @@ export const MainPage = () => {
           height={1500}
           alt="logo"
           priority={true}
-          className="mt-[-22vh]"
+          className="mt-[-15vh]"
         />
         <div>
           <Hero />
