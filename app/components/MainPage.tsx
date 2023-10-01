@@ -20,8 +20,10 @@ export const MainPage = () => {
     });
 
     timelineHeader.to(".image-1", {
-      scale: 15,
-      opacity: 0,
+     scale: 25,
+      stagger: 0.25,
+      duration: 2,
+      opacity: 0
     });
   }, []);
 
