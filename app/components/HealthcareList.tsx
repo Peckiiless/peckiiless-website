@@ -13,7 +13,7 @@ export default function HealthcareList() {
   gsap.registerPlugin(MotionPathPlugin);
   useEffect(() => {
     gsap.fromTo(
-      ".test",
+      ".lungs",
       { transform: "scale(1)" },
       {
         transform: "scale(1.005)",
@@ -23,12 +23,12 @@ export default function HealthcareList() {
         repeat: -1,
       }
     );
-    gsap.to("#rect", {
+    gsap.to(".dots", {
       duration: 1,
       repeat: -1,
       yoyo: true,
       ease: "none",
-
+opacity: 0,
       motionPath: {
         path: [
           { x: 0.450545, y: 0.783185 },
