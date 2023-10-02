@@ -12,7 +12,7 @@ export const MainPage = () => {
     const timelineHeader = gsap.timeline({
       scrollTrigger: {
         id: "ZOOM",
-        trigger: ".image-1",
+        trigger: ".zoom .image-1",
         scrub: 1,
         start: "22%",
         end: "+=1200",
@@ -28,7 +28,7 @@ export const MainPage = () => {
   }, []);
 
   return (
-    <div className="flex justify-center overflow-hidden">
+    <div className="flex justify-center overflow-hidden zoom">
       <div className="image-1">
         <Image
           src="/main-screen.png"
