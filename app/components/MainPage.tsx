@@ -12,28 +12,29 @@ export const MainPage = () => {
     const timelineHeader = gsap.timeline({
       scrollTrigger: {
         id: "ZOOM",
-        trigger: ".zoom .image-1",
-        scrub: 1,
-        start: "22%",
-        end: "+=1200",
+        trigger: ".zoom",
+        scrub: 2,
+        start: "20%",
+        // end: "+=1200",
+        markers: true,
       },
     });
 
     timelineHeader.to(".image-1", {
-     scale: 25,
+      scale: 15,
       stagger: 0.25,
       duration: 2,
-      opacity: 0
+      opacity: 0,
     });
   }, []);
 
   return (
-    <div className="flex justify-center overflow-hidden zoom">
+    <div className="flex justify-center overflow-hidden zoom h-full">
       <div className="image-1">
         <Image
           src="/main-screen.png"
-          width={1500}
-          height={1500}
+          width={1400}
+          height={1400}
           alt="logo"
           priority={true}
           className="mt-[-15vh]"

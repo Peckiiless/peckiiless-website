@@ -15,10 +15,7 @@ export default function Home() {
   return (
     <main>
       <MainPage />
-
-      <header className="px-16 mx-auto mt-[-200vh]">
         <Banner />
-      </header>
       <HealthcareBanner />
       <HealthcareList />
     </main>
