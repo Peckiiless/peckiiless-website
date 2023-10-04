@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main>
       <MainPage />
-        <Banner />
+        {/* <Banner /> */}
       <HealthcareBanner />
       <HealthcareList />
     </main>
