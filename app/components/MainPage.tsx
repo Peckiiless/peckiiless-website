@@ -13,23 +13,22 @@ export const MainPage = () => {
       scrollTrigger: {
         trigger: ".trigger",
         scrub: 2,
-        start: "center",
+        start: "40%",
         end: "+=10000px",
       },
     });
 
     timelineHeader
       .to(".zoom", {
-        scale: 6,
+        scale: 10,
         transformOrigin: "48% 92%",
-        ease: "none",
       })
       .to(
-        ".fade",
+        "#fade",
         {
-          scale: 6,
+          opacity: 0.5,
+          scale: 0.5,
           ease: "none",
-          transformOrigin: "48% 92%",
         },
         0
       )
@@ -44,20 +43,12 @@ export const MainPage = () => {
   }, []);
 
   return (
-    <div className=" flex justify-center overflow-hidden pb-[30vh]  mt-[-20vh]">
-      <div className="trigger">
+    <div className="trigger flex justify-center overflow-hidden pb-[30vh]">
+      <div className="zoom">
         <Image
-          src="/etty.png"
-          width={1500}
-          height={1500}
-          alt="logo"
-          priority={true}
-          className="fade"
-        />
-        <Image
-          src="/pattern1.svg"
-          width={1500}
-          height={1500}
+          src="/etty.svg"
+          width={1200}
+          height={1200}
           alt="logo"
           priority={true}
           className="zoom"

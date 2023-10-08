@@ -26,7 +26,8 @@ module.exports = {
         grey: "#2B3341",
       },
       backgroundImage: {
-        healthcare: "url('/images/healthcare.png')",
+        healthcare: "url('/adam.png')",
+        productInfo: "url('/product.png')",
       },
     },
   },
