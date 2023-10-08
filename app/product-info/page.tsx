@@ -1,7 +1,7 @@
-import React from "react";
+import ProductInfoBanner from "./ProductInfoBanner"
 
 const ProductInfoPage = () => {
-  return <div>ProductInfoPage</div>;
+  return <div><ProductInfoBanner /></div>;
 };
 
 export default ProductInfoPage;

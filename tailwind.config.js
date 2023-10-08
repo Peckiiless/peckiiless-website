@@ -28,6 +28,7 @@ module.exports = {
       backgroundImage: {
         healthcare: "url('/adam.png')",
         productInfo: "url('/product.png')",
+        productInfoBanner: "url('/blowing.png')",
       },
     },
   },
