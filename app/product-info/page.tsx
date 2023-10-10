@@ -2,6 +2,7 @@ import Benefits from "./Benefits";
 import Monitor from "./Monitor";
 import ProductInfoBanner from "./ProductInfoBanner";
 import ProductPackage from "./ProductPackage";
+import Testing from "./Testing";
 
 const ProductInfoPage = () => {
   return (
@@ -10,6 +11,7 @@ const ProductInfoPage = () => {
       <ProductPackage />
       <Benefits />
       <Monitor />
+      <Testing />
     </div>
   );
 };
