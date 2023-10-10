@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Barlow", sans-serif;
+  color: black;
 }
 
 body {
@@ -24,10 +25,9 @@ body {
 }
 
 #rect {
-  stroke: #5CD3F1;
+  stroke: #5cd3f1;
   stroke-width: 4px;
 }
-
 
 /* .image img {
 width: 100%;

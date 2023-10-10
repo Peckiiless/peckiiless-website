@@ -1,11 +1,11 @@
 import Image from "next/image";
+import Title from "../../components/Title";
 
 export default function Supports() {
   return (
     <section className="px-40 pb-11">
-      <p className="text-center font-bold text-5xl text-primary-800 pb-14">
-        Get Support From
-      </p>
+      <Title title="Get Support From"/>
+      
       <div className="grid py-8 mx-auto gap-6 gap-y-20 grid-cols-12">
         <div className="col-span-3 justify-self-center ">
           <Image
