@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar";
 import Banner from "./components/AboutBanner";
 import AboutCompanyFamily from "./components/AboutCompanyFamily";
 import Vision from "./components/AboutVision";
@@ -8,6 +9,7 @@ import Supports from "./components/Supports";
 export default function AboutUsPage() {
   return (
     <div>
+      <Navbar />
       <Banner />
       <Vision />
       <AboutCompanyFamily />

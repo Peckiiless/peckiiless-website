@@ -20,7 +20,11 @@ body {
 }
 
 .graidient {
-  background: linear-gradient(90deg, #9a1750 -46.94%, #e7717d 99.94%);
+  background: linear-gradient(
+    90deg,
+    #123c69 -2.65%,
+    rgba(68, 79, 119, 0.52) 130.78%
+  );
 }
 
 #rect {

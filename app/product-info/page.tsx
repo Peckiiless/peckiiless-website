@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar";
 import Benefits from "./Benefits";
 import Monitor from "./Monitor";
 import ProductInfoBanner from "./ProductInfoBanner";
@@ -7,6 +8,7 @@ import Testing from "./Testing";
 const ProductInfoPage = () => {
   return (
     <div>
+      <Navbar />
       <ProductInfoBanner /> 
       <ProductPackage />
       <Benefits />

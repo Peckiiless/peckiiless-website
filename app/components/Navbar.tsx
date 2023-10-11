@@ -44,7 +44,7 @@ export default function Navbar() {
           </Link>
           <Link
             className="text-white hover:text-white/90 no-underline"
-            href="/industry"
+            href="/product-info"
           >
             Industry
           </Link>

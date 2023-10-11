@@ -28,7 +28,7 @@ export default function HealthcareList() {
       repeat: -1,
       yoyo: true,
       ease: "none",
-opacity: 0,
+      opacity: 0,
       motionPath: {
         path: [
           { x: 0.450545, y: 0.783185 },
@@ -39,7 +39,7 @@ opacity: 0,
   }, []);
   return (
     <section className="p-10">
-      <div className="grid py-8 mx-auto gap-5 grid-cols-12 ">    
+      <div className="grid py-8 mx-auto gap-5 grid-cols-12 ">
         <div className="text-4xl col-span-3 self-center">
           <p>
             Peckiiless makes health care the future easier and safer for the

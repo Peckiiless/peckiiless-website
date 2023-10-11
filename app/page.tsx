@@ -1,10 +1,8 @@
 "use client";
 import { useEffect } from "react";
-import Banner from "./components/Banner";
 import { MainPage } from "./components/MainPage";
-import HealthcareBanner from "./components/HealthcareBanner";
 import HealthcareList from "./components/HealthcareList";
-import { Hero } from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   // useEffect(() => {
@@ -16,7 +14,7 @@ export default function Home() {
   return (
     <main>
       <MainPage />
-      <HealthcareBanner />
+      <Navbar />
       <HealthcareList />
     </main>
   );
