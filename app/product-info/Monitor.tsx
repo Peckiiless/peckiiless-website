@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Monitor() {
   return (
-    <section className="p-10">
+    <div className="section">
       <div className="flex gap-2 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,11 +21,11 @@ export default function Monitor() {
           Gather information where ever you go
         </p>
       </div>
-      <div className="grid py-8 px-36 gap-1 grid-cols-2">
-        <div className="">
+      <div className="md:flex justify-center mb-5">
+        <div className="md:w-[45%] h-[100vh]">
           <svg
-            width="501"
-            height="1024"
+            width="inherit"
+            height="inherit"
             viewBox="0 0 501 1024"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -101,8 +101,8 @@ export default function Monitor() {
           </svg>
         </div>
 
-        <div className="flex flex-col gap-4">
-          <div className="mb-20 self-center">
+        <div className="md:w-[30%] flex flex-col gap-4  text-secondary-navy">
+          <div className=" mt-10 self-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="119"
@@ -185,7 +185,7 @@ export default function Monitor() {
             Connect your Peckiiless breather device to our our application and
             observe previous and current levels.
           </p>
-          <div className="flex">
+          <div className="flex ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="102"
@@ -303,13 +303,13 @@ export default function Monitor() {
                 </filter>
               </defs>
             </svg>
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-center">
               <p>Available on</p>
               <p>App Store & Google Play</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

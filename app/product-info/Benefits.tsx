@@ -5,9 +5,9 @@ const Benefits = () => {
   return (
     <>
       <Title title="What sets Peckiiless apart from the options of today?" />
-      <section className="p-10">
-        <div className="grid py-8 mx-auto gap-5 grid-cols-12">
-          <div className="col-span-6 justify-center">
+      <section className="section">
+        <div className="grid sm:grid-cols-2 place-items-center gap-8">
+          <div className="">
             <p className="text-4xl  font-medium pb-7">Breathalyzer benefits.</p>
             <p className="col-span-6  text-[1.625rem] leading-[1.75rem]">
               Testing and monitoring of these illnesses have gotten stuck in
@@ -17,8 +17,8 @@ const Benefits = () => {
             </p>
           </div>
 
-          <div className="col-span-6 grid grid-cols-4 gap-4">
-            <div className="flex flex-col justify-center gap-2">
+          <div className=" grid grid-cols-4 gap-4">
+            <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="61"
@@ -34,7 +34,7 @@ const Benefits = () => {
               </svg>
               <p className="text-xs font-medium leading-5">Needlefree</p>
             </div>
-            <div className="flex flex-col justify-center gap-2">
+            <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="61"
@@ -54,7 +54,7 @@ const Benefits = () => {
               </svg>
               <p className="text-xs font-medium leading-5">Highly accurate</p>
             </div>
-            <div className="flex flex-col justify-center gap-2">
+            <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="61"
@@ -76,7 +76,7 @@ const Benefits = () => {
                 Universally available
               </p>
             </div>
-            <div className="flex flex-col justify-center gap-2">
+            <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="61"
@@ -92,7 +92,7 @@ const Benefits = () => {
               </svg>
               <p className="text-xs font-medium leading-5">Reliable</p>
             </div>
-            <div className="flex flex-col justify-center gap-2">
+            <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="60"
@@ -111,7 +111,7 @@ const Benefits = () => {
               <p className="text-xs font-medium leading-5">Convenient</p>
             </div>
 
-            <div className="flex flex-col justify-center gap-2">
+            <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="61"
@@ -131,7 +131,7 @@ const Benefits = () => {
               <p className="text-xs font-medium leading-5">Easy-to-use</p>
             </div>
 
-            <div className="flex flex-col justify-center gap-2">
+            <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="61"
@@ -149,7 +149,7 @@ const Benefits = () => {
                 Enviromentally friendly
               </p>
             </div>
-            <div className="flex flex-col justify-center gap-2">
+            <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="61"
