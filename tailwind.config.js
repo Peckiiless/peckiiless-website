@@ -17,7 +17,7 @@ module.exports = {
           DEFAULT: "#E7717D",
           900: "#9A1750",
           800: "#AC3B61",
-          700:"#B2335E"
+          700: "#B2335E",
         },
         "secondary-orange": "#f79761",
         "light-white": {

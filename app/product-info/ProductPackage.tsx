@@ -1,8 +1,5 @@
 export default function ProductPackage() {
   return (
-    <section
-      id="section1"
-      className="h-screen bg-cover bg-center  bg-productPackage  bg-no-repeat"
-    ></section>
+    <section className="h-screen bg-contain lg:bg-cover bg-bottom  bg-productPackage  bg-no-repeat"></section>
   );
 }
