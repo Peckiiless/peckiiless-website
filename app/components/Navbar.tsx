@@ -1,66 +1,58 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-  return (
-    <nav className="graidient py-6 px-16 sticky top-0 drop-shadow-xl z-10">
-      <div className=" font-400 mx-auto flex justify-between items-center flex-col sm:flex-row">
-        <h1 className="text-2xl  text-white grid place-content-center mb-2 md:mb-0">
-          <Link
-            href="/"
-            className="text-white no-underline hover:text-white/90 flex items-center gap-1"
-          >
-            <Image
-              className="mr-3"
-              src="/images/logo-sm.png"
-              width={34}
-              height={54}
-              alt="logo"
-              priority={true}
-            />
+  const currentRoute = usePathname();
 
-            <Image
-              className="mr-3"
-              src="/images/peckiiless.png"
-              width={163}
-              height={34}
-              alt="logo"
-              priority={true}
-            />
+  const links = [
+    { path: "/", label: "Home" },
+    { path: "/healthcare", label: "Healthcare" },
+    { path: "/product-info", label: "Industry" },
+    { path: "/sustainability", label: "Sustainability" },
+    { path: "/about-us", label: "About Us" },
+  ];
+
+  return (
+    <nav className="graidient h-[4.6875rem] px-16  drop-shadow-xl z-10 flex justify-between items-center">
+      <h1 className="text-2xl  text-white grid place-content-center mb-2 md:mb-0">
+        <Link
+          href="/"
+          className="text-white no-underline hover:text-white/90 flex items-center gap-1"
+        >
+          <Image
+            className="mr-3"
+            src="/images/logo-sm.png"
+            width={34}
+            height={54}
+            alt="logo"
+            priority={true}
+          />
+
+          <Image
+            className="mr-3"
+            src="/images/peckiiless.png"
+            width={163}
+            height={34}
+            alt="logo"
+            priority={true}
+          />
+        </Link>
+      </h1>
+      <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-1xl lg:text-2xl">
+        {links.map(({ path, label }) => (
+          <Link key={path} href={path} passHref>
+            <div
+              className={`text-white   hover:text-white/90 no-underline ${
+                currentRoute === path ? "font-bold" : "font-normal"
+              }`}
+            >
+              {label}
+            </div>
           </Link>
-        </h1>
-        <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-1xl lg:text-2xl">
-          <Link
-            className="text-white font-bold  hover:text-white/90 no-underline"
-            href="/"
-          >
-            Home
-          </Link>
-          <Link
-            className="text-white hover:text-white/90 no-underline"
-            href="/healthcare"
-          >
-            Healthcare
-          </Link>
-          <Link
-            className="text-white hover:text-white/90 no-underline"
-            href="/product-info"
-          >
-            Industry
-          </Link>
-          <Link
-            className="text-white hover:text-white/90 no-underline"
-            href="sustainability"
-          >
-            Sustainability
-          </Link>
-          <Link
-            className="text-white hover:text-white/90 no-underline"
-            href="/about-us"
-          >
-            About Us
-          </Link>
-        </div>
+        ))}
       </div>
     </nav>
   );
