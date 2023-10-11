@@ -14,13 +14,13 @@ export const MainPage = () => {
         trigger: ".trigger",
         scrub: 2,
         start: "40%",
-        end: "+=10000px",
+        end: "+=1000px",
       },
     });
 
     timelineHeader
       .to(".zoom", {
-        scale: 10,
+        scale: 5,
         transformOrigin: "48% 92%",
       })
       .to(
@@ -47,8 +47,8 @@ export const MainPage = () => {
       <div className="zoom">
         <Image
           src="/etty.svg"
-          width={1200}
-          height={1200}
+          width={1000}
+          height={1000}
           alt="logo"
           priority={true}
           className="zoom"
