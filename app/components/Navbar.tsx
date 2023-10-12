@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="graidient h-[4.6875rem] px-16  drop-shadow-xl z-10 flex justify-between items-center">
+    <nav className="graidient h-[4.6875rem] px-16 mb-10  drop-shadow-xl z-10 flex justify-between items-center">
       <h1 className="text-2xl  text-white grid place-content-center mb-2 md:mb-0">
         <Link
           href="/"
@@ -41,12 +41,12 @@ export default function Navbar() {
           />
         </Link>
       </h1>
-      <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-12 text-white text-[1.375rem] font-semibold">
+      <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-14 leading-[3rem] text-[1.375rem] ">
         {links.map(({ path, label }) => (
           <Link key={path} href={path} passHref>
             <div
               className={`text-white   hover:text-white/90 no-underline ${
-                currentRoute === path ? "font-bold" : "font-normal"
+                currentRoute === path ? "font-bold" : "font-medium"
               }`}
             >
               {label}

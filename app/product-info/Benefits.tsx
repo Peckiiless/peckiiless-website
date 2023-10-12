@@ -4,12 +4,16 @@ import Title from "../components/Title";
 const Benefits = () => {
   return (
     <>
-      <Title title="What sets Peckiiless apart from the options of today?" />
       <section className="section">
-        <div className="grid sm:grid-cols-2 place-items-center gap-8">
-          <div className="">
-            <p className="text-4xl  font-medium pb-7">Breathalyzer benefits.</p>
-            <p className="col-span-6  text-[1.625rem] leading-[1.75rem]">
+        <div className="w-4/6">
+          <Title title="What sets Peckiiless apart from the options of today?" />
+        </div>
+        <div className="grid sm:grid-cols-12 place-items-center gap-0">
+          <div className="col-span-8">
+            <p className="text-4xl  font-medium pb-10 ">
+              Breathalyzer benefits.
+            </p>
+            <p className="text-[1.625rem] leading-[1.75rem] w-5/6">
               Testing and monitoring of these illnesses have gotten stuck in
               deve-lopment for years upon years, it’s time to globalize an
               easier option for monitoring your glucose testing in an easy,
@@ -17,7 +21,7 @@ const Benefits = () => {
             </p>
           </div>
 
-          <div className=" grid grid-cols-4 gap-4">
+          <div className="col-span-4 grid grid-cols-4 gap-4">
             <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
