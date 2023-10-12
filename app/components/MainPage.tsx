@@ -13,42 +13,26 @@ export const MainPage = () => {
       scrollTrigger: {
         trigger: ".trigger",
         scrub: 2,
-        start: "40%",
-        end: "+=1000px",
+        start: "50%",
+        end: "+=1200px",
+        pin: true,
       },
     });
 
-    timelineHeader
-      .to(".zoom", {
-        scale: 5,
-        transformOrigin: "48% 92%",
-      })
-      .to(
-        "#fade",
-        {
-          opacity: 0.5,
-          scale: 0.5,
-          ease: "none",
-        },
-        0
-      )
-      .to(
-        "#section1",
-        {
-          y: "-100%",
-          duration: 2,
-        },
-        1
-      );
+    timelineHeader.to(".zoom", {
+      scale: 20,
+      transformOrigin: "53% 89%",
+      duration: 2,
+    });
   }, []);
 
   return (
     <div className="trigger flex justify-center overflow-hidden pb-[30vh]">
       <div className="zoom">
         <Image
-          src="/etty.svg"
-          width={1000}
-          height={1000}
+          src="/etty2.png"
+          width={1200}
+          height={1200}
           alt="logo"
           priority={true}
           className="zoom"
