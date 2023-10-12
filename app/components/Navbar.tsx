@@ -23,16 +23,16 @@ export default function Navbar() {
           className="text-white no-underline hover:text-white/90 flex items-center gap-1"
         >
           <Image
-            className="mr-3"
+            className="mr-5"
             src="/images/logo-sm.png"
-            width={34}
-            height={54}
+            width={29}
+            height={45}
             alt="logo"
             priority={true}
           />
 
           <Image
-            className="mr-3"
+            className="mr-5"
             src="/images/peckiiless.png"
             width={163}
             height={34}
@@ -41,7 +41,7 @@ export default function Navbar() {
           />
         </Link>
       </h1>
-      <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-1xl lg:text-2xl">
+      <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-12 text-white text-[1.375rem] font-semibold">
         {links.map(({ path, label }) => (
           <Link key={path} href={path} passHref>
             <div
