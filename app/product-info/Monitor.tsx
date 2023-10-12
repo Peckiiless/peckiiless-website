@@ -21,8 +21,8 @@ export default function Monitor() {
           Gather information where ever you go
         </p>
       </div>
-      <div className="md:flex justify-center mb-5">
-        <div className="md:w-[45%] h-[100vh]">
+      <div className="md:flex justify-center my-20">
+        <div className="md:w-[45%] h-[80vh]">
           <svg
             width="inherit"
             height="inherit"
@@ -101,8 +101,8 @@ export default function Monitor() {
           </svg>
         </div>
 
-        <div className="md:w-[30%] flex flex-col gap-4  text-secondary-navy">
-          <div className=" mt-10 self-center">
+        <div className="md:w-[34%] flex flex-col gap-4  text-secondary-navy">
+          <div className=" mb-10 self-center ml-[-5px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="119"
@@ -177,15 +177,15 @@ export default function Monitor() {
             </svg>
           </div>
 
-          <p className=" text-3xl  font-medium">
+          <p className=" text-[2.25rem]  font-medium">
             Monitor your glucose levels directly in our mobile application.
           </p>
 
-          <p className="">
+          <p className="text-[1.375rem]">
             Connect your Peckiiless breather device to our our application and
             observe previous and current levels.
           </p>
-          <div className="flex ">
+          <div className="flex ml-[-16px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="102"
@@ -250,6 +250,7 @@ export default function Monitor() {
               height="102"
               viewBox="0 0 102 102"
               fill="none"
+              className="ml-[-16px]"
             >
               <g filter="url(#filter0_d_793_21210)">
                 <rect
@@ -303,7 +304,7 @@ export default function Monitor() {
                 </filter>
               </defs>
             </svg>
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col justify-center text-[1.375rem]">
               <p>Available on</p>
               <p>App Store & Google Play</p>
             </div>

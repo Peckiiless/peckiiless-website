@@ -5,12 +5,8 @@
 @tailwind utilities;
 
 @layer base {
-  /* img {
-    @apply w-full;
-  } */
-
   .section {
-    @apply container py-40 px-10;
+    @apply container py-16 px-10;
   }
   .animate-slide:hover {
     animation-play-state: paused;
