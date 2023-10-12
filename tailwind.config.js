@@ -32,6 +32,7 @@ module.exports = {
         productInfo: "url('/product.png')",
         productInfoBanner: "url('/blowing.png')",
         productPackage: "url('/package1.png')",
+        footer: "url('/footer.png')",
       },
     },
   },
