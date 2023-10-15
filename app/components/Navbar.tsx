@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="graidient h-[4.6875rem] px-16 mb-10  drop-shadow-xl z-10 flex justify-between items-center">
+    <nav className="graidient h-[4.6875rem] px-16   drop-shadow-xl z-10 flex justify-between items-center">
       <h1 className="text-2xl  text-white grid place-content-center mb-2 md:mb-0">
         <Link
           href="/"

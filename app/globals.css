@@ -41,18 +41,33 @@ body {
   stroke-width: 4px;
 }
 
-/* .image img {
-width: 100%;
-height: 100%;
-} */
+canvas {
+  position: absolute;
+  left: 120px;
+  top: 0;
+  /* transform: translate(-50%, -50%); */
+  max-width: 100vw;
+  max-height: 100vh;
+}
 
-/* .image {
-position: relative;
-} */
-
-/* .image figcaption{
-position: absolute;
-top: 50%;
-bottom: 50%;
-left: 40%;
-} */
+.design-images {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+.design-pin {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.design {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 11;
+}
