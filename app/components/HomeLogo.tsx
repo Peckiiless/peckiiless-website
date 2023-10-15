@@ -6,30 +6,39 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const HomeLogo = () => {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
-    gsap.to("#healthcare", {
-      scrollTrigger: {
-        scrub: 0.5,
-      },
-    });
+    const timeline = gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: "#trigger",
+          scrub: 2,
+          start: "-100px",
+          end: "+=200px",
+          pin: true,
+          markers: true,
+        },
+      })
 
-    gsap.to("#industry", {
-      scrollTrigger: {
-        scrub: 0.5,
-      },
-      //y: -700,
-    });
+      .from(
+        "#industry",
+        {
+          x: -350,
+          duration: 3,
+        },
+        "myLabel"
+      )
 
-    gsap.from("#sustainability", {
-      scrollTrigger: {
-        scrub: 1,
-      },
-      // x: -100,
-      // y: -100,
-    });
+      .from(
+        "#sustainability",
+        {
+          y: 150,
+          duration: 3,
+        },
+        "myLabel"
+      );
   });
 
   return (
-    <div className="flex justify-center mt-7 h-screen">
+    <div id="trigger" className="flex justify-center mt-16 h-screen">
       <div className="relative h-[80rem] w-[50rem]">
         <Image
           width={400}
