@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Banner() {
   return (
-    <section className="graidient  sticky z-10 text-white pl-20 h-screen max-h-[46.625rem]">     
+    <section className="graidient  sticky  text-white  h-screen max-h-[46.625rem]">     
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <Image
           src="pecki-logo-icon.svg"

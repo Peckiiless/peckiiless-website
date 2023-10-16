@@ -6,63 +6,62 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const HomeLogo = () => {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
-    const timeline = gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: "#trigger",
-          scrub: 2,
-          start: "-100px",
-          end: "+=200px",
-          pin: true,
-          markers: true,
-        },
-      })
+    gsap.from("#industry", {
+      y: 800,
+      scrollTrigger: {
+        trigger: "#healthcare",
+        scrub: 2,
+        start: "100px",
+        end: "+=50px",
+        markers: true,
+      },
+    });
+    gsap.from("#sustainability", {
+      y: 400,
+      scrollTrigger: {
+        trigger: "#industry",
+        scrub: 2,
+        start: "-340px",
+        end: "+=50px",
+        markers: true,
+      },
+    });
 
-      .from(
-        "#industry",
-        {
-          x: -350,
-          duration: 3,
-        },
-        "myLabel"
-      )
-
-      .from(
-        "#sustainability",
-        {
-          y: 150,
-          duration: 3,
-        },
-        "myLabel"
-      );
+    gsap.to("#sustainability", {
+      rotation: 360,
+      transformOrigin: "center",
+      ease: "none",
+      duration: 6,
+      repeat: -1,
+    });
   });
 
   return (
-    <div id="trigger" className="flex justify-center mt-16 h-screen">
-      <div className="relative h-[80rem] w-[50rem]">
+    <div id="trigger" className=" relative h-[120rem]">
+      <div className="">
         <Image
-          width={400}
-          height={400}
+          width={1200}
+          height={1200}
           src="/healthcare.png"
           alt=""
           id="healthcare"
-          className="absolute m-auto left-0 right-0"
+          className="absolute top-[33%] left-1/2 -translate-x-1/2 -translate-y-1/2"
         />
         <Image
-          width={400}
-          height={400}
+          width={1200}
+          height={1200}
           src="/industry.png"
           alt=""
           id="industry"
-          className="absolute m-auto left-[23.0%] top-[17%]"
+          className="absolute top-[67.7%] left-[47.3%] -translate-x-1/2 -translate-y-1/2"
         />
         <Image
-          width={150}
-          height={150}
+          width={450}
+          height={450}
           src="/sustainability.png"
           alt=""
           id="sustainability"
-          className="absolute m-auto right-[27.5%] top-[36%]"
+          className="absolute top-[86%] left-[66.5%] -translate-x-1/2 -translate-y-1/2"
         />
       </div>
     </div>
