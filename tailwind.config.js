@@ -31,9 +31,11 @@ module.exports = {
         healthcare: "url('/adam.png')",
         productInfo: "url('/product.png')",
         productInfoBanner: "url('/blowing.png')",
+        productInfoPattern: "url('/pattern-lady.png')",
         productPackage: "url('/package1.png')",
         footer: "url('/footer.png')",
       },
+      
     },
   },
   plugins: [require("@tailwindcss/typography")],

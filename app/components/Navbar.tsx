@@ -12,55 +12,16 @@ export default function Navbar() {
   const links = [
     { path: "/", label: "Home" },
     { path: "/healthcare", label: "Healthcare" },
-    { path: "/product-info", label: "Industry" },
+    { path: "/industry", label: "Industry" },
     { path: "/sustainability", label: "Sustainability" },
+    { path: "/product", label: "Product" },
     { path: "/about-us", label: "About Us" },
   ];
 
   return (
-    // <nav className="graidient h-[4.6875rem] px-16   drop-shadow-xl z-10 flex justify-between items-center">
-    //   <h1 className="text-2xl  text-white grid place-content-center mb-2 md:mb-0">
-    //     <Link
-    //       href="/"
-    //       className="text-white no-underline hover:text-white/90 flex items-center gap-1"
-    //     >
-    //       <Image
-    //         className="mr-5"
-    //         src="/images/logo-sm.png"
-    //         width={29}
-    //         height={45}
-    //         alt="logo"
-    //         priority={true}
-    //       />
-
-    //       <Image
-    //         className="mr-5"
-    //         src="/images/peckiiless.png"
-    //         width={163}
-    //         height={34}
-    //         alt="logo"
-    //         priority={true}
-    //       />
-    //     </Link>
-    //   </h1>
-    //   <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-14 leading-[3rem] text-[1.375rem] ">
-    //     {links.map(({ path, label }) => (
-    //       <Link key={path} href={path} passHref>
-    //         <div
-    //           className={`text-white   hover:text-white/90 no-underline ${
-    //             currentRoute === path ? "font-bold" : "font-medium"
-    //           }`}
-    //         >
-    //           {label}
-    //         </div>
-    //       </Link>
-    //     ))}
-    //   </div>
-    // </nav>
-
     <header className="graidient">
-      <nav className="flex justify-between items-center w-[92%] h-[5rem] mx-auto">
-        <h1 className="text-2xl  text-white grid place-content-center mb-2 md:mb-0">
+      <nav className="flex justify-between items-center w-[92%] h-[5rem] mx-auto text-[1.375]">
+        <h1 className="  text-white grid place-content-center mb-2 md:mb-0">
           <Link
             href="/"
             className="text-white no-underline hover:text-white/90 flex items-center gap-1"
@@ -103,14 +64,16 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-        <div className="flex items-center gap-6"  onClick={() => setActive(!active)}>         
-          {active ? 
-              <div
-            className="text-3xl text-white cursor-pointer md:hidden"
-           
-          >
-            x
-          </div>:<svg
+        <div
+          className="flex items-center gap-6 md:hidden"
+          onClick={() => setActive(!active)}
+        >
+          {active ? (
+            <div className="text-3xl text-white cursor-pointer md:hidden">
+              x
+            </div>
+          ) : (
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               width="18"
               height="12"
@@ -124,7 +87,7 @@ export default function Navbar() {
                 fill="white"
               />
             </svg>
-          }
+          )}
         </div>
       </nav>
     </header>
