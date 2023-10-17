@@ -3,7 +3,7 @@ import Monitor from "./Monitor";
 import ProductInfoBanner from "./ProductInfoBanner";
 import ProductPackage from "./ProductPackage";
 import Testing from "./Testing";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../components/Navbar";
 
 const ProductInfoPage = () => {
   return (

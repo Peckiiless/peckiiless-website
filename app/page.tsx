@@ -4,7 +4,7 @@ import { MainPage } from "./components/MainPage";
 import HealthcareList from "./components/HealthcareList";
 import HeroBanner from "./components/HeroBanner";
 import HomeLogo from "./components/HomeLogo";
-import Navbar from "./navbar/Navbar";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   useEffect(() => {
