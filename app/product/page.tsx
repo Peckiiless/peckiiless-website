@@ -1,15 +1,15 @@
-import Navbar from "../components/Navbar";
 import Benefits from "./Benefits";
 import Monitor from "./Monitor";
 import ProductInfoBanner from "./ProductInfoBanner";
 import ProductPackage from "./ProductPackage";
 import Testing from "./Testing";
+import Navbar from "../navbar/Navbar";
 
 const ProductInfoPage = () => {
   return (
     <div>
       <Navbar />
-      <ProductInfoBanner /> 
+      <ProductInfoBanner />
       <ProductPackage />
       <Benefits />
       <Monitor />

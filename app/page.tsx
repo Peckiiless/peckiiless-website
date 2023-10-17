@@ -2,9 +2,9 @@
 import { useEffect } from "react";
 import { MainPage } from "./components/MainPage";
 import HealthcareList from "./components/HealthcareList";
-import Navbar from "./components/Navbar";
 import HeroBanner from "./components/HeroBanner";
 import HomeLogo from "./components/HomeLogo";
+import Navbar from "./navbar/Navbar";
 
 export default function Home() {
   useEffect(() => {
