@@ -47,6 +47,10 @@ const HomeLogo = () => {
           id="healthcare"
           className="absolute top-[33%] left-1/2 -translate-x-1/2 -translate-y-1/2"
         />
+        <div className="absolute top-[14%] left-[19%] ">
+          <p className="text-white text-[2rem] font-medium">Health care</p>{" "}
+          <button className="rounded bg-button text-white font-medium  text-[1.325rem] p-1">Read more</button>
+        </div>
         <Image
           width={1200}
           height={1200}
@@ -55,6 +59,7 @@ const HomeLogo = () => {
           id="industry"
           className="absolute top-[67.7%] left-[47.3%] -translate-x-1/2 -translate-y-1/2"
         />
+        
         <Image
           width={450}
           height={450}

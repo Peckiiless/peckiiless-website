@@ -27,6 +27,7 @@ module.exports = {
           100: "rgba(59,60,152,0.02)",
         },
         grey: "#2B3341",
+        button: "rgba(255, 255, 255, 0.20)",
       },
       backgroundImage: {
         healthcare: "url('/adam.png')",
