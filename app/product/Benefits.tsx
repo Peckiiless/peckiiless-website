@@ -4,16 +4,13 @@ import Title from "../components/Title";
 const Benefits = () => {
   return (
     <>
-      <section className="section">
-        <div className="w-4/6">
-          <Title title="What sets Peckiiless apart from the options of today?" />
-        </div>
+      <section className="p-20 mx-auto bg-primary-200 rounded-[3.125rem]">
         <div className="grid sm:grid-cols-12 place-items-center gap-0">
           <div className="col-span-8">
-            <p className="text-4xl  font-medium pb-10 ">
-              Breathalyzer benefits.
+            <p className="font-bold text-[3.75rem] text-primary-800 ">
+              Peckiiless Breathalyzer
             </p>
-            <p className="text-[1.625rem] leading-[1.75rem] w-5/6">
+            <p className="text-[1.625rem] w-5/6">
               Testing and monitoring of these illnesses have gotten stuck in
               deve-lopment for years upon years, it’s time to globalize an
               easier option for monitoring your glucose testing in an easy,

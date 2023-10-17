@@ -3,7 +3,7 @@ import Title from "../components/Title";
 
 export default function ProductInfoBanner() {
   return (
-    <div className="container bg-productInfoPattern bg-white px-20 pt-10  bg-no-repeat bg-contain  bg-bottom">
+    <div className="bg-productInfoPattern bg-white px-20 pt-10  bg-no-repeat bg-contain  bg-bottom">
       <div className="md:flex justify-center gap-8">
         <div>
           <p className="font-bold text-[2.625rem] text-primary-800  uppercase ml-5">

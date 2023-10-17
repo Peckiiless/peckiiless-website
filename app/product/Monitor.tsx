@@ -17,7 +17,7 @@ export default function Monitor() {
           />
         </svg>
 
-        <p className="font-medium text-[3.25rem] text-primary-800 w-[26.8125rem] leading-[3.75rem]">
+        <p className="font-medium text-[3.75rem] text-primary-800 w-[40rem] leading-[3.75rem]">
           Gather information where ever you go
         </p>
       </div>

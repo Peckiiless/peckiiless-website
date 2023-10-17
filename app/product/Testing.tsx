@@ -5,7 +5,9 @@ import CustomButton from "../components/CustomButton";
 const Testing = () => {
   return (
     <div className="">
-      <Title title="How Peckiiless is transforming glucose testing with oxygen." />
+      <p className="font-medium text-[3.25rem] text-primary-800 leading-[3.75rem] px-20 w-[80%] pb-20">
+        How Peckiiless is transforming glucose testing with oxygen.
+      </p>
       <div className="grid sm:grid-cols-2 items-center relative ">
         <Image
           src="/testing1.png"
@@ -15,7 +17,7 @@ const Testing = () => {
           priority={true}
           className="sm:w-[400px] justify-self-center"
         />
-        <p className="p-10 w-5/6 text-[2.125rem]">
+        <p className="p-10 w-5/6 text-[1.75rem]">
           Testing and monitoring of these illnesses have gotten stuck in
           development for years upon years, it’s time to globalize an easier
           option for monitoring your glucose testing in an easy, effecient way.
@@ -45,7 +47,7 @@ const Testing = () => {
           className="sm:w-[400px] justify-self-center "
         />
 
-        <p className="pl-20 w-5/6 justify-self-center sm:row-start-1 text-[2.125rem]">
+        <p className="pl-20 w-5/6 justify-self-center sm:row-start-1 text-[1.75rem]">
           Alveoli are first located in the respiratory bronchioles that mark the
           beginning of the respiratory zone. Alveoli make up the functional
           tissue of the mammalian lungs and takes up 90 percent of the total
@@ -62,7 +64,7 @@ const Testing = () => {
           priority={true}
           className="sm:w-[400px] py-16 justify-self-center"
         />
-        <p className="p-10 w-5/6 text-[2.125rem]">
+        <p className="p-10 w-5/6 text-[1.75rem]">
           Gas exchange is the physical process by which gases move passively by
           diffusion across a surface. For example, this surface might be the
           air/water interface of a water body, the surface of a gas bubble in a
@@ -93,7 +95,7 @@ const Testing = () => {
           className="sm:w-[400px] justify-self-center  py-16"
         />
 
-        <p className="pl-20 w-5/6 justify-self-center sm:row-start-1 text-[2.125rem]">
+        <p className="pl-20 w-5/6 justify-self-center sm:row-start-1 text-[1.75rem]">
           Glycogenesis is the process of glycogen synthesis. There are several
           naturally-occurring varieties of glucose, all of which may be
           expressed by the same empirical constitution C6H12O6,

@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="mt-60">
-      <div className="grid sm:grid-cols-2 ">
+    <div className="mt-44">
+      <div className="grid sm:grid-cols-2  place-items-center gap-20 px-20">
         <div className="pl-10">
           <h1 className="text-white grid  mb-2 md:mb-0">
             <Link
@@ -153,10 +153,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center pt-10 pb-2 text-[1.5rem]">
+      <p className="text-center pt-10 pb-20 text-[1.5rem]">
         @2022 www.peckiiless.com all copyrights reserved.
       </p>
-      <div className="bg-footer h-[20rem] bg-cover bg-no-repeat"></div>
+      <div className="bg-footer h-[15rem] bg-cover bg-no-repeat"></div>
     </div>
   );
 };

@@ -18,6 +18,7 @@ module.exports = {
           900: "#9A1750",
           800: "#AC3B61",
           700: "#B2335E",
+          200: "#E5DCDC",
         },
         "secondary-navy": "#444F77",
         "secondary-orange": "#f79761",
@@ -35,7 +36,6 @@ module.exports = {
         productPackage: "url('/package1.png')",
         footer: "url('/footer.png')",
       },
-      
     },
   },
   plugins: [require("@tailwindcss/typography")],
