@@ -13,7 +13,7 @@ const HomeLogo = () => {
         scrub: 2,
         start: "400px",
         end: "+=50px",
-        markers: true,
+        markers: false,
       },
     });
     gsap.from("#sustainability", {
