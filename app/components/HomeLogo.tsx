@@ -23,7 +23,7 @@ const HomeLogo = () => {
         scrub: 2,
         start: "-340px",
         end: "+=50px",
-        markers: true,
+        markers: false,
       },
     });
 
