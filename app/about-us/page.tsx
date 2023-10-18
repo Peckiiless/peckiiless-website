@@ -4,7 +4,7 @@ import Vision from "./components/AboutVision";
 import CompanyFamilyOthers from "./components/CompanyFamilyOthers";
 import Partners from "./components/Partners";
 import Supports from "./components/Supports";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../components/Navbar";
 
 
 export default function AboutUsPage() {

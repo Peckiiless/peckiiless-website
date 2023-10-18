@@ -63,7 +63,7 @@ const HomeLogo = () => {
         <Image
           width={450}
           height={450}
-          src="/sustainability.png"
+          src="/sustainability.svg"
           alt=""
           id="sustainability"
           className="absolute top-[86%] left-[66.5%] -translate-x-1/2 -translate-y-1/2"
