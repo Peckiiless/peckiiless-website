@@ -5,7 +5,7 @@ export default function ProductInfoBanner() {
   return (
     <div className="bg-productInfoPattern bg-white px-20 pt-10  bg-no-repeat bg-contain  bg-bottom">
       <div className="md:flex justify-center gap-8">
-        <div>
+        <div className="mt-20">
           <p className="font-bold text-[2.625rem] text-primary-800  uppercase ml-5">
             Don&apos;t prick
           </p>
@@ -21,8 +21,8 @@ export default function ProductInfoBanner() {
         <div className="md:w-[100%]">
           <Image
             src="/blowing.png"
-            width={650}
-            height={650}
+            width={850}
+            height={850}
             alt="bolowing lady"
             priority={true}
           />

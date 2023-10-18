@@ -8,7 +8,7 @@ const Benefits = () => {
         <div className="grid sm:grid-cols-12 place-items-center gap-0">
           <div className="col-span-8">
             <p className="font-bold text-[3.75rem] text-primary-800 ">
-              Peckiiless Breathalyzer
+              Breathalyzer benefits.
             </p>
             <p className="text-[1.625rem] w-5/6">
               Testing and monitoring of these illnesses have gotten stuck in
