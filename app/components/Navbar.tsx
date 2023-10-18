@@ -10,7 +10,6 @@ export default function Navbar() {
   const [active, setActive] = useState(false);
 
   const links = [
-    { path: "/", label: "Home" },
     { path: "/healthcare", label: "Healthcare" },
     { path: "/industry", label: "Industry" },
     { path: "/sustainability", label: "Sustainability" },

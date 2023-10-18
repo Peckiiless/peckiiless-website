@@ -2,7 +2,6 @@ import Image from "next/image";
 
 export default function ProductPackage() {
   return (
-    // <section className="h-screen bg-contain  bg-bottom  bg-productPackage  bg-no-repeat"></section>
     <div className="p-20">
       <div className="grid md:grid-cols-2 place-items-center gap-20">
         <div className="">
