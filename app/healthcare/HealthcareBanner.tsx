@@ -1,11 +1,19 @@
-import Image from "next/image";
+"use client";
+
+import { motion } from "framer-motion";
 
 export default function HealthcareBanner() {
+
   return (
     <>
       <div className="bg-healthcare bg-cover bg-center bg-no-repeat h-[calc(65vh-4.6875rem)]" />
 
-      <div className="px-20 py-2 mx-auto bg-primary-200 rounded-[3.125rem]">
+      <motion.div
+        initial={{ scale: 0 }}
+        whileInView={{ scale: 1 }}
+        transition={{ duration: 0.3 }}
+        className="px-20 py-2 mx-auto bg-primary-200 rounded-[3.125rem]"
+      >
         <p className="font-medium text-[3.5rem] text-primary-800 leading-[3.5rem] w-[85%] pb-5">
           Over 500 million people suffer from type some form of diabetes.
         </p>
@@ -16,7 +24,7 @@ export default function HealthcareBanner() {
           years, it’s time to globalize an easier option for monitoring your
           glucose testing in an easy, effecient way.
         </p>
-      </div>
+      </motion.div>
     </>
   );
 }
