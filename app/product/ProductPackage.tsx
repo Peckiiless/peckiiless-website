@@ -14,10 +14,10 @@ export default function ProductPackage() {
           />
         </div>
         <div>
-          <p className="font-bold text-[3.75rem] text-primary-800 ">
+          <p className="font-bold text-[3.75rem] text-primary-800  ">
             Peckiiless Breathalyzer
           </p>
-          <p className="text-[1.625rem]  w-3/4 font-medium">
+          <p className="text-[1.625rem]   font-medium text-right pl-36">
             The breathalyzer connects seeminglessly though our mobile appication
             where you can easily monitor 8 different pathogens in your breath.
           </p>

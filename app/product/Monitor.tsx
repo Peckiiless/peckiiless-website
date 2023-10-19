@@ -25,7 +25,7 @@ export default function Monitor() {
           Gather information where ever you go
         </p>
       </div>
-      <div className="md:flex py-20 md:px-[20%] gap-5 h-[70rem]">
+      <div className="md:flex py-10 md:px-[20%] gap-5 h-[55rem]">
         <div className="md:w-[100%] relative">
           <Image
             src="/mobile1.png"
@@ -45,8 +45,8 @@ export default function Monitor() {
           />
         </div>
 
-        <div className="flex flex-col gap-4  text-secondary-navy p-16">
-          <div className=" mb-20 self-center ml-[-5px]">
+        <div className="flex flex-col gap-4  text-secondary-navy p-10">
+          <div className="mb-10 self-center ml-[-5px]">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

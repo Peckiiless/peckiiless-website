@@ -17,11 +17,11 @@ export default function ProductBanner() {
 
     <div className="">
       <div className="grid md:grid-cols-2 gap-2">
-        <div className="place-self-center pl-20">
+        <div className="place-self-center pl-20 pt-20">
           <p className="font-bold text-[3.75rem] text-primary-800 pb-10">
             Breathalyzer
           </p>
-          <p className="text-[1.625rem] font-medium w-[60%]">
+          <p className="text-[1.625rem] font-medium w-[80%]">
             Here is a prototype of our Breathalyzer, click bellow to get for
             information about how to use the device and how it works with the
             mobile application.
