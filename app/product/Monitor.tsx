@@ -45,8 +45,8 @@ export default function Monitor() {
           />
         </div>
 
-        <div className="flex flex-col gap-4  text-secondary-navy">
-          <div className=" mb-10 self-center ml-[-5px]">
+        <div className="flex flex-col gap-4  text-secondary-navy p-16">
+          <div className=" mb-20 self-center ml-[-5px]">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

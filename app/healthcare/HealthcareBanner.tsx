@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function HealthcareBanner() {
   return (
     <>
-      <div className="bg-healthcare bg-contain bg-center bg-no-repeat h-[calc(100vh-4.6875rem)]" />
+      <div className="bg-healthcare bg-cover bg-center bg-no-repeat h-[calc(65vh-4.6875rem)]" />
 
-      <div className="p-20 mx-auto bg-primary-200 rounded-[3.125rem]">
+      <div className="px-20 py-5 mx-auto bg-primary-200 rounded-[3.125rem]">
         <p className="font-medium text-[3.75rem] text-primary-800 leading-[3.75rem] w-[70%] pb-10">
           Over 500 million people suffer from type some form of diabetes.
         </p>

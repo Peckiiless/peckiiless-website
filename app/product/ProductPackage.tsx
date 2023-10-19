@@ -17,7 +17,7 @@ export default function ProductPackage() {
           <p className="font-bold text-[3.75rem] text-primary-800 ">
             Peckiiless Breathalyzer
           </p>
-          <p className="text-[1.625rem]  w-3/4">
+          <p className="text-[1.625rem]  w-3/4 font-medium">
             The breathalyzer connects seeminglessly though our mobile appication
             where you can easily monitor 8 different pathogens in your breath.
           </p>

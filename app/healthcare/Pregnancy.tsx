@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Pregnancy() {
   return (
     <section className="bg-patternLady bg-no-repeat bg-contain  bg-bottom">
-      <p className="font-medium text-[3.75rem] text-primary-800 leading-[3.75rem] p-20">
+      <p className="font-medium text-[3.75rem] text-primary-800 leading-[3.75rem] p-20 w-[75%]">
         Here at Pickiless we have created the one of the first advanced
         breathalyzer that can monitor your glucose levels.{" "}
       </p>
