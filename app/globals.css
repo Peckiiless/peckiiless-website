@@ -72,10 +72,9 @@ canvas {
   z-index: 11;
 }
 
-
 .top {
   animation-name: fade;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 1s;
   animation-direction: alternate;

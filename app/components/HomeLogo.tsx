@@ -18,12 +18,12 @@ const HomeLogo = () => {
       },
     });
     gsap.from("#sustainability", {
-      y: 200,
+      y: 300,
       scrollTrigger: {
         trigger: "#industry",
         scrub: true,
-        start: "-400px",
-        end: "+=50px",
+        start: "-800px",
+        end: "+=100px",
         // markers: true,
       },
     });
@@ -37,15 +37,15 @@ const HomeLogo = () => {
   });
 
   return (
-    <div id="wrapper" className="relative h-screen">
+    <div id="wrapper" className="relative h-[70rem]">
       <div className="">
         <Image
-          width={500}
-          height={500}
+          width={600}
+          height={600}
           src="/healthcare.png"
           alt=""
           id="healthcare"
-          className="absolute top-[33%] left-1/2 -translate-x-1/2 -translate-y-1/2"
+          className="absolute top-[29%] left-1/2 -translate-x-1/2 -translate-y-1/2"
         />
         {/* <div className="absolute top-[14%] left-[19%] ">
           <p className="text-white text-[2rem] font-medium">Health care</p>{" "}
@@ -54,21 +54,21 @@ const HomeLogo = () => {
           </button>
         </div> */}
         <Image
-          width={500}
-          height={500}
+          width={600}
+          height={600}
           src="/industry.png"
           alt=""
           id="industry"
-          className="absolute top-[70.5%] left-[48.7%] -translate-x-1/2 -translate-y-1/2"
+          className="absolute top-[59%] left-[48.8%] -translate-x-1/2 -translate-y-1/2"
         />
 
         <Image
-          width={200}
-          height={200}
+          width={250}
+          height={250}
           src="/sustainability.svg"
           alt=""
           id="sustainability"
-          className="absolute top-[89%] left-[58%] -translate-x-1/2 -translate-y-1/2"
+          className="absolute top-[71%] left-[58%] -translate-x-1/2 -translate-y-1/2"
         />
       </div>
     </div>
