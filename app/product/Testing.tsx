@@ -15,7 +15,7 @@ const Testing = () => {
           height={300}
           alt="logo"
           priority={true}
-          className="sm:w-[400px] justify-self-center"
+          className="sm:w-[400px] justify-self-center image-float"
         />
         <p className="px-20 w-[90%] text-[1.75rem]">
           Testing and monitoring of these illnesses have gotten stuck in
@@ -44,7 +44,7 @@ const Testing = () => {
           height={300}
           alt="logo"
           priority={true}
-          className="sm:w-[400px] justify-self-center "
+          className="sm:w-[400px] justify-self-center image-float"
         />
 
         <p className="pl-16 w-[80%] justify-self-center sm:row-start-1 text-[1.75rem]">
@@ -62,7 +62,7 @@ const Testing = () => {
           height={300}
           alt="logo"
           priority={true}
-          className="sm:w-[400px] py-16 justify-self-center"
+          className="sm:w-[400px] py-16 justify-self-center image-float"
         />
         <p className="px-20 w-[90%] text-[1.75rem]">
           Gas exchange is the physical process by which gases move passively by
@@ -92,7 +92,7 @@ const Testing = () => {
           height={300}
           alt="logo"
           priority={true}
-          className="sm:w-[400px] justify-self-center  py-16"
+          className="sm:w-[400px] justify-self-center  py-16 image-float"
         />
 
         <p className="pl-16 w-[80%] justify-self-center sm:row-start-1 text-[1.75rem]">
