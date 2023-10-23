@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import Logo from "./Logo";
 
 export default function Navbar() {
   const currentRoute = usePathname();
@@ -25,23 +26,7 @@ export default function Navbar() {
             href="/"
             className="text-white no-underline hover:text-white/90 flex items-center gap-1"
           >
-            <Image
-              className="mr-5"
-              src="/images/logo-sm.png"
-              width={29}
-              height={45}
-              alt="logo"
-              priority={true}
-            />
-
-            <Image
-              className="mr-5"
-              src="/images/peckiiless.png"
-              width={163}
-              height={34}
-              alt="logo"
-              priority={true}
-            />
+            <Logo />
           </Link>
         </h1>
         <div

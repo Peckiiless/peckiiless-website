@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
@@ -11,23 +12,7 @@ const Footer = () => {
               href="/"
               className="text-white no-underline flex items-center gap-1"
             >
-              <Image
-                className="mr-5"
-                src="/logo-footer.svg"
-                width={29}
-                height={45}
-                alt="logo"
-                priority={true}
-              />
-
-              <Image
-                className="mr-5"
-                src="/peckiiless.svg"
-                width={163}
-                height={34}
-                alt="logo"
-                priority={true}
-              />
+              <Logo fillLogo="#123C69" fillText="black" />
             </Link>
           </h1>
           <p className="w-5/6 text-[2rem] font-medium py-5">
