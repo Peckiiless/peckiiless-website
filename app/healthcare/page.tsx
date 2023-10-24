@@ -6,12 +6,12 @@ import Navbar from "../components/Navbar";
 
 const HealthcarePage = () => {
   return (
-    <div className="">
+    <>
       <Navbar />
       <HealthcareBanner />
       <Pregnancy />
       <ProductBanner />
-    </div>
+    </>
   );
 };
 
