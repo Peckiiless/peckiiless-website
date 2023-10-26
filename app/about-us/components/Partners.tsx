@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Partners() {
   return (
-    <section className="bg-primary-200">
-      <p className="text-center font-bold text-[2.625rem] text-primary-800 py-14 bg-white">
+    <section className="bg-patternLady bg-no-repeat bg-cover">
+      <p className="text-center font-bold text-[2.625rem] text-primary-800 pt-10">
         Part of the
       </p>
       <div className="section">

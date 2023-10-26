@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Title from "../../components/Title";
 
 export default function Supports() {
   return (
-    <section className="bg-primary-200">
-      <p className="text-center font-bold text-[2.625rem] text-primary-800 py-14 bg-white">
+    <section className="bg-patternLady bg-no-repeat bg-cover">
+      <p className="text-center font-bold text-[2.625rem] text-primary-800 pt-10">
         Get Support From
       </p>
 
@@ -38,6 +37,23 @@ export default function Supports() {
             src="/images/chalmers.png"
             width={74}
             height={93}
+            alt="logo"
+            priority={true}
+          />
+        </div>
+        <div className="flex gap-5 justify-around items-center mt-14">
+          <Image
+            src="/images/sodertalje.png"
+            width={149}
+            height={71}
+            alt="logo"
+            priority={true}
+          />
+
+          <Image
+            src="/images/incubators.png"
+            width={224}
+            height={37}
             alt="logo"
             priority={true}
           />

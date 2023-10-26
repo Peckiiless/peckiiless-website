@@ -33,7 +33,6 @@ export default function CompanyFamilyOthers() {
             />
           </svg>
         </div>
-
         <div className="">
           <div className="relative px-20">
             <div>
@@ -198,6 +197,36 @@ export default function CompanyFamilyOthers() {
               />
             </svg>
           </div>
+        </div>
+      </div>
+      <div className="flex justify-center mx-auto mt-7">
+        <div className="relative px-20">
+          <div>
+            <Image
+              src="/images/girl.png"
+              width={300}
+              height={300}
+              alt="logo"
+              priority={true}
+            />
+          </div>
+
+          <svg
+            className="absolute -z-10 top-3  right-0"
+            xmlns="http://www.w3.org/2000/svg"
+            width="252"
+            height="252"
+            viewBox="0 0 252 252"
+            fill="none"
+          >
+            <circle
+              cx="126"
+              cy="126"
+              r="126"
+              fill="#F9BAB1"
+              fill-opacity="0.19"
+            />
+          </svg>
         </div>
       </div>
     </section>
