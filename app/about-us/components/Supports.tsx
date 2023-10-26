@@ -3,42 +3,41 @@ import Title from "../../components/Title";
 
 export default function Supports() {
   return (
-    <section className="px-40 pb-11">
-      <Title title="Get Support From"/>
-      
-      <div className="grid py-8 mx-auto gap-6 gap-y-20 grid-cols-12">
-        <div className="col-span-3 justify-self-center ">
+    <section className="bg-primary-200">
+      <p className="text-center font-bold text-[2.625rem] text-primary-800 py-14 bg-white">
+        Get Support From
+      </p>
+
+      <div className="section">
+        <div className="flex gap-5 justify-between items-center">
           <Image
             src="/images/Almi.png"
-            width={150}
-            height={150}
+            width={104}
+            height={37}
             alt="logo"
             priority={true}
           />
-        </div>
-        <div className="col-span-3 justify-self-center ">
+
           <Image
             src="/images/Euipo.png"
-            width={250}
-            height={250}
+            width={203}
+            height={57}
             alt="logo"
             priority={true}
           />
-        </div>
-        <div className="col-span-3 justify-self-center ">
+
           <Image
             src="/images/Sten.png"
-            width={150}
-            height={150}
+            width={96}
+            height={63}
             alt="logo"
             priority={true}
           />
-        </div>
-        <div className="col-span-3 justify-self-center ">
+
           <Image
             src="/images/chalmers.png"
-            width={80}
-            height={80}
+            width={74}
+            height={93}
             alt="logo"
             priority={true}
           />

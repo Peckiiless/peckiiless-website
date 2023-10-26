@@ -2,22 +2,25 @@ import Image from "next/image";
 
 export default function AboutCompanyFamily() {
   return (
-    <section className="p-10">
+    <section className="p-4">
       <div className="grid py-8 mx-auto gap-5 grid-cols-12">
-        <div className="col-span-6 justify-self-center ">
-          <div className="relative p-16">
+        <div className="col-span-6 justify-self-start">
+          <div className="relative p-16 ">
             <div>
               <Image
                 src="/images/marziyeh.png"
-                width={500}
-                height={500}
+                width={225}
+                height={225}
                 alt="logo"
                 priority={true}
               />
+              <div className="text-center py-5 font-bold text-2xl">
+                Marzyeh Advand
+              </div>
             </div>
 
             <svg
-              className="absolute -z-10 top-0  right-1"
+              className="absolute -z-10 top-0  right-0"
               xmlns="http://www.w3.org/2000/svg"
               width="252"
               height="252"
@@ -34,11 +37,11 @@ export default function AboutCompanyFamily() {
             </svg>
           </div>
         </div>
-        <div className="justify-self-end col-span-5 self-center  text-primary-800">
-          <p className="text-3xl font-semibold text-right pt-2">
+        <div className="col-span-5 pt-16  text-primary-800">
+          <p className="text-[1.75rem] font-semibold text-right pt-2">
             Company Family
           </p>
-          <p className="font-bold text-5xl text-right">
+          <p className="font-bold text-[2.625rem] text-right">
             Professional work team in their field
           </p>
         </div>

@@ -1,8 +1,8 @@
 export default function Vision() {
   return (
     <section className="p-10">
-      <div className="grid py-8 mx-auto gap-5 grid-cols-12">
-        <div className="col-span-1 justify-self-end">
+      <div className="grid py-8 mx-auto grid-cols-12">
+        <div className="col-span-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="54"
@@ -16,11 +16,11 @@ export default function Vision() {
             />
           </svg>
         </div>
-        <div className="self-center col-span-2  text-primary-800">
-          <p className="font-bold text-5xl">Our Vision</p>
-          <p className="text-3xl font-semibold text-center pt-2">Nano sensor</p>
+        <div className=" col-span-2 text-primary-800 pt-14">
+          <p className="font-bold text-[2.625rem]">Our Vision</p>
+          <p className="text-[1.75rem] font-semibold pt-2">Nano sensor</p>
         </div>
-        <p className="col-span-9 px-28 text-3xl self-center font-medium">
+        <p className="col-span-9 pl-20 pr-2 text-[2.25rem]  font-medium text-right">
           PeckiiLess AB is a Deeptech startup developing a patent-pending
           technology for nanosensor-based multi-selective gas detection. Our
           innovative gas detection system opens doors to efficient and
