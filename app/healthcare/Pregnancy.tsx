@@ -21,7 +21,7 @@ export default function Pregnancy() {
           <p className="font-medium text-[3.125rem] text-primary-800 leading-[3.75rem] pb-10">
             Living with Diabetes
           </p>
-          <p className="text-[1.625rem] font-medium  ">
+          <p className="text-[1.625rem] ">
             Pregnant women living with diabetes increases risks of
             complications, having a cesarean delivery, increases babies’ risk of
             being born too large and developing obesity or type 2 diabetes in

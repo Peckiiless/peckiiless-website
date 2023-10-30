@@ -21,7 +21,7 @@ export default function ProductBanner() {
           <p className="font-bold text-[3.125rem] text-primary-800 pb-10">
             Breathalyzer
           </p>
-          <p className="text-[1.625rem] font-medium w-[80%]">
+          <p className="text-[1.625rem] w-[80%]">
             Here is a prototype of our Breathalyzer, click bellow to get for
             information about how to use the device and how it works with the
             mobile application.

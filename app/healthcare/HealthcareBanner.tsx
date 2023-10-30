@@ -16,7 +16,7 @@ export default function HealthcareBanner() {
         <p className="font-medium text-[3.125rem] text-primary-800 leading-[3.5rem] w-[85%] pb-2">
           Over 500 million people suffer from type some form of diabetes.
         </p>
-        <p className="text-[1.625rem] font-medium">
+        <p className="text-[1.625rem]">
           Both the number of cases and the prevalence of diabetes have been
           steadily increasing over the past few decades. Testing and monitoring
           of these illnesses have gotten stuck in development for years upon
