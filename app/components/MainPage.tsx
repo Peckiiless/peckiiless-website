@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Hero } from "./Hero";
 
 export const MainPage = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -11,16 +10,16 @@ export const MainPage = () => {
       scrollTrigger: {
         trigger: ".trigger",
         scrub: 2,
-        start: "50%",
-        end: "+=1200px",
+        start: "55%",
+        end: "+=1500px",
         pin: true,
       },
     });
 
     timelineHeader.to(".zoom", {
-      scale: 20,
-      transformOrigin: "53% 89%",
-      duration: 2,
+      scale: 10,
+      transformOrigin: "48% 90%",
+      duration: 4,
     });
   }, []);
 
@@ -28,9 +27,9 @@ export const MainPage = () => {
     <div className="trigger flex justify-center overflow-hidden pb-[30vh]">
       <div className="zoom">
         <Image
-          src="/etty2.png"
-          width={1200}
-          height={1200}
+          src="/etty3.png"
+          width={1000}
+          height={1000}
           alt="logo"
           priority={true}
           className="zoom"
