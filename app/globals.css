@@ -113,7 +113,7 @@ canvas {
   }
 }
 
-.svg-draw {
+/* .svg-draw {
   animation: animate-arrow 3s ease-in-out infinite;
 }
 
@@ -127,4 +127,4 @@ canvas {
   100% {
     transform: scale(1);
   }
-}
+} */
