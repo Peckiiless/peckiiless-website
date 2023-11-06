@@ -9,25 +9,25 @@ export const MainPage = () => {
     const timelineHeader = gsap.timeline({
       scrollTrigger: {
         trigger: ".trigger",
-        scrub: 2,
-        start: "55%",
-        end: "+=1500px",
+        scrub: 0.25,
+        start: "50%",
+        end: "+=200px",
         pin: true,
       },
     });
 
     timelineHeader.to(".zoom", {
-      scale: 10,
+      scale: 5,
       transformOrigin: "48% 90%",
-      duration: 4,
+      duration: 2,
     });
   }, []);
 
   return (
-    <div className="trigger flex justify-center overflow-hidden pb-[30vh]">
+    <div className="trigger flex justify-center overflow-hidden pb-[50vh]">
       <div className="zoom">
         <Image
-          src="/etty3.png"
+          src="/etty.svg"
           width={1000}
           height={1000}
           alt="logo"
