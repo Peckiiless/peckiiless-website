@@ -21,10 +21,20 @@ export const MainPage = () => {
       transformOrigin: "48% 90%",
       duration: 2,
     });
+
+    gsap.to(".text-animation", {
+      y: -600,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".text-animation",
+        scrub: 0.25,
+        start: "top center",
+      },
+    });
   }, []);
 
   return (
-    <div className="trigger flex justify-center overflow-hidden pb-[50vh]">
+    <div className="trigger flex justify-center overflow-hidden pb-[50vh] relative">
       <div className="zoom">
         <Image
           src="/etty.svg"
@@ -34,6 +44,11 @@ export const MainPage = () => {
           priority={true}
           className="zoom"
         />
+      </div>
+      <div className="text-animation absolute top-[60%] text-white text-center text-[2.2rem] font-medium">
+        <p>Welcome to Peckiiless,</p>
+        <p>where we breathe life into gas</p>
+        <p>monitoring and reveal the secrets of gases.</p>
       </div>
     </div>
   );
