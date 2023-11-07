@@ -11,31 +11,29 @@ const HomeLogo = () => {
       scrollTrigger: {
         trigger: "#healthcare",
         start: "center center",
-        end: "+=200",
+        end: "+=300",
         // markers: true,
         pin: "#wrapper",
-        scrub: true,
+        scrub: 1,
       },
     });
-
     gsap
       .timeline({
         scrollTrigger: {
           trigger: "#industry",
-          scrub: true,
+          scrub: 1,
           start: "-250px",
-          end: "+=1000",
+          end: "+=2000",
           // markers: true,
           pin: "#wrapper",
         },
       })
       .from("#sustainability", {
-        y: 400,
+        y: 300,
       })
-      .to("#healthcare", { scale: 0.5, y: 500 }, "dddd")
-      .to("#industry", { scale: 0.5, y: 260, x: 20 }, "dddd")
-      .to("#sustainability", { scale: 0.5, y: 150, x: -100 }, "dddd");
-
+      .to("#healthcare", { scale: 0.6, y: 340 }, "dddd")
+      .to("#industry", { scale: 0.6, y: 180, x: 17 }, "dddd")
+      .to("#sustainability", { scale: 0.6, y: 110, x: -60 }, "dddd");
     gsap.to("#sustainability", {
       rotation: 360,
       transformOrigin: "center",
@@ -46,15 +44,15 @@ const HomeLogo = () => {
   });
 
   return (
-    <div id="wrapper" className="relative h-[250vh]">
-      <div className="">
+    <div id="wrapper" className="relative h-[100rem] w-[50rem] mx-auto">
+      <div className="-translate-x-1/2 -translate-y-1/2">
         <Image
-          width={900}
-          height={900}
+          width={750}
+          height={750}
           src="/healthcare.png"
           alt=""
           id="healthcare"
-          className="absolute top-[62vh] left-[50vw] -translate-x-1/2 -translate-y-1/2"
+          className="absolute top-[2rem] left-[25rem] "
         />
         {/* <div className="absolute top-[14%] left-[19%] ">
           <p className="text-white text-[2rem] font-medium">Health care</p>{" "}
@@ -63,21 +61,21 @@ const HomeLogo = () => {
           </button>
         </div> */}
         <Image
-          width={900}
-          height={900}
+          width={750}
+          height={750}
           src="/industry.png"
           alt=""
           id="industry"
-          className="absolute top-[132vh] left-[47.6vw] -translate-x-1/2 -translate-y-1/2"
+          className="absolute top-[27.2rem] left-[23rem] "
         />
 
         <Image
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           src="/sustainability.svg"
           alt=""
           id="sustainability"
-          className="rotate absolute top-[162vh] left-[65%] -translate-x-1/2 -translate-y-1/2"
+          className="rotate absolute top-[53rem] left-[50rem] "
         />
       </div>
     </div>
