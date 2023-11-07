@@ -49,7 +49,7 @@ const HomeLogo = () => {
         <Image
           width={750}
           height={750}
-          src="/healthcare.png"
+          src="/healthcare.svg"
           alt=""
           id="healthcare"
           className="absolute top-[2rem] left-[25rem] "
@@ -63,7 +63,7 @@ const HomeLogo = () => {
         <Image
           width={750}
           height={750}
-          src="/industry.png"
+          src="/industry.svg"
           alt=""
           id="industry"
           className="absolute top-[27.2rem] left-[23rem] "
