@@ -5,6 +5,7 @@ import HealthcareList from "./components/HealthcareList";
 import HeroBanner from "./components/HeroBanner";
 import HomeLogo from "./components/HomeLogo";
 import Navbar from "./components/Navbar";
+import PreLoader from "./components/PreLoader";
 
 export default function Home() {
   useEffect(() => {
@@ -15,6 +16,7 @@ export default function Home() {
   }, []);
   return (
     <main>
+      <PreLoader />
       <MainPage />
       <Navbar />
       <HeroBanner />

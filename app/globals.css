@@ -113,18 +113,18 @@ canvas {
   }
 }
 
-/* .svg-draw {
-  animation: animate-arrow 3s ease-in-out infinite;
+.preloader {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+  background: #dfe3e5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
 }
-
-@keyframes animate-arrow {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.98);
-  }
-  100% {
-    transform: scale(1);
-  }
-} */
