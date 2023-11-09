@@ -19,7 +19,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="graidient">
+    <header className="">
       <nav className="flex justify-between items-center w-[92%] h-[4.6875rem] mx-auto text-[1.375rem]">
         <h1 className="  text-white grid place-content-center mb-2 md:mb-0">
           <Link

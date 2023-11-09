@@ -1,29 +1,41 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 export default function HealthcareBanner() {
-
   return (
-    <>
+    <div className="relative w-full h-screen">
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 791"
+          fill="none"
+          className="absolute bottom-0 w-full -z-10"
+        >
+          <path
+            d="M0 0H1440V685.589C1440 685.589 1180 448.413 858 685.589C536 922.764 0 685.589 0 685.589V0Z"
+            fill="url(#paint0_linear_1500_3852)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_1500_3852"
+              x1="-41.5"
+              y1="247.179"
+              x2="1886.46"
+              y2="232.899"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#123C69" />
+              <stop offset="1" stop-color="#444F77" stop-opacity="0.52" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
       <div className="bg-healthcare bg-cover bg-center bg-no-repeat h-[calc(67vh-4.6875rem)]" />
-      <motion.div
-        initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 0.3 }}
-        className="px-20 pb-2 mx-auto rounded-[3.125rem]"
-      >
-        <p className="font-medium text-[3.125rem] text-primary-800 leading-[3.5rem] w-[85%] pb-2">
-          Over 500 million people suffer from type some form of diabetes.
+      <div className="px-36 -mt-20 mx-auto"> 
+        <p className="text-[1.875rem] text-white w-[50%] text-center">
+          Traditional health factor monitoring and diagnosis tools often rely on blood tests, which can be time-consuming, painful, and lead to inflammation and anxiety. Additionally, they generate a significant amount of single-use waste that's challenging to recycle. For instance, individuals with diabetes must frequently puncture their fingers throughout the day.
         </p>
-        <p className="text-[1.625rem]">
-          Both the number of cases and the prevalence of diabetes have been
-          steadily increasing over the past few decades. Testing and monitoring
-          of these illnesses have gotten stuck in development for years upon
-          years, it’s time to globalize an easier option for monitoring your
-          glucose testing in an easy, effecient way.
-        </p>
-      </motion.div>
-    </>
+      </div>
+    </div>
   );
 }
