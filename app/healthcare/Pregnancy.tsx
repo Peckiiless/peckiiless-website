@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Pregnancy() {
   return (
     <section className="">
-      <p className="text-center font-medium text-[2.625rem] text-primary-800 leading-[3.25rem] py-36 w-[81rem] mx-auto">
+      <p className="text-center font-medium text-[2.625rem] text-primary-800 leading-[3.25rem] py-36  w-[75%] mx-auto">
         Both the number of cases and the prevalence of diabetes have been
         steadily increasing over the past few decades. Testing and monitoring of
         these illnesses have gotten stuck in development for years upon years,

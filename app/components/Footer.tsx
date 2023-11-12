@@ -142,7 +142,7 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <p className="text-center pt-4 pb-4 text-[1.5rem]">
+        <p className="text-center pt-10 pb-4 text-[1.5rem]">
           @2023 www.peckiiless.com all copyrights reserved.
         </p>
       </div>
