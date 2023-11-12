@@ -31,9 +31,14 @@ export default function HealthcareBanner() {
       </div>
 
       <div className="bg-healthcare bg-cover bg-center bg-no-repeat h-[calc(67vh-4.6875rem)]" />
-      <div className="px-36 -mt-20 mx-auto"> 
+      <div className="px-36 -mt-20 mx-auto">
         <p className="text-[1.875rem] text-white w-[50%] text-center">
-          Traditional health factor monitoring and diagnosis tools often rely on blood tests, which can be time-consuming, painful, and lead to inflammation and anxiety. Additionally, they generate a significant amount of single-use waste that's challenging to recycle. For instance, individuals with diabetes must frequently puncture their fingers throughout the day.
+          Traditional health factor monitoring and diagnosis tools often rely on
+          blood tests, which can be time-consuming, painful, and lead to
+          inflammation and anxiety. Additionally, they generate a significant
+          amount of single-use waste that&#39;s challenging to recycle. For
+          instance, individuals with diabetes must frequently puncture their
+          fingers throughout the day.
         </p>
       </div>
     </div>
