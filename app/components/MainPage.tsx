@@ -10,18 +10,17 @@ export const MainPage = () => {
       scrollTrigger: {
         trigger: ".trigger",
         scrub: 0.25,
-        start: "50%",
-        end: "+=200px",
+        start: "45%",
+        end: "+=1000px",
         pin: true,
       },
     });
 
     timelineHeader.to(".zoom", {
       scale: 5,
-      transformOrigin: "48% 90%",
+      transformOrigin: "49.5% 94.2%",
       duration: 2,
     });
-
   }, []);
 
   return (
@@ -29,14 +28,13 @@ export const MainPage = () => {
       <div className="zoom">
         <Image
           src="/etty.svg"
-          width={1000}
-          height={1000}
+          width={1400}
+          height={2000}
           alt="logo"
           priority={true}
           className="zoom"
         />
       </div>
-    
     </div>
   );
 };
