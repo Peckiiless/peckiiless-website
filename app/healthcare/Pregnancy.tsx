@@ -3,17 +3,18 @@ import Image from "next/image";
 export default function Pregnancy() {
   return (
     <section className="">
-      <p className="text-center font-medium text-[2.625rem] text-primary-800 leading-[3.25rem] py-36  w-[75%] mx-auto">
-        Both the number of cases and the prevalence of diabetes have been
-        steadily increasing over the past few decades. Testing and monitoring of
-        these illnesses have gotten stuck in development for years upon years,
-        it’s time to globalize an easier option for monitoring your glucose
-        testing in an easy, effecient way.
+      <p className="text-center font-medium text-[1.875rem]  leading-[3.25rem] py-44 px-10  max-w-[80rem] mx-auto">
+        Traditional health factor monitoring and diagnosis tools often rely on
+        blood tests, which can be time-consuming, painful, and lead to
+        inflammation and anxiety. Additionally, they generate a significant
+        amount of single-use waste that&#39;s challenging to recycle. For
+        instance, individuals with diabetes must frequently puncture their
+        fingers throughout the day.
       </p>
       <div className="grid sm:grid-cols-12 ">
         <div className="col-span-5 justify-self-center">
           <Image
-            src="/pregnant.png"
+            src="/pregnant.svg"
             width={388}
             height={822}
             alt="logo"

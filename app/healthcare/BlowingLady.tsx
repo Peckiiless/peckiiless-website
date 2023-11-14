@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function BlowingLady() {
   return (
-    <section className="relative h-[43rem] p-20">
-      <div className="w-[70%] absolute left-[6%] bottom-0 pr-20">
-        <p className="font-medium text-[3.125rem] text-primary-800 leading-[3.75rem] pb-10 ">
+    <section className="relative h-[50rem] p-2">
+      <div className="max-w-[60%] absolute bottom-0 left-[3%]">
+        <p className="font-medium text-[2.875rem] text-primary-800 leading-[3.75rem] pb-10 ">
           It&#39;s not just air
         </p>
         <p className="text-[1.75rem] pb-10">
@@ -16,11 +16,11 @@ export default function BlowingLady() {
         </p>
       </div>
 
-      <div className="absolute right-[6%] bottom-0">
+      <div className="absolute right-[1%] bottom-0">
         <Image
-          src="/bubble-lady.png"
-          width={906}
-          height={544}
+          src="/bubble-lady.svg"
+          width={1300}
+          height={883}
           alt="logo"
           priority={true}
         />
