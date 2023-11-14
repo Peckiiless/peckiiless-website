@@ -13,7 +13,7 @@ const PreLoader = () => {
     })
       .from(".texts-container .text-animation", {
         duration: 1.5,
-        delay: 5,
+        delay: 3,
         stagger: 0.4,
         ease: "Power3.easeOut",
       })
