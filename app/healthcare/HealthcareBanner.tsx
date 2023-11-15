@@ -10,6 +10,7 @@ export default function HealthcareBanner() {
         height={0}
         sizes="100vw"
         className="w-full absolute top-0 -z-10"
+        priority={true}
       />
       <Image
         src="/adam.png"
@@ -18,6 +19,7 @@ export default function HealthcareBanner() {
         height={0}
         sizes="100vw"
         className="w-full absolute top-[15%] h-auto"
+        priority={true}
       />
 
       {/* <div className="bg-healthcare bg-contain xl:bg-cover  bg-no-repeat h-[60%]" /> */}

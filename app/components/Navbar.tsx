@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <header className="">
-      <nav className="flex justify-between items-center w-[92%] h-[4.6875rem] mx-auto text-[1.375rem]">
+      <nav className="flex justify-between items-center w-[92%] h-[4.6875rem] mx-auto text-[1.25rem]">
         <h1 className="  text-white grid place-content-center mb-2 md:mb-0">
           <Link
             href="/"
@@ -38,7 +38,7 @@ export default function Navbar() {
               <Link key={path} href={path} passHref>
                 <div
                   className={`text-white   hover:text-white/90 no-underline ${
-                    currentRoute === path ? "font-bold" : "font-medium"
+                    currentRoute === path ? "font-bold" : "font-normal"
                   }`}
                 >
                   {label}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=DM+Serif+Display&family=Roboto+Condensed:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,7 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -28,7 +28,11 @@ body {
 }
 
 .graidient {
-  background:  linear-gradient(90deg, #123C69 -2.59%, rgba(68, 79, 119, 0.52) 130.76%);
+  background: linear-gradient(
+    90deg,
+    #123c69 -2.59%,
+    rgba(68, 79, 119, 0.52) 130.76%
+  );
 }
 .package-graidient {
   background: linear-gradient(67deg, #fefefe 82.01%, #a3a3a3 130.7%);
