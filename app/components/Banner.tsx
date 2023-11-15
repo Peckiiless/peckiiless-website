@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Hero } from "./Hero";
 import CustomButton from "./CustomButton";
 
 export default function Banner() {
