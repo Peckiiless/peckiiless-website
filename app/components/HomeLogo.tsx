@@ -52,7 +52,7 @@ const HomeLogo = () => {
           src="/healthcare.svg"
           alt=""
           id="healthcare"
-          className="absolute top-[2rem] left-[25rem] "
+          className="absolute top-[2rem] left-[25rem]"
         />
         {/* <div className="absolute top-[14%] left-[19%] ">
           <p className="text-white text-[2rem] font-medium">Health care</p>{" "}
