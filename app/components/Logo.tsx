@@ -1,6 +1,8 @@
 const Logo = ({fillLogo ="white", fillText="white", direction= "row"}: {fillLogo?:string, fillText?:string, direction?: string}) => {
   return (
-    <div className={`flex gap-6 flex-${direction} justify-center items-center`}>
+    <div
+      className={`flex gap-6 flex-${direction} justify-center items-center w-[70%] md:w-[100%] h-[70%] md:h-[100%]`}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="29"

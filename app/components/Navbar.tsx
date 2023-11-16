@@ -20,17 +20,17 @@ export default function Navbar() {
   return (
     <header className="">
       <nav className="flex justify-between items-center w-[92%] h-[4.6875rem] mx-auto text-[1.25rem]">
-        <h1 className="  text-white grid place-content-center mb-2 md:mb-0">
+        <h1 className=" text-white grid place-content-center mb-2 md:mb-0">
           <Link
             href="/"
-            className="text-white no-underline hover:text-white/90 flex items-center gap-1"
+            className=" text-white no-underline hover:text-white/90 flex items-center gap-1"
           >
             <Logo />
           </Link>
         </h1>
         <div
           className={`${
-            active && "top-[4.93rem] graidient"
+            active && "top-[0rem] graidient z-10"
           } duration-500 md:static absolute   md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5`}
         >
           <ul className="flex md:flex-row flex-col items-center mx-auto  md:gap-[4vw] gap-8">
@@ -52,7 +52,7 @@ export default function Navbar() {
           onClick={() => setActive(!active)}
         >
           {active ? (
-            <div className="text-3xl text-white cursor-pointer md:hidden">
+            <div className="text-3xl text-white cursor-pointer md:hidden z-10">
               x
             </div>
           ) : (

@@ -9,7 +9,7 @@ export default function HealthcareBanner() {
         width={0}
         height={0}
         sizes="100vw"
-        className="w-full absolute top-[15%] h-auto"
+        className="w-full absolute md:top-[15%] top-[6%]"
         priority={true}
       />
 

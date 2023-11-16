@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function BlowingLady() {
   return (
-    <section className="relative h-[50rem] p-2">
-      <div className="max-w-[60%] absolute bottom-0 left-[3%]">
+    <section className="relative md:h-[50rem] h-[34rem] p-2">
+      <div className="md:max-w-[60%] absolute bottom-0 left-[3%]">
         <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-10 ">
           It&#39;s not just air
         </p>
