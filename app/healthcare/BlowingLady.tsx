@@ -16,11 +16,11 @@ export default function BlowingLady() {
         </p>
       </div>
 
-      <div className="absolute right-[1%] bottom-0">
+      <div className="sm:absolute left-[20%] right-1 bottom-[16%] xl:bottom-0  sm:pl-28">
         <Image
           src="/bubble-lady.svg"
-          width={1300}
-          height={883}
+          width={1200}
+          height={1200}
           alt="logo"
           priority={true}
         />

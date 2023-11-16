@@ -13,7 +13,7 @@ module.exports = {
     screens: {
       xs: "475px",
       ...defaultTheme.screens,
-      md: "834px",
+      md: "900px",
     },
     extend: {
       fontFamily: {
