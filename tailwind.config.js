@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -7,6 +10,11 @@ module.exports = {
   ],
   mode: "jit",
   theme: {
+    screens: {
+      xs: "475px",
+      ...defaultTheme.screens,
+      md: "834px",
+    },
     extend: {
       fontFamily: {
         dm: ["DM Serif Display", "sans-serif"],
