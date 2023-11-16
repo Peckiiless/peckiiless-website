@@ -4,26 +4,29 @@ import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <div className="md:text-[1.5rem] xs:text-[1.125rem] text-[.625rem]">
-      <div className="mt-44 mx-auto px-2 ">
+    <div className="md:text-[1.5rem] xs:text-[1.125rem] text-[.625rem] mt-20 md:mt-44">
+      <div className="mx-auto">
         <h1 className="flex justify-center mt-5">
-          <Link href="/" className="no-underline flex items-center gap-1">
+          <Link
+            href="/"
+            className="no-underline flex items-center justify-center gap-1"
+          >
             <Logo fillLogo="#444F77" fillText="#444F77" direction="col" />
           </Link>
         </h1>
-        <div className="flex flex-col lg:pl-20">
+        <div className="flex flex-col lg:pl-20 mx-2">
           <p className="font-semibold md:text-[2.125rem] xs:text-[1.75rem] text-[1.125rem] pt-5">
             Contact Us
           </p>
-          <p className="py-4 max-w-[63.5rem]">
+          <p className="py-1 xs:py-4 max-w-[63.5rem]">
             We are interested in collaborating with industry, academia, and the
             healthcare industry. Are you curious about Peckiiless? We’d love to
             hear from you.
           </p>
-          <div className="flex flex-col gap-2 xs:gap-4  mt-4 ">
+          <div className="flex flex-col gap-2 xs:gap-4  mt-2 xs:mt-4 ">
             <div className="flex gap-2 xs:gap-4 items-center">
               <svg
-                className="w-[30px] xs:w-[40px] md:w-[50px]"
+                className="w-[22px] xs:w-[40px] md:w-[50px]"
                 width="inherit"
                 height="inherit"
                 viewBox="0 0 60 60"
@@ -41,7 +44,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-2 xs:gap-4 items-center">
               <svg
-                className="w-[30px] xs:w-[40px] md:w-[50px]"
+                className="w-[22px] xs:w-[40px] md:w-[50px]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="inherit"
                 height="inherit"
@@ -59,7 +62,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-2 xs:gap-4 items-center">
               <svg
-                className="w-[30px] xs:w-[40px] md:w-[50px]"
+                className="w-[22px] xs:w-[40px] md:w-[50px]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="inherit"
                 height="inherit"
@@ -82,7 +85,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-2 xs:gap-4 items-center">
               <svg
-                className="w-[30px] xs:w-[40px] md:w-[50px]"
+                className="w-[22px] xs:w-[40px] md:w-[50px]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="inherit"
                 height="inherit"
@@ -105,7 +108,7 @@ const Footer = () => {
 
           <div className="flex gap-10 py-4">
             <svg
-            className="w-[30px] xs:w-[40px] md:w-[50px]"
+            className="w-[22px] xs:w-[40px] md:w-[50px]"
               xmlns="http://www.w3.org/2000/svg"
               width="inherit"
               height="inherit"
@@ -119,7 +122,7 @@ const Footer = () => {
               />
             </svg>
             <svg
-            className="w-[30px] xs:w-[40px] md:w-[50px]"
+            className="w-[22px] xs:w-[40px] md:w-[50px]"
               width="inherit"
               height="inherit"
               viewBox="0 0 60 60"
@@ -142,7 +145,7 @@ const Footer = () => {
             </svg>
 
             <svg
-            className="w-[30px] xs:w-[40px] md:w-[50px]"
+            className="w-[22px] xs:w-[40px] md:w-[50px]"
               width="inherit"
               height="inherit"
               viewBox="0 0 60 60"
@@ -170,10 +173,10 @@ const Footer = () => {
           </div>
         </div> */}
       </div>
-      <p className="text-center py-10">
+      <p className="text-center py-5 xs:py-10">
         @2023 www.peckiiless.com all copyrights reserved.
       </p>
-      <div className="bg-footer h-[15rem] bg-cover bg-no-repeat"></div>
+      <div className="bg-footer h-[5rem] sm:h-[15rem] bg-bottom xs:bg-top bg-contain xs:bg-cover bg-no-repeat"></div>
     </div>
   );
 };

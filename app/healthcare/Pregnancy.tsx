@@ -39,13 +39,11 @@ export default function Pregnancy() {
           </p>
         </div>
       </div>
-      <p className="xs:hidden text-center font-medium xs:text-[1.625rem] md:text-[1.875rem] text-[1.125rem]  leading-[1.625rem] xs:leading-[2.625rem] py-20 px-1 xs:py-44 xs:px-10 max-w-[70rem] mx-auto">
-        Traditional health factor monitoring and diagnosis tools often rely on
-        blood tests, which can be time-consuming, painful, and lead to
-        inflammation and anxiety. Additionally, they generate a significant
-        amount of single-use waste that&#39;s challenging to recycle. For
-        instance, individuals with diabetes must frequently puncture their
-        fingers throughout the day.
+      <p className="xs:hidden text-right px-5 xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]  leading-[1.625rem] xs:leading-[2.625rem] py-20 xs:py-44 xs:px-10 max-w-[70rem] mx-auto">
+        In addition, people with chronic diseases often need to monitor vital
+        factors regularly. Blood-based health checks can be inaccessible and
+        difficult to track, making it challenging to optimize personal treatment
+        and prevent complications.
       </p>
     </section>
   );
