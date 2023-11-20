@@ -2,54 +2,121 @@ import Image from "next/image";
 
 const Benefits = () => {
   return (
-    <div className="p-10 mt-20 ">
-      <div className="grid sm:grid-cols-2 items-center gap-10">
-        <Image
-          src="/images/green-s.png"
-          width={601}
-          height={287}
-          alt="logo"
-          priority={true}
-          className="justify-self-center"
-        />
-        <p className="text-[1.75rem]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
-        </p>
+    <div className="">
+      <p className="text-center font-medium xs:text-[2rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[2.625rem] py-6 max-w-[75rem] mx-auto px-2">
+        At Peckiiless, sustainability is the powerful gear that propels our
+        technology towards a brighter future.
+      </p>
+      <p className="text-center font-medium xs:text-[1.875rem] text-[1.375rem] leading-[1.875rem] xs:leading-[2.625rem] py-6 max-w-[75rem] mx-auto px-2">
+        Sustainability is the beating heart of our innovation and technology. We
+        hold a deep love for our environment, a genuine concern for health and
+        happiness, a profound commitment to sustainable industry, and an
+        unwavering dedication to building a brighter world future for all.
+      </p>
+      <div className="grid grid-cols-12 mt-36">
+        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-between gap-20">
+          <Image
+            src="/images/green-s.png"
+            width={370}
+            height={301}
+            alt="logo"
+            priority={true}
+            className="justify-self-center"
+          />
+          <Image
+            src="/images/orange.png"
+            width={370}
+            height={301}
+            alt="logo"
+            priority={true}
+            className="justify-self-center"
+          />
+        </div>
+        <div className="col-span-8  flex flex-col justify-between gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+          <div>
+            <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
+              Good Health and Well-Being{" "}
+            </p>
+            <p className="pb-10">
+              Our nanosensor breathalyzer fosters good health globally. By
+              enabling non-invasive monitoring of glucose and cholesterol levels
+              through breath analysis, it empowers individuals to take control
+              of their well-being, making healthcare accessible to all.
+            </p>
+          </div>
+          <div>
+            <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
+              Industry, Innovation, and Infrastructure
+            </p>
+            <p className="hidden xs:block">
+              At the intersection of innovation and industry, our nanosensor
+              technology revolutionizes health monitoring. It epitomizes
+              progress by replacing traditional invasive methods with
+              cutting-edge, non-invasive solutions, setting a new each. standard
+              for healthcare infrastructure worldwide.
+            </p>
+          </div>
+        </div>
       </div>
-
-      <div className="grid sm:grid-cols-2 items-center py-32">
-        <Image
-          src="/images/red-s.png"
-          width={601}
-          height={287}
-          alt="logo"
-          priority={true}
-          className="justify-self-center"
-        />
-
-        <p className="sm:row-start-1 text-[1.75rem]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
-        </p>
+      <div className="grid grid-cols-12 mt-36">
+        <div className="text-right col-span-8  flex flex-col justify-between gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+          <div>
+            <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
+              Reduced Inequalities
+            </p>
+            <p className="pb-10">
+              Our nanosensor breathalyzer embodies a commitment to reducing inequalities in healthcare. By providing a non- invasive, accessible method for health monitoring, we strive to bridge gaps, ensuring that cutting-edge health technology is available to everyone, regardless of their background or location.
+            </p>
+          </div>
+          <div>
+            <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
+              Responsible Consumption and Production
+            </p>
+            <p className="hidden xs:block">
+              Our nanosensor breathalyzer is a commitment to responsible consumption and production. By eliminating the need for billions of disposable needles and test strips, we contribute to a sustainable future, reducing waste and promoting environmentally conscious practices.
+            </p>
+          </div>
+        </div>
+        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-between gap-20">
+          <Image
+            src="/images/purple.png"
+            width={370}
+            height={301}
+            alt="logo"
+            priority={true}
+            className="justify-self-center"
+          />
+          <Image
+            src="/images/yellow.png"
+            width={370}
+            height={301}
+            alt="logo"
+            priority={true}
+            className="justify-self-center"
+          />
+        </div>
       </div>
-
-      <div className="grid sm:grid-cols-2 items-center ">
-        <Image
-          src="/images/yellow-s.png"
-          width={601}
-          height={287}
-          alt="logo"
-          priority={true}
-          className="justify-self-center"
-        />
-        <p className="text-[1.75rem]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
-        </p>
+      <div className="grid grid-cols-12 mt-36">
+        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-between gap-20">
+          <Image
+            src="/images/blue.png"
+            width={370}
+            height={301}
+            alt="logo"
+            priority={true}
+            className="justify-self-center"
+          />
+        </div>
+        <div className="col-span-8  flex flex-col justify-between gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+          <div>
+            <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
+              Partnerships for the Goals
+            </p>
+            <p className="pb-10">
+              In collaboration with global partners, we strive for impact. Our nanosensor technology aligns with SDG 17, fostering partnerships that transcend borders. Together, we work towards a healthier, more sustainable world for generations to come.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

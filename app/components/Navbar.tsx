@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Logo from "./Logo";
 
-export default function Navbar({ navColor = "white" }: { navColor?: string }) {
+export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
   const currentRoute = usePathname();
   const [active, setActive] = useState(false);
 
@@ -18,7 +18,7 @@ export default function Navbar({ navColor = "white" }: { navColor?: string }) {
   ];
 
   return (
-    <header className={`text-${navColor}`}>
+    <header className={`text-[${navColor}]`}>
       <nav className="flex justify-between items-center w-[92%] h-[4.6875rem] mx-auto text-[1.25rem]">
         <h1 className="  grid place-content-center mb-2 md:mb-0">
           <Link
@@ -26,8 +26,8 @@ export default function Navbar({ navColor = "white" }: { navColor?: string }) {
             className=" no-underline hover:text-white/90 flex items-center gap-1"
           >
             <Logo
-              fillLogo={navColor && "#19416C"}
-              fillText={navColor && "#19416C"}
+              fillLogo={navColor}
+              fillText={navColor}
             />
           </Link>
         </h1>
