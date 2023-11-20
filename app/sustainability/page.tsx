@@ -5,7 +5,7 @@ import SustainabilityBanner from "./SustainabilityBanner";
 const SustainabilityPage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar navColor="nav"/>
       <SustainabilityBanner />
       <Benefits />
     </div>

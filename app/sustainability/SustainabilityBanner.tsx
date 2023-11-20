@@ -2,16 +2,26 @@ import Image from "next/image";
 
 export default function SustainabilityBanner() {
   return (
-    <div className="px-20 pt-10">
-      <div className="md:flex justify-between items-center gap-8">
-        <div className="text-red-900 font-bold text-5xl">Sustainability Text</div>
+    <div className="px-20 pt-10 h-screen">
+      <div className="relative">
         <div className="">
           <Image
             src="/industry-banner.png"
-            width={450}
-            height={400}
+            width={700}
+            height={700}
             alt="medicin with trolley"
             priority={true}
+            className="absolute -left-[10%]"
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/industry-banner2.png"
+            width={700}
+            height={700}
+            alt="medicin with trolley"
+            priority={true}
+            className="absolute -right-[10%]"
           />
         </div>
       </div>
