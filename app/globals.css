@@ -131,13 +131,13 @@ canvas {
 
 .spin {
   animation-name: ckw;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .spin-back {
   animation-name: ccw;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
