@@ -2,15 +2,14 @@ import Image from "next/image";
 
 export const MainPage = () => {
   return (
-    <div className="trigger flex justify-center overflow-hidden relative">
-      <div className="zoom">
+    <div className="relative h-[94rem] overflow-hidden flex justify-center">
+      <div className="absolute -top-32">
         <Image
-          src="/etty-fidele.svg"
-          width={1000}
-          height={1000}
+          src="/etty-fidele.png"
+          width={1200}
+          height={1200}
           alt="logo"
           priority={true}
-          className="zoom"
         />
       </div>
     </div>
