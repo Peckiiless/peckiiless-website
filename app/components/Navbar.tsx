@@ -18,7 +18,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
   ];
 
   return (
-    <header className={`text-[${navColor}]`}>
+    <header style={{color: navColor}}>
       <nav className="flex justify-between items-center w-[92%] h-[4.6875rem] mx-auto text-[1.25rem]">
         <h1 className="  grid place-content-center mb-2 md:mb-0">
           <Link

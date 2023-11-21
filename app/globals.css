@@ -22,7 +22,7 @@
 body {
   background: linear-gradient(
     90deg,
-    #DBDFE2 -14.1%,
+    #dbdfe2 -14.1%,
     rgba(219, 223, 226, 0) 507.62%
   );
 }
@@ -127,4 +127,33 @@ canvas {
   align-items: center;
   justify-content: center;
   overflow: hidden !important;
+}
+
+.spin {
+  animation-name: ckw;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.spin-back {
+  animation-name: ccw;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes ckw {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes ccw {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
