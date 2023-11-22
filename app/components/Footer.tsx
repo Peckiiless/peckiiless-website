@@ -14,16 +14,8 @@ const Footer = () => {
             <Logo fillLogo="#444F77" fillText="#444F77" direction="col" />
           </Link>
         </h1>
-        <div className="flex flex-col lg:pl-20 mx-2">
-          <p className="font-semibold md:text-[2.125rem] xs:text-[1.75rem] text-[1.125rem] pt-5">
-            Contact Us
-          </p>
-          <p className="py-1 xs:py-4 max-w-[63.5rem]">
-            We are interested in collaborating with industry, academia, and the
-            healthcare industry. Are you curious about Peckiiless? We’d love to
-            hear from you.
-          </p>
-          <div className="flex flex-col gap-2 xs:gap-4  mt-2 xs:mt-4 ">
+        <div className="flex justify-center px-4">
+          <div className="flex flex-wrap gap-6 xs:gap-12  mt-6 xs:mt-14">
             <div className="flex gap-2 xs:gap-4 items-center">
               <svg
                 className="w-[22px] xs:w-[40px] md:w-[50px]"
@@ -101,77 +93,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <div className="flex flex-col items-center mx-auto pt-8">
-          <p className=" font-semibold text-[3.125rem] text-center leading-[3rem]">
-            keep connected
-          </p>
-
-          <div className="flex gap-10 py-4">
-            <svg
-            className="w-[22px] xs:w-[40px] md:w-[50px]"
-              xmlns="http://www.w3.org/2000/svg"
-              width="inherit"
-              height="inherit"
-              viewBox="0 0 60 60"
-              fill="none"
-            >
-              <circle cx="30" cy="30" r="30" fill="#18406C" />
-              <path
-                d="M34.4375 17.6875H41V10H34.4375C29.3713 10 25.25 14.0231 25.25 18.9688V22.8125H20V30.5H25.25V51H33.125V30.5H39.6875L41 22.8125H33.125V18.9688C33.125 18.2743 33.7261 17.6875 34.4375 17.6875Z"
-                fill="white"
-              />
-            </svg>
-            <svg
-            className="w-[22px] xs:w-[40px] md:w-[50px]"
-              width="inherit"
-              height="inherit"
-              viewBox="0 0 60 60"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="30" cy="30" r="30" fill="#18406C" />
-              <path
-                d="M26.375 21.375H33.4654V25.0086H33.5679C34.5545 23.2379 36.9684 21.375 40.5687 21.375C48.0537 21.375 49.4375 26.0336 49.4375 32.0939V44.4375H42.0447V33.4956C42.0447 30.887 41.9909 27.5276 38.2009 27.5276C34.3521 27.5276 33.7627 30.3694 33.7627 33.306V44.4375H26.375V21.375Z"
-                fill="white"
-              />
-              <path
-                d="M13.5625 21.375H21.25V44.4375H13.5625V21.375Z"
-                fill="white"
-              />
-              <path
-                d="M21.25 14.9688C21.25 17.0905 19.528 18.8125 17.4062 18.8125C15.2845 18.8125 13.5625 17.0905 13.5625 14.9688C13.5625 12.847 15.2845 11.125 17.4062 11.125C19.528 11.125 21.25 12.847 21.25 14.9688Z"
-                fill="white"
-              />
-            </svg>
-
-            <svg
-            className="w-[22px] xs:w-[40px] md:w-[50px]"
-              width="inherit"
-              height="inherit"
-              viewBox="0 0 60 60"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="30" cy="30" r="30" fill="#18406C" />
-              <g clip-path="url(#clip0_1457_348)">
-                <path
-                  d="M52.0005 19.0655C50.4937 19.7395 48.8691 20.1879 47.1727 20.3878C48.9101 19.3474 50.24 17.6971 50.873 15.7343C49.2484 16.6952 47.4444 17.3999 45.5327 17.7766C43.9952 16.1417 41.8094 15.127 39.3904 15.127C34.7446 15.127 30.9829 18.8913 30.9829 23.5345C30.9829 24.1905 31.0546 24.8311 31.1981 25.4487C24.2076 25.0951 18.0089 21.7485 13.8602 16.6568C13.1402 17.897 12.7225 19.3474 12.7225 20.8849C12.7225 23.801 14.2036 26.3789 16.4612 27.8831C15.0825 27.8421 13.7859 27.4577 12.6482 26.835C12.6482 26.8683 12.6482 26.9068 12.6482 26.9401C12.6482 31.017 15.5464 34.42 19.3978 35.1888C18.6931 35.381 17.9474 35.486 17.1787 35.486C16.6354 35.486 16.1127 35.4296 15.5925 35.3348C16.6662 38.6738 19.7719 41.1081 23.4491 41.1799C20.5663 43.4375 16.9455 44.7828 12.9992 44.7828C12.3176 44.7828 11.6539 44.7418 10.9902 44.6623C14.7212 47.0557 19.1415 48.442 23.8899 48.442C39.3597 48.442 47.8262 35.6218 47.8262 24.5057C47.8262 24.1367 47.8185 23.778 47.8031 23.4166C49.4457 22.2405 50.8704 20.7568 51.9979 19.0681L52.0005 19.0655Z"
-                  fill="white"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_1457_348">
-                  <rect
-                    width="41"
-                    height="41"
-                    fill="white"
-                    transform="translate(11 10)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-          </div>
-        </div> */}
+        
       </div>
       <p className="text-center py-5 xs:py-10">
         @2023 www.peckiiless.com all copyrights reserved.
