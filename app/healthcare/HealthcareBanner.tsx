@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HealthcareBanner() {
   return (
-    <div className="h-[30vw] lg:h-[50vw]">
+    <div className="h-[39vw] md:h-[45vw] lg:h-[50vw]">
       <Image
         src="/adam.png"
         alt="Image Alt Text"
@@ -22,8 +22,6 @@ export default function HealthcareBanner() {
         className="w-full absolute top-0 -z-10"
         priority={true}
       />
-
-      {/* <div className="bg-healthcare bg-contain xl:bg-cover  bg-no-repeat h-[60%]" /> */}
     </div>
   );
 }

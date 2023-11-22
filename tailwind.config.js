@@ -30,13 +30,15 @@ module.exports = {
         },
         "secondary-navy": "#444F77",
         "secondary-orange": "#f79761",
-        "nav": "#19416C",
+        nav: "#19416C",
         "light-white": {
           DEFAULT: "rgba(59,60,152,0.03)",
           100: "rgba(59,60,152,0.02)",
         },
         grey: "#2B3341",
         button: "rgba(255, 255, 255, 0.20)",
+        grey200: "rgba(23, 63, 107, 0.10)",
+        grey100: "rgba(207, 213, 220, 0.9)",
       },
       backgroundImage: {
         healthcare: "url('/adam.png')",

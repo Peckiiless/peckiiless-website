@@ -18,7 +18,7 @@ export default function BlowingLady() {
 
       <div className="sm:absolute left-[20%] lg:left-[34%] right-1 sm:bottom-[25%] lg:bottom-[16%] xl:bottom-[10%] 2xl:bottom-0  sm:pl-28">
         <Image
-          src="/bubble-lady.svg"
+          src="/bubble-lady.png"
           width={1200}
           height={1200}
           alt="logo"

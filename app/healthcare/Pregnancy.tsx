@@ -2,8 +2,9 @@ import Image from "next/image";
 
 export default function Pregnancy() {
   return (
-    <section className="">
-      <p className="text-center font-medium xs:text-[1.625rem] md:text-[1.875rem] text-[1.125rem]  leading-[1.625rem] xs:leading-[2.625rem] py-20 px-1 xs:py-44 xs:px-10 max-w-[75rem] mx-auto">
+    <section className="px-[2%] bg-productInfoPattern bg-no-repeat bg-contain  bg-bottom">
+      <div  className="px-[2%]">
+      <p className="rounded-[1.25rem] bg-grey100 text-center font-medium xs:text-[1.625rem] md:text-[1.875rem] text-[1.125rem]  leading-[1.625rem] xs:leading-[2.625rem] my-20 px-1 py-14 xs:px-10 max-w-[80rem] mx-auto">
         Traditional health factor monitoring and diagnosis tools often rely on
         blood tests, which can be time-consuming, painful, and lead to
         inflammation and anxiety. Additionally, they generate a significant
@@ -11,6 +12,7 @@ export default function Pregnancy() {
         instance, individuals with diabetes must frequently puncture their
         fingers throughout the day.
       </p>
+      </div>
       <div className="grid grid-cols-12 ">
         <div className="col-span-5 justify-self-center pr-3">
           <Image
@@ -21,7 +23,7 @@ export default function Pregnancy() {
             priority={true}
           />
         </div>
-        <div className="text-right col-span-7  md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+        <div className="bg-grey100 rounded-[1.25rem] text-right col-span-7 pt-16 pb-24  md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
           <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
             Living with Diabetes
           </p>

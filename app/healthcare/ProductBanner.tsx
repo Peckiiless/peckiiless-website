@@ -3,11 +3,13 @@ import CustomButton from "../components/CustomButton";
 
 export default function ProductBanner() {
   return (
-    <div className="">
-      <p className="text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[2.625rem] py-10 sm:py-32 max-w-[75rem] mx-auto px-2">
+    <div>
+      <div  className="px-[2%]">
+      <p className="rounded-[1.25rem] bg-grey100 text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[2.625rem] py-10 sm:py-24 mt-20 max-w-[75rem] mx-auto px-2">
         At Peckiiless, we unlock the potential of Exhalation Breath, delivering
         non-invasive comfort to everyone worldwide
       </p>
+      </div>
       <div className="grid grid-cols-12">
         <div className="col-span-7 self-end">
           <Image
