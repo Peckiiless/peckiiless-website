@@ -2,8 +2,7 @@ import Image from "next/image";
 
 const BenefitsDesktop = () => {
   return (
-    <div>
-      <div className="grid grid-cols-12 mt-36">
+    <div><div className="grid grid-cols-12 mt-36">
         <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-between gap-20">
           <Image
             src="/images/green-s.png"
@@ -55,11 +54,7 @@ const BenefitsDesktop = () => {
               Reduced Inequalities
             </p>
             <p className="pb-10">
-              Our nanosensor breathalyzer embodies a commitment to reducing
-              inequalities in healthcare. By providing a non- invasive,
-              accessible method for health monitoring, we strive to bridge gaps,
-              ensuring that cutting-edge health technology is available to
-              everyone, regardless of their background or location.
+              Our nanosensor breathalyzer embodies a commitment to reducing inequalities in healthcare. By providing a non- invasive, accessible method for health monitoring, we strive to bridge gaps, ensuring that cutting-edge health technology is available to everyone, regardless of their background or location.
             </p>
           </div>
           <div>
@@ -67,11 +62,7 @@ const BenefitsDesktop = () => {
               Responsible Consumption and Production
             </p>
             <p className="hidden xs:block">
-              Our nanosensor breathalyzer is a commitment to responsible
-              consumption and production. By eliminating the need for billions
-              of disposable needles and test strips, we contribute to a
-              sustainable future, reducing waste and promoting environmentally
-              conscious practices.
+              Our nanosensor breathalyzer is a commitment to responsible consumption and production. By eliminating the need for billions of disposable needles and test strips, we contribute to a sustainable future, reducing waste and promoting environmentally conscious practices.
             </p>
           </div>
         </div>
@@ -111,16 +102,12 @@ const BenefitsDesktop = () => {
               Partnerships for the Goals
             </p>
             <p className="pb-10">
-              In collaboration with global partners, we strive for impact. Our
-              nanosensor technology aligns with SDG 17, fostering partnerships
-              that transcend borders. Together, we work towards a healthier,
-              more sustainable world for generations to come.
+              In collaboration with global partners, we strive for impact. Our nanosensor technology aligns with SDG 17, fostering partnerships that transcend borders. Together, we work towards a healthier, more sustainable world for generations to come.
             </p>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
+      </div></div>
+  )
+}
 
-export default BenefitsDesktop;
+export default BenefitsDesktop
