@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SustainabilityBanner() {
   return (
-    <div className="px-20 my-10 relative mx-auto max-w-[90rem]">
+    <div className="px-20 mb-10 relative flex justify-center max-w-[90rem]">
       <div className="grid grid-cols-6">
         <Image
           src="/industry-banner.png"

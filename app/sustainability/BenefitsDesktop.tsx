@@ -3,7 +3,7 @@ import Image from "next/image";
 const BenefitsDesktop = () => {
   return (
     <div><div className="grid grid-cols-12 mt-36">
-        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-between gap-20">
+        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-around gap-20">
           <Image
             src="/images/green-s.png"
             width={370}
@@ -21,7 +21,7 @@ const BenefitsDesktop = () => {
             className="justify-self-center"
           />
         </div>
-        <div className="col-span-8  flex flex-col justify-between gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+        <div className="col-span-8  flex flex-col justify-around gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
           <div>
             <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
               Good Health and Well-Being{" "}
@@ -48,7 +48,7 @@ const BenefitsDesktop = () => {
         </div>
       </div>
       <div className="grid grid-cols-12 mt-36">
-        <div className="text-right col-span-8  flex flex-col justify-between gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+        <div className="text-right col-span-8  flex flex-col justify-around gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
           <div>
             <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
               Reduced Inequalities
@@ -66,7 +66,7 @@ const BenefitsDesktop = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-between gap-20">
+        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-around gap-20">
           <Image
             src="/images/purple.png"
             width={370}
@@ -86,7 +86,7 @@ const BenefitsDesktop = () => {
         </div>
       </div>
       <div className="grid grid-cols-12 mt-36">
-        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-between gap-20">
+        <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-around gap-20">
           <Image
             src="/images/blue.png"
             width={370}
@@ -96,7 +96,7 @@ const BenefitsDesktop = () => {
             className="justify-self-center"
           />
         </div>
-        <div className="col-span-8  flex flex-col justify-between gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+        <div className="col-span-8  flex flex-col justify-around gap-20 md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
           <div>
             <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] pb-2 lg:pb-10">
               Partnerships for the Goals

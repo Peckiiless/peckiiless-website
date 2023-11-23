@@ -59,7 +59,7 @@ const BenefitsMobile = () => {
         />
         <div className="col-span-8 px-2 self-center text-[1rem]">
           <div>
-            <p className="font-medium  text-[1.375rem] text-primary-800 pb-2">
+            <p className="font-medium text-[1.375rem] text-primary-800 pb-2">
               Reduced Inequalities
             </p>
             <p className="">
