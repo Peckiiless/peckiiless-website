@@ -2,12 +2,26 @@ import Image from "next/image";
 
 export default function CompanyFamilyOthers() {
   return (
-    <section className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3">
-        <div className="relative px-20">
-          <div>
+    <section className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-[100rem] lg:px-8">
+      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 ">
+        <div className="">
+          <div className="">
+            <div className="flex flex-col items-center">
+              <Image
+                src="/images/marziyeh.svg"
+                width={300}
+                height={300}
+                alt="logo"
+                priority={true}
+              />
+              <div className="py-5 font-bold text-2xl">Marzyeh Advand.</div>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-col items-center">
             <Image
-              src="/images/sara.png"
+              src="/images/Sara.svg"
               width={300}
               height={300}
               alt="logo"
@@ -15,29 +29,12 @@ export default function CompanyFamilyOthers() {
             />
             <div className="text-center py-5 font-bold text-2xl">Sara N.</div>
           </div>
-
-          <svg
-            className="absolute -z-10 top-3  right-0"
-            xmlns="http://www.w3.org/2000/svg"
-            width="252"
-            height="252"
-            viewBox="0 0 252 252"
-            fill="none"
-          >
-            <circle
-              cx="126"
-              cy="126"
-              r="126"
-              fill="#F9BAB1"
-              fill-opacity="0.19"
-            />
-          </svg>
         </div>
         <div className="">
-          <div className="relative px-20">
-            <div>
+          <div className="">
+            <div className="flex flex-col items-center">
               <Image
-                src="/images/martin.png"
+                src="/images/Martin.svg"
                 width={300}
                 height={300}
                 alt="logo"
@@ -47,30 +44,13 @@ export default function CompanyFamilyOthers() {
                 Martin Andersson.
               </div>
             </div>
-
-            <svg
-              className="absolute -z-10 top-3  right-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="252"
-              height="252"
-              viewBox="0 0 252 252"
-              fill="none"
-            >
-              <circle
-                cx="126"
-                cy="126"
-                r="126"
-                fill="#F9BAB1"
-                fill-opacity="0.19"
-              />
-            </svg>
           </div>
         </div>
         <div className="">
-          <div className="relative px-20">
-            <div>
+          <div className="">
+            <div className="flex flex-col items-center">
               <Image
-                src="/images/angela.png"
+                src="/images/Angela.svg"
                 width={300}
                 height={300}
                 alt="logo"
@@ -80,30 +60,13 @@ export default function CompanyFamilyOthers() {
                 Angela grommet
               </div>
             </div>
-
-            <svg
-              className="absolute -z-10 top-3  right-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="252"
-              height="252"
-              viewBox="0 0 252 252"
-              fill="none"
-            >
-              <circle
-                cx="126"
-                cy="126"
-                r="126"
-                fill="#F9BAB1"
-                fill-opacity="0.19"
-              />
-            </svg>
           </div>
         </div>
         <div className="">
-          <div className="relative px-20">
-            <div>
+          <div className="">
+            <div className="flex flex-col items-center">
               <Image
-                src="/images/henrik.png"
+                src="/images/Henrik.svg"
                 width={300}
                 height={300}
                 alt="logo"
@@ -113,30 +76,13 @@ export default function CompanyFamilyOthers() {
                 Henrik Strom
               </div>
             </div>
-
-            <svg
-              className="absolute -z-10 top-3  right-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="252"
-              height="252"
-              viewBox="0 0 252 252"
-              fill="none"
-            >
-              <circle
-                cx="126"
-                cy="126"
-                r="126"
-                fill="#F9BAB1"
-                fill-opacity="0.19"
-              />
-            </svg>
           </div>
         </div>
         <div className="">
-          <div className="relative px-20">
-            <div>
+          <div className="">
+            <div className="flex flex-col items-center">
               <Image
-                src="/images/anders.png"
+                src="/images/Andres.svg"
                 width={300}
                 height={300}
                 alt="logo"
@@ -146,30 +92,13 @@ export default function CompanyFamilyOthers() {
                 Anders Hellman
               </div>
             </div>
-
-            <svg
-              className="absolute -z-10 top-3  right-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="252"
-              height="252"
-              viewBox="0 0 252 252"
-              fill="none"
-            >
-              <circle
-                cx="126"
-                cy="126"
-                r="126"
-                fill="#F9BAB1"
-                fill-opacity="0.19"
-              />
-            </svg>
           </div>
         </div>
         <div className="">
-          <div className="relative px-20">
-            <div>
+          <div className="">
+            <div className="flex flex-col items-center">
               <Image
-                src="/images/jens.png"
+                src="/images/Jens.svg"
                 width={300}
                 height={300}
                 alt="logo"
@@ -179,54 +108,21 @@ export default function CompanyFamilyOthers() {
                 Jens Eriksson
               </div>
             </div>
-
-            <svg
-              className="absolute -z-10 top-3  right-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="252"
-              height="252"
-              viewBox="0 0 252 252"
-              fill="none"
-            >
-              <circle
-                cx="126"
-                cy="126"
-                r="126"
-                fill="#F9BAB1"
-                fill-opacity="0.19"
-              />
-            </svg>
           </div>
         </div>
-      </div>
-      <div className="flex justify-center mx-auto mt-7">
-        <div className="relative px-20">
-          <div>
-            <Image
-              src="/images/girl.png"
-              width={300}
-              height={300}
-              alt="logo"
-              priority={true}
-            />
+        <div className="">
+          <div className="">
+            <div className="flex flex-col items-center">
+              <Image
+                src="/images/Team.svg"
+                width={300}
+                height={300}
+                alt="logo"
+                priority={true}
+              />
+              <div className="text-center py-5 font-bold text-2xl">No Name</div>
+            </div>
           </div>
-
-          <svg
-            className="absolute -z-10 top-3  right-0"
-            xmlns="http://www.w3.org/2000/svg"
-            width="252"
-            height="252"
-            viewBox="0 0 252 252"
-            fill="none"
-          >
-            <circle
-              cx="126"
-              cy="126"
-              r="126"
-              fill="#F9BAB1"
-              fill-opacity="0.19"
-            />
-          </svg>
         </div>
       </div>
     </section>
