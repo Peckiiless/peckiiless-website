@@ -1,8 +1,11 @@
-import Image from "next/image";
+"use client";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Logo from "./Logo";
+import SubmitForm from "../about-us/components/SubmitForm";
 
 const Footer = () => {
+  const currentRoute = usePathname();
   return (
     <div className="md:text-[1.5rem] xs:text-[1.125rem] text-[.625rem] mt-20 md:mt-44">
       <div className="mx-auto">
@@ -14,6 +17,9 @@ const Footer = () => {
             <Logo fillLogo="#444F77" fillText="#444F77" direction="col" />
           </Link>
         </h1>
+        <div className={`${currentRoute !== "/about-us" && "hidden"}`}>
+          <SubmitForm />
+        </div>
         <div className="flex justify-center px-4">
           <div className="flex flex-wrap gap-6 xs:gap-12  mt-6 xs:mt-14">
             <div className="flex gap-2 xs:gap-4 items-center">
@@ -93,7 +99,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
       </div>
       <p className="text-center py-5 xs:py-10">
         @2023 www.peckiiless.com all copyrights reserved.

@@ -6,6 +6,7 @@ import Partners from "./components/Partners";
 import Awards from "./components/Awards";
 import Supports from "./components/Supports";
 import Navbar from "../components/Navbar";
+import SubmitForm from "./components/SubmitForm";
 
 
 export default function AboutUsPage() {
@@ -19,6 +20,7 @@ export default function AboutUsPage() {
       <Partners />
       <Awards />
       <Supports />
+      {/* <SubmitForm /> */}
     </div>
   );
 }
