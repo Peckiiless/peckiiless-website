@@ -10,6 +10,9 @@ export const MainPage = () => {
           height={1200}
           alt="logo"
           priority={true}
+          quality={100}
+          className="transition-opacity opacity-0 duration-[2s]"
+          onLoadingComplete={(image) => image.classList.remove("opacity-0")}
         />
       </div>
     </div>
