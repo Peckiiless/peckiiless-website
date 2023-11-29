@@ -3,6 +3,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Logo from "./Logo";
 import SubmitForm from "../about-us/components/SubmitForm";
+import FadeIn, { FadeInStagger } from "@/app/components/FadeIn";
 
 const Footer = () => {
   const currentRoute = usePathname();
@@ -20,9 +21,9 @@ const Footer = () => {
         <div className={`${currentRoute !== "/about-us" && "hidden"}`}>
           <SubmitForm />
         </div>
-        <div className="flex justify-center px-4">
+        <FadeInStagger faster className="flex justify-center px-4">
           <div className="flex flex-wrap gap-6 xs:gap-12  mt-6 xs:mt-14">
-            <div className="flex gap-2 xs:gap-4 items-center">
+            <FadeIn className="flex gap-2 xs:gap-4 items-center">
               <svg
                 className="w-[22px] xs:w-[40px] md:w-[50px]"
                 width="inherit"
@@ -39,8 +40,8 @@ const Footer = () => {
               </svg>
 
               <p className="">Email</p>
-            </div>
-            <div className="flex gap-2 xs:gap-4 items-center">
+            </FadeIn>
+            <FadeIn className="flex gap-2 xs:gap-4 items-center">
               <svg
                 className="w-[22px] xs:w-[40px] md:w-[50px]"
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,8 +58,8 @@ const Footer = () => {
               </svg>
 
               <p className="">031-772 10 00</p>
-            </div>
-            <div className="flex gap-2 xs:gap-4 items-center">
+            </FadeIn>
+            <FadeIn className="flex gap-2 xs:gap-4 items-center">
               <svg
                 className="w-[22px] xs:w-[40px] md:w-[50px]"
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,8 +81,8 @@ const Footer = () => {
               </svg>
 
               <p className="">Peckiiless</p>
-            </div>
-            <div className="flex gap-2 xs:gap-4 items-center">
+            </FadeIn>
+            <FadeIn className="flex gap-2 xs:gap-4 items-center">
               <svg
                 className="w-[22px] xs:w-[40px] md:w-[50px]"
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,13 +97,13 @@ const Footer = () => {
                 />
               </svg>
               <p className="">Chalmersplatsen 4, 412 96 Göteborg</p>
-            </div>
+            </FadeIn>
           </div>
-        </div>
+        </FadeInStagger>
       </div>
-      <p className="text-center py-5 xs:py-10">
+      <FadeIn className="text-center py-5 xs:py-10">
         @2023 www.peckiiless.com all copyrights reserved.
-      </p>
+      </FadeIn>
       <div className="bg-footer h-[5rem] sm:h-[15rem] bg-bottom xs:bg-top bg-contain xs:bg-cover bg-no-repeat"></div>
     </div>
   );

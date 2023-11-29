@@ -1,14 +1,16 @@
 import Image from "next/image";
+import FadeIn, { FadeInStagger } from "@/app/components/FadeIn";
 
 export default function Supports() {
   return (
     <section className="bg-patternLady bg-no-repeat bg-cover">
-      <p className="text-center font-bold text-[2.625rem] text-primary-800 pt-10">
+      <FadeIn className="text-center font-bold text-[2.625rem] text-primary-800 pt-10">
         Get Support From
-      </p>
+      </FadeIn>
 
-      <div className="section">
+      <FadeInStagger className="section">
         <div className="flex gap-5 justify-between items-center">
+          <FadeIn>
           <Image
             src="/images/Almi.png"
             width={104}
@@ -16,7 +18,8 @@ export default function Supports() {
             alt="logo"
             priority={true}
           />
-
+          </FadeIn>
+<FadeIn>
           <Image
             src="/images/Euipo.png"
             width={203}
@@ -24,7 +27,8 @@ export default function Supports() {
             alt="logo"
             priority={true}
           />
-
+          </FadeIn>
+<FadeIn>
           <Image
             src="/images/Sten.png"
             width={96}
@@ -32,7 +36,8 @@ export default function Supports() {
             alt="logo"
             priority={true}
           />
-
+          </FadeIn>
+<FadeIn>
           <Image
             src="/images/chalmers.png"
             width={74}
@@ -40,8 +45,10 @@ export default function Supports() {
             alt="logo"
             priority={true}
           />
+          </FadeIn>
         </div>
         <div className="flex gap-5 justify-around items-center mt-14">
+          <FadeIn>
           <Image
             src="/images/sodertalje.png"
             width={149}
@@ -49,7 +56,8 @@ export default function Supports() {
             alt="logo"
             priority={true}
           />
-
+          </FadeIn>
+<FadeIn>
           <Image
             src="/images/incubators.png"
             width={224}
@@ -57,8 +65,9 @@ export default function Supports() {
             alt="logo"
             priority={true}
           />
+          </FadeIn>
         </div>
-      </div>
+      </FadeInStagger>
     </section>
   );
 }

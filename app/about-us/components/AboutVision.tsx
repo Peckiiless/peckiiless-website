@@ -1,6 +1,8 @@
+import FadeIn from "@/app/components/FadeIn";
+
 export default function Vision() {
   return (
-    <section className="px-[2%] ">
+    <FadeIn className="px-[2%]">
       <div className="grid grid-cols-12 rounded-[1.25rem] bg-grey100 text-center font-medium xs:text-[1.625rem] md:text-[1.875rem] text-[1.125rem]  leading-[1.625rem] xs:leading-[2.625rem] my-20 px-1 py-14 xs:px-10 max-w-[80rem] mx-auto">
         <div className="col-span-1">
           <svg
@@ -29,6 +31,6 @@ export default function Vision() {
           applications.
         </p>
       </div>
-    </section>
+    </FadeIn>
   );
 }

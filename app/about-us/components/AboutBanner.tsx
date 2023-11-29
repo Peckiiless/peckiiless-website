@@ -1,3 +1,4 @@
+import FadeIn from "@/app/components/FadeIn";
 import Image from "next/image";
 
 export default function Banner() {
@@ -13,9 +14,9 @@ export default function Banner() {
         priority={true}
       />
       <div className="text-white px-14">
-      <p className="text-[2.625rem] font-medium pt-20">About Us</p>
+      <FadeIn className="text-[2.625rem] font-medium pt-20">About Us</FadeIn>
 
-      <div className="text-[1.75rem] pb-32 pt-10 ">
+      <FadeIn className="text-[1.75rem] pb-32 pt-10 ">
         <p>
           Peckiiless is a Sweden-based company that has created a nanosensor
           that can detect your blood glucose levels through nothing more than
@@ -31,7 +32,7 @@ export default function Banner() {
           good for the people, the planet, and your pocketbook.
         </p>
 
-      </div>
+      </FadeIn>
       </div>
     </section>
   );

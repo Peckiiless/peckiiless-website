@@ -1,8 +1,9 @@
 import CustomButton from "@/app/components/CustomButton";
+import FadeIn from "@/app/components/FadeIn";
 
 export default function SubmitForm() {
   return (
-    <div className="max-w-[80rem] mx-auto mt-20 px-10">
+    <FadeIn className="max-w-[80rem] mx-auto mt-20 px-10">
       <div className="mx-auto">
         <p className="text-[2rem]">
           We are interested in collaborating with industry, academia, and the
@@ -63,6 +64,6 @@ export default function SubmitForm() {
           </div>
         </form>
       </div>
-    </div>
+    </FadeIn>
   );
 }

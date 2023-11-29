@@ -1,8 +1,9 @@
+import FadeIn from "@/app/components/FadeIn";
 import Image from "next/image";
 
 export default function AboutCompanyFamily() {
   return (
-    <section className="p-4">
+    <FadeIn className="p-4">
       <div className="grid py-8 mx-auto gap-5 grid-cols-12">
         <div className="col-span-6 justify-self-start">
          
@@ -30,6 +31,6 @@ export default function AboutCompanyFamily() {
           </svg>
         </div>
       </div>
-    </section>
+    </FadeIn>
   );
 }
