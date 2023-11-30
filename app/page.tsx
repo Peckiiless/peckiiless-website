@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import PreLoader from "./components/PreLoader";
 
 export default function Home() {
-  
   return (
     <main>
       <PreLoader />

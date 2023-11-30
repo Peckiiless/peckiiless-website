@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import { useEffect } from "react";
 import { gsap } from "gsap";
@@ -16,30 +16,38 @@ const HomeLogo = () => {
       scrollTrigger: {
         trigger: "#healthcare",
         start: "center center",
-        end: "+=300",
+        end: "+=30",
         // markers: true,
         pin: "#wrapper",
         scrub: 1,
+        once: true,
       },
     });
-    gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: "#industry",
-          scrub: 1,
-          start: "-250px",
-          end: "+=2000",
-          // markers: true,
-          pin: "#wrapper",
-        },
-      })
-      .from("#sustainability", {
-        y: 300,
-      })
-      .to("#healthcare", { scale: 0.6, y: 340 }, "dddd")
-      .to("#industry", { scale: 0.6, y: 180, x: 17 }, "dddd")
-      .to("#sustainability", { scale: 0.6, y: 110, x: -60 }, "dddd");
-    gsap.to("#sustainability", {
+    // gsap.timeline({
+    //   scrollTrigger: {
+    //     trigger: "#industry",
+    //     scrub: 1,
+    //     start: "-250px",
+    //     end: "+=5",
+    //     // markers: true,
+    //     pin: "#wrapper",
+    //     once: true,
+    //   },
+    // });
+    gsap.from("#sustainability", {
+      y: 500,
+      scrollTrigger: {
+        trigger: "#industry",
+        pin: "#wrapper",
+        start: "-550px",
+        end: "+=3",
+        // markers: true,
+        scrub: 1,
+        once: true,
+      },
+    });
+
+    gsap.to(".rotate", {
       rotation: 360,
       transformOrigin: "center",
       ease: "none",
@@ -49,39 +57,49 @@ const HomeLogo = () => {
   });
 
   return (
-    <div id="wrapper" className="relative h-[100rem] w-[50rem] mx-auto">
-      <div className="-translate-x-1/2 -translate-y-1/2">
-        <Image
-          width={750}
-          height={750}
-          src="/healthcare.svg"
-          alt=""
-          id="healthcare"
-          className="absolute top-[2rem] left-[25rem]"
-        />
-        {/* <div className="absolute top-[14%] left-[19%] ">
-          <p className="text-white text-[2rem] font-medium">Health care</p>{" "}
-          <button className="rounded bg-button text-white font-medium  text-[1.325rem] p-1">
-            Read more
-          </button>
-        </div> */}
-        <Image
-          width={750}
-          height={750}
-          src="/industry.svg"
-          alt=""
-          id="industry"
-          className="absolute top-[27.2rem] left-[23rem] "
-        />
+    <div id="wrapper" className="relative h-[75rem] w-[50rem] mx-auto">
+      <div className="">
+        <div>
+          <Image
+            width={750}
+            height={750}
+            src="/healthcare.svg"
+            alt=""
+            id="healthcare"
+            className=""
+          />
+          <div className="absolute top-[6rem] left-[4rem] flex flex-col">
+            <p className="text-white text-[2rem] font-medium">Health care</p>{" "}
+            <button className="rounded bg-button text-white font-medium  text-[1.325rem] p-1">
+              Read more
+            </button>
+          </div>
+        </div>
+        <div id="industry" className="absolute top-[25.2rem] -left-[2rem] ">
+          <Image width={750} height={750} src="/industry.svg" alt="" />
 
-        <Image
-          width={300}
-          height={300}
-          src="/sustainability.svg"
-          alt=""
-          id="sustainability"
-          className="rotate absolute top-[53rem] left-[50rem] "
-        />
+          <div className="absolute top-[8rem] left-[34rem] flex flex-col">
+            <p className="text-white text-[2rem] font-medium">Industry</p>{" "}
+            <button className="rounded bg-button text-white font-medium  text-[1.325rem] p-1">
+              Read more
+            </button>
+          </div>
+        </div>
+        <div id="sustainability" className="absolute top-[50rem] left-[25rem] ">
+          <Image
+            width={340}
+            height={340}
+            src="/sustainability.svg"
+            alt=""
+            className="rotate"
+          />
+          <div className="absolute top-[8rem] left-[5rem] text-black flex flex-col">
+            <p className=" text-[2rem] font-medium">Sustainabilty</p>{" "}
+            <button className="rounded bg-button font-medium  text-[1.325rem] p-1">
+              Read more
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
