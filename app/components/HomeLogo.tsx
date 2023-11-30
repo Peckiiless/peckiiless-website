@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import { useEffect } from "react";
 import { gsap } from "gsap";
@@ -6,6 +7,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const HomeLogo = () => {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
     gsap.from("#industry", {
       y: 600,
       scrollTrigger: {

@@ -117,7 +117,8 @@ canvas {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   width: 100%;
-  background: #dfe3e5;
+  color: white;
+  background: #141516;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -127,6 +128,7 @@ canvas {
   align-items: center;
   justify-content: center;
   overflow: hidden !important;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
 
 .spin {
