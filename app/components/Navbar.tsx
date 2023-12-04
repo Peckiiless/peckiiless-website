@@ -11,9 +11,9 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
 
   const links = [
     { path: "/healthcare", label: "Healthcare" },
-    { path: "/industry", label: "Industry" },
+    { path: "/breathelzer", label: "Breathelzer" },
+    { path: "/sensor", label: "Sensor" },
     { path: "/sustainability", label: "Sustainability" },
-    { path: "/product", label: "Product" },
     { path: "/about-us", label: "About Us" },
   ];
 

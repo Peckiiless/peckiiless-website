@@ -5,9 +5,9 @@ import { gsap } from "gsap";
 import { motion } from "framer-motion";
 
 const words = [
-  "Welcome to Peckiiless,",
+  "Welcome to Peckiiless",
   "where we breathe life into gas monitoring",
-  "and reveal the secrets of gases.",
+  "and reveal the secrets of gases",
 ];
 export const opacity = {
   initial: {
@@ -61,7 +61,7 @@ const PreLoader = () => {
       });
   }, []);
   return (
-    <div className="preloader">
+    <div className="preloader p-2 xs:p-10">
       <div className="texts-container">
         <div className="text-animation   text-center text-[5rem] font-bold">
           <motion.p variants={opacity} initial="initial" animate="enter">
