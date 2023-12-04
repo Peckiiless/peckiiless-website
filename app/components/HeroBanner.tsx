@@ -30,7 +30,7 @@ export default function Banner() {
         />
       </div>
       <p className="absolute top-[60%] left-[69%] -translate-x-1/2 -translate-y-1/2 w-[17rem] text-[1.75rem] font-medium">
-        A solution for people living with diabetes.
+        Revolutionizing Real Time Multi Gas Monitoring Solutions.
       </p>
     </section>
   );
