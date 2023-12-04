@@ -17,7 +17,7 @@ const HomeLogo = () => {
         trigger: "#healthcare",
         start: "center center",
         end: "+=300",
-        markers: true,
+        // markers: true,
         pin: "#wrapper",
         scrub: 1,
       },
@@ -29,7 +29,7 @@ const HomeLogo = () => {
           scrub: 1,
           start: "-250px",
           end: "+=2000",
-          markers: true,
+          // markers: true,
           pin: "#wrapper",
         },
       })

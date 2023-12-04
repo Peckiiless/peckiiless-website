@@ -46,6 +46,7 @@ module.exports = {
         productInfoBanner: "url('/blowing.png')",
         productInfoPattern: "url('/pattern-lady2.png')",
         patternLady: "url('/pattern-lady.png')",
+        shapePink: "url('/shape-pink.svg')",
         productPackage: "url('/package1.png')",
         footer: "url('/footer.png')",
       },

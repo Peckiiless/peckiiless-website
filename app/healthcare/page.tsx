@@ -3,6 +3,7 @@ import Pregnancy from "./Pregnancy";
 import ProductBanner from "./ProductBanner";
 import Navbar from "../components/Navbar";
 import BlowingLady from "./BlowingLady";
+import Reasons from "./Reasons";
 
 const HealthcarePage = () => {
   return (
@@ -12,6 +13,7 @@ const HealthcarePage = () => {
       <Pregnancy />
       <BlowingLady />
       <ProductBanner />
+      <Reasons />
     </>
   );
 };
