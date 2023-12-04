@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function SustainabilityBanner() {
   return (
-    <div className="px-20 mb-10 relative flex justify-center max-w-[90rem]">
+    <div className=" max-w-[90rem] mx-auto">
+      <div className="px-20 mb-10 relative flex justify-center">
       <div className="grid grid-cols-6">
         <Image
           src="/industry-banner.png"
@@ -10,7 +11,7 @@ export default function SustainabilityBanner() {
           height={640}
           alt="medicin with trolley"
           priority={true}
-          className="spin col-span-4 justify-self-end"
+          className="spin col-span-4 justify-self-center"
         />
 
         <Image
@@ -21,6 +22,7 @@ export default function SustainabilityBanner() {
           priority={true}
           className="spin-back self-end col-span-2 justify-self-start"
         />
+      </div>
       </div>
     </div>
   );
