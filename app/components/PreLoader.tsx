@@ -28,7 +28,7 @@ const PreLoader = () => {
       () => {
         setIndex(index + 1);
       },
-      index == 0 ? 2000 : 2000
+      index == 0 ? 3000 : 3000
     );
   }, [index]);
   useEffect(() => {
@@ -40,7 +40,7 @@ const PreLoader = () => {
     })
       .from(".texts-container .text-animation", {
         duration: 1.5,
-        delay: 6,
+        delay: 9,
         stagger: 0.4,
         ease: "Power3.easeOut",
       })
@@ -49,7 +49,8 @@ const PreLoader = () => {
         ".preloader",
         {
           duration: 1.5,
-          height: "0vh",
+          opacity: 0,
+          scale: .7,
           ease: "Power3.easeOut",
         },
         "-=2"
@@ -61,7 +62,7 @@ const PreLoader = () => {
       });
   }, []);
   return (
-    <div className="preloader p-2 xs:p-10">
+    <div className="preloader">
       <div className="texts-container">
         <div className="text-animation   text-center text-[5rem] font-bold">
           <motion.p variants={opacity} initial="initial" animate="enter">

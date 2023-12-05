@@ -1,6 +1,3 @@
-import Image from "next/image";
-import CustomButton from "../components/CustomButton";
-
 export default function Reasons() {
   return (
     <div>

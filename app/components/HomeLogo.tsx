@@ -27,17 +27,17 @@ const HomeLogo = () => {
         scrollTrigger: {
           trigger: "#industry",
           scrub: 1,
-          start: "-250px",
+          start: "-280px",
           end: "+=2000",
           // markers: true,
           pin: "#wrapper",
         },
       })
       .from("#sustainability", {
-        y: 300,
+        y: 600,
       })
       .to("#healthcare", { scale: 0.6, y: 340 }, "dddd")
-      .to("#industry", { scale: 0.6, y: 180, x: 17 }, "dddd")
+      .to("#industry", { scale: 0.6, y: 180, x: 21 }, "dddd")
       .to("#sustainability", { scale: 0.6, y: 110, x: -60 }, "dddd");
     gsap.to(".rotate", {
       rotation: 360,
@@ -54,8 +54,8 @@ const HomeLogo = () => {
         <div id="healthcare">
           <Image width={750} height={750} src="/healthcare.svg" alt="" />
           <div className="absolute top-[6rem] left-[4rem] flex flex-col">
-            <p className="text-white text-[2rem] font-medium">Health care</p>{" "}
-            <button className="rounded bg-button text-white font-medium  text-[1.325rem] p-1">
+            <p className="text-white text-[1.75rem] font-medium">Health care</p>{" "}
+            <button className="rounded bg-button text-white font-medium  text-[1rem] p-1">
               Read more
             </button>
           </div>
@@ -63,8 +63,8 @@ const HomeLogo = () => {
         <div id="industry" className="absolute top-[25.2rem] -left-[2rem] ">
           <Image width={750} height={750} src="/industry.svg" alt="" />
           <div className="absolute top-[8rem] left-[34rem] flex flex-col">
-            <p className="text-white text-[2rem] font-medium">Industry</p>{" "}
-            <button className="rounded bg-button text-white font-medium  text-[1.325rem] p-1">
+            <p className="text-white text-[1.75rem] font-medium">Industry</p>{" "}
+            <button className="rounded bg-button text-white font-medium  text-[1rem] p-1">
               Read more
             </button>
           </div>
@@ -77,9 +77,9 @@ const HomeLogo = () => {
             alt=""
             className="rotate"
           />
-          <div className="absolute top-[8rem] left-[5rem] text-black flex flex-col">
-            <p className=" text-[2rem] font-medium">Sustainabilty</p>{" "}
-            <button className="rounded bg-button font-medium  text-[1.325rem] p-1">
+          <div className="absolute top-[8rem] left-[6rem] text-black flex flex-col">
+            <p className="text-[1.75rem] font-medium">Sustainabilty</p>{" "}
+            <button className="rounded bg-button font-medium  text-[1rem] py-1">
               Read more
             </button>
           </div>

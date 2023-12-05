@@ -2,22 +2,22 @@ import Image from "next/image";
 
 export default function Monitor() {
   return (
-    <div className="h-[55rem] p-32">
-      <div className="grid grid-cols-12">
-        <div className="col-span-5">
-          <div className="md:w-[100%] relative">
+    <div className="h-[40rem] max-w-[70rem] mx-auto mt-20">
+      <div className="grid grid-cols-12 ">
+        <div className="col-span-5 ">
+          <div className="relative">
             <Image
               src="/mobile1.png"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
               alt="logo"
               priority={true}
               className="bottom absolute"
             />
             <Image
               src="/mobile2.png"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
               alt="logo"
               priority={true}
               className="top absolute"

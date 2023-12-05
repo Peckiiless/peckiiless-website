@@ -11,7 +11,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
 
   const links = [
     { path: "/healthcare", label: "Healthcare" },
-    { path: "/breathelzer", label: "Breathelzer" },
+    { path: "/breathalyzer", label: "Breathalyzer" },
     { path: "/sensor", label: "Sensor" },
     { path: "/sustainability", label: "Sustainability" },
     { path: "/about-us", label: "About Us" },
@@ -40,7 +40,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
             {links.map(({ path, label }) => (
               <Link key={path} href={path} passHref>
                 <div
-                  className={`   hover:text-white/90 no-underline ${
+                  className={`no-underline ${
                     currentRoute === path ? "font-bold" : "font-normal"
                   }`}
                 >

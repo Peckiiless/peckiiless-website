@@ -38,11 +38,7 @@ export default function ProductPackage() {
             </p>
           </div>
           <div className="col-span-7 p-10">
-            <p className="font-bold xs:text-[2rem] text-[1.375rem] text-primary-800 pb-10">
-              Peckiiless Breathalyzer offers portability, ease of use, and
-              multiple applications for a convenient and reliable breath
-              analysis experience.
-            </p>
+            
             <Image
               src="/package.svg"
               width={1000}
@@ -50,6 +46,11 @@ export default function ProductPackage() {
               alt="logo"
               priority={true}
             />
+            <p className="font-bold xs:text-[2rem] text-[1.375rem] text-primary-800 pt-10">
+              Peckiiless Breathalyzer offers portability, ease of use, and
+              multiple applications for a convenient and reliable breath
+              analysis experience.
+            </p>
           </div>
         </div>
       </div>
