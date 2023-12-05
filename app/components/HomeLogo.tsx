@@ -43,7 +43,7 @@ const HomeLogo = () => {
       rotation: 360,
       transformOrigin: "center",
       ease: "none",
-      duration: 6,
+      duration: 10,
       repeat: -1,
     });
   });
