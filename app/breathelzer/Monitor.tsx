@@ -1,52 +1,31 @@
-"use client";
 import Image from "next/image";
-import { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function Monitor() {
   return (
-    <div className="">
-      <div className="flex gap-2 items-center pl-20">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="54"
-          height="280"
-          viewBox="0 0 54 240"
-          fill="none"
-        >
-          <path
-            d="M26.9863 239.672C41.7139 239.672 53.653 227.732 53.653 213.005C53.653 198.277 41.7139 186.338 26.9863 186.338C12.2587 186.338 0.319662 198.277 0.319662 213.005C0.319662 227.732 12.2587 239.672 26.9863 239.672ZM31.9863 213.005V0.995453H21.9863V213.005H31.9863Z"
-            fill="#B2335E"
-          />
-        </svg>
-
-        <p className="font-medium text-[3.75rem] text-primary-800 w-[40rem] leading-[3.75rem]">
-          Gather information where ever you go
-        </p>
-      </div>
-      <div className="md:flex py-10 md:px-[20%] gap-5 h-[55rem]">
-        <div className="md:w-[100%] relative">
-          <Image
-            src="/mobile1.png"
-            width={400}
-            height={400}
-            alt="logo"
-            priority={true}
-            className="bottom absolute"
-          />
-          <Image
-            src="/mobile2.png"
-            width={400}
-            height={400}
-            alt="logo"
-            priority={true}
-            className="top absolute"
-          />
+    <div className="h-[55rem] p-32">
+      <div className="grid grid-cols-12">
+        <div className="col-span-5">
+          <div className="md:w-[100%] relative">
+            <Image
+              src="/mobile1.png"
+              width={400}
+              height={400}
+              alt="logo"
+              priority={true}
+              className="bottom absolute"
+            />
+            <Image
+              src="/mobile2.png"
+              width={400}
+              height={400}
+              alt="logo"
+              priority={true}
+              className="top absolute"
+            />
+          </div>
         </div>
-
-        <div className="flex flex-col gap-4  text-secondary-navy p-10">
-          <div className="mb-10 self-center ml-[-5px]">
+        <div className="col-span-7">
+          <div className="mb-10 flex justify-center">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -123,11 +102,11 @@ export default function Monitor() {
             </div>
           </div>
 
-          <p className=" text-[2.25rem]  font-medium">
+          <p className=" text-[2.875rem] text-primary-800  font-medium leading-[3rem]">
             Monitor your glucose levels directly in our mobile application.
           </p>
 
-          <p className="text-[1.375rem]">
+          <p className="text-[1.375rem] py-2">
             Connect your Peckiiless breather device to our our application and
             observe previous and current levels.
           </p>

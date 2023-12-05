@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar";
 const ProductInfoPage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar navColor="#19416C"/>
       <ProductInfoBanner />
       <ProductPackage />
       <Benefits />

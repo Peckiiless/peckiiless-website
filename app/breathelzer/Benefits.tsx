@@ -1,24 +1,9 @@
-import Image from "next/image";
-import Title from "../components/Title";
-
 const Benefits = () => {
   return (
     <>
-      <section className="p-24 mx-auto bg-primary-200 rounded-[3.125rem]">
-        <div className="grid sm:grid-cols-12 place-items-center gap-0">
-          <div className="col-span-8">
-            <p className="font-bold text-[3.75rem] text-primary-800 ">
-              Breathalyzer benefits.
-            </p>
-            <p className="text-[1.625rem] font-medium w-[70%] pt-2">
-              Testing and monitoring of these illnesses have gotten stuck in
-              deve-lopment for years upon years, it’s time to globalize an
-              easier option for monitoring your glucose testing in an easy,
-              effecient way.
-            </p>
-          </div>
-
-          <div className="col-span-4 grid grid-cols-4 gap-4">
+      <section className="mt-10 py-10  bg-primary-200 rounded-[3.125rem] mx-10">
+        <div className="max-w-[60rem] mx-auto">   
+          <div className="grid grid-cols-4 gap-6">
             <div className="flex flex-col items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

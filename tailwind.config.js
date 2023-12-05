@@ -17,7 +17,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        dm: ["DM Serif Display", "sans-serif"],
+        dm: ["Roboto Serif", "sans-serif"],
       },
       colors: {
         "black-100": "#2B2C35",
@@ -44,7 +44,7 @@ module.exports = {
         healthcare: "url('/adam.png')",
         productInfo: "url('/product.png')",
         productInfoBanner: "url('/blowing.png')",
-        productInfoPattern: "url('/pattern-lady2.png')",
+        productInfoPattern: "url('/pattern-lady2.svg')",
         patternLady: "url('/pattern-lady.png')",
         shapePink: "url('/shape-pink.svg')",
         productPackage: "url('/package1.png')",
