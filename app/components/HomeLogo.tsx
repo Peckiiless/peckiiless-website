@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 const HomeLogo = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -27,14 +28,14 @@ const HomeLogo = () => {
         scrollTrigger: {
           trigger: "#industry",
           scrub: 1,
-          start: "-280px",
+          start: "-300px",
           end: "+=2000",
           // markers: true,
           pin: "#wrapper",
         },
       })
       .from("#sustainability", {
-        y: 600,
+        y: 400,
       })
       .to("#healthcare", { scale: 0.6, y: 340 }, "dddd")
       .to("#industry", { scale: 0.6, y: 180, x: 21 }, "dddd")
@@ -54,19 +55,19 @@ const HomeLogo = () => {
         <div id="healthcare">
           <Image width={750} height={750} src="/healthcare.svg" alt="" />
           <div className="absolute top-[6rem] left-[4rem] flex flex-col">
-            <p className="text-white text-[1.75rem] font-medium">Health care</p>{" "}
-            <button className="rounded bg-button text-white font-medium  text-[1rem] p-1">
+            <p className="text-white text-[1.75rem] font-medium ">Health care</p>{" "}
+            <Link href="/healthcare" className="rounded bg-button text-white font-medium text-center text-[1rem] p-1">
               Read more
-            </button>
+            </Link>
           </div>
         </div>
         <div id="industry" className="absolute top-[25.2rem] -left-[2rem] ">
           <Image width={750} height={750} src="/industry.svg" alt="" />
           <div className="absolute top-[8rem] left-[34rem] flex flex-col">
             <p className="text-white text-[1.75rem] font-medium">Industry</p>{" "}
-            <button className="rounded bg-button text-white font-medium  text-[1rem] p-1">
+            <Link href="/sensor" className="rounded bg-button text-white font-medium text-center text-[1rem] p-1">
               Read more
-            </button>
+            </Link>
           </div>
         </div>
         <div id="sustainability" className="absolute top-[50rem] left-[25rem] ">
@@ -79,9 +80,9 @@ const HomeLogo = () => {
           />
           <div className="absolute top-[8rem] left-[6rem] text-black flex flex-col">
             <p className="text-[1.75rem] font-medium">Sustainabilty</p>{" "}
-            <button className="rounded bg-button font-medium  text-[1rem] py-1">
+            <Link href="/sustainability" className="rounded bg-button font-medium text-center text-[1rem] py-1">
               Read more
-            </button>
+            </Link>
           </div>
         </div>
       </div>
