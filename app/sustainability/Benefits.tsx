@@ -4,7 +4,7 @@ import BenefitsMobile from "./BenefitsMobile";
 const Benefits = () => {
   return (
     <div className="p-[2%]">    
-      <div className="rounded-[1.25rem] bg-grey100">
+      <div className="">
       <p className="text-center font-medium xs:text-[2rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[2.625rem] py-6 max-w-[75rem] mx-auto px-2">
         At Peckiiless, sustainability is the powerful gear that propels our
         technology towards a brighter future.
