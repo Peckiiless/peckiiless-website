@@ -8,7 +8,7 @@ import PreLoader from "./components/PreLoader";
 export default function Home() {
   return (
     <main>
-      <PreLoader />
+    <PreLoader />
       <MainPage />
       <Navbar />
       <HeroBanner />

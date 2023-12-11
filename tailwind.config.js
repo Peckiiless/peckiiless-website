@@ -27,6 +27,7 @@ module.exports = {
           800: "#AC3B61",
           700: "#B2335E",
           200: "#E5DCDC",
+          100: "#EFC0C5"
         },
         "secondary-navy": "#444F77",
         "secondary-orange": "#f79761",
