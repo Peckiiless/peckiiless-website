@@ -4,33 +4,18 @@ import React, { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { motion } from "framer-motion";
 
-const words = [
-  "Welcome to Peckiiless",
+
+const items = ["Welcome to Peckiiless",
   "where we breathe life into gas monitoring",
-  "and reveal the secrets of gases",
-];
-export const opacity = {
-  initial: {
-    opacity: 0,
-  },
-  enter: {
-    opacity: 0.75,
-    transition: { duration: 1, delay: 0.2 },
-  },
-};
+  "and reveal the secrets of gases",];
 
 const PreLoader = () => {
-  const [index, setIndex] = useState(0);
+  const itemVariants = {
+    initial: { opacity: 0 },
+    animate: { x: 0, opacity: 1 },
+  };
 
-  useEffect(() => {
-    if (index == words.length - 1) return;
-    setTimeout(
-      () => {
-        setIndex(index + 1);
-      },
-      index == 0 ? 3000 : 3000
-    );
-  }, [index]);
+ 
   useEffect(() => {
     const tl = gsap.timeline();
     tl.to(".texts-container", {
@@ -50,8 +35,6 @@ const PreLoader = () => {
         {
           duration: 1.5,
           opacity: 0,
-          scale: .7,
-          ease: "Power3.easeOut",
         },
         "-=2"
       )
@@ -64,10 +47,20 @@ const PreLoader = () => {
   return (
     <div className="preloader">
       <div className="texts-container">
-        <div className="text-animation   text-center text-[5rem] font-bold">
-          <motion.p variants={opacity} initial="initial" animate="enter">
-            {words[index]}
-          </motion.p>
+        <div className="text-animation text-center text-[5rem] font-bold ">
+
+          {items.map((item, i) => (
+            <motion.p
+            key={i}
+              variants={itemVariants}
+              initial="initial"
+              animate="animate"
+              transition={{ duration: 1, delay: i * 3 }}  
+              className={`${i===0 && "text-[#19416C]"}`}            
+            >
+              {item}
+            </motion.p>
+          ))}
         </div>
       </div>
     </div>
