@@ -13,7 +13,7 @@ export default function Reasons() {
       </div>
       <div className="rounded-[1.25rem] bg-primary-100 mx-4">
         <div className="xs:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.5rem] xs:p-10 max-w-[90rem] mx-auto">
-          <div className={`${!more ? "block" : "hidden"}`}>
+         
           <p className="">
             <span className="font-medium">1.Non-invasive Marvel:</span> Breath
             collection takes a gentle approach, offering a pain-free and
@@ -36,8 +36,8 @@ export default function Reasons() {
             making it seamlessly adaptable to diverse care contexts. Health
             insights, once a luxury, are now within reach for everyone.{" "}
           </p>
-          </div>
-          <p className={`py-2 ${more ? "block" : "hidden"}`}>
+         
+          <p className="py-2">
             <span className="font-medium">4.Acceptance by Design:</span> People
             embrace breath sampling because it respects their comfort. The
             process is user-friendly, ensuring that individuals of all ages and
@@ -64,7 +64,7 @@ export default function Reasons() {
             className="font-bold text-[1.75rem] cursor-pointer py-2"
             onClick={() => setMore(!more)}
           >
-            {more ? "Read previous" : "Read more"}
+            {more ? "Read less" : "Read more"}
           </p>
         </div>
       </div>

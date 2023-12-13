@@ -12,7 +12,7 @@ export default function Banner() {
       scrollTrigger: {
         trigger: "#section1",
         scrub: 2,
-        markers: true,
+        // markers: true,
         start: "top bottom",
         end: "+=500px",
       },
