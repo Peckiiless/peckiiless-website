@@ -8,10 +8,13 @@ import PreLoader from "./components/PreLoader";
 export default function Home() {
   return (
     <main>
-      {/* <PreLoader /> */}
+      <PreLoader />
       <MainPage />
-      <Navbar />
-      <HeroBanner />
+      <div id="section1">
+        <Navbar />
+        <HeroBanner />
+      </div>
+
       <div className="hidden md:block">
         <HomeLogo />
       </div>
