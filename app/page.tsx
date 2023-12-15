@@ -4,7 +4,7 @@ import PreLoader from "./components/PreLoader";
 export default function SplashPage() {
   return (
     <main>
-      {/* <PreLoader /> */}
+      <PreLoader />
       <MainPage />
     </main>
   );

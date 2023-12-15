@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import HeroBanner from "../components/HeroBanner";
 import HomeLogo from "../components/HomeLogo";
 import HomeLogoMobile from "../components/HomeLogoMobile";
@@ -14,6 +15,7 @@ export default function Home() {
       <div className="md:hidden">
         <HomeLogoMobile />
       </div>
+      <Footer />
     </div>
   );
 }

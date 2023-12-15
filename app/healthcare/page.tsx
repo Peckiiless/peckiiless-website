@@ -4,6 +4,7 @@ import ProductBanner from "./ProductBanner";
 import Navbar from "../components/Navbar";
 import BlowingLady from "./BlowingLady";
 import Reasons from "./Reasons";
+import Footer from "../components/Footer";
 
 const HealthcarePage = () => {
   return (
@@ -14,6 +15,7 @@ const HealthcarePage = () => {
       <BlowingLady />
       <ProductBanner />
       <Reasons />
+      <Footer />
     </>
   );
 };
