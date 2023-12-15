@@ -46,11 +46,12 @@ export default function Pregnancy() {
         </div>
         <div className="col-span-5 justify-self-center pr-3">
           <Image
-            src="/pregnant.svg"
+            src="/pregnant.png"
             width={460}
             height={460}
             alt="logo"
             priority={true}
+            quality={100}
           />
         </div>
       </div>

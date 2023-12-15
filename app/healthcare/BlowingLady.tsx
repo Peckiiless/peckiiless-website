@@ -10,11 +10,12 @@ export default function BlowingLady() {
             releasing air - it&#39;s setting free a powerhouse of potential?
           </p>
           <Image
-            src="/bubble-lady.svg"
+            src="/bubble-lady.png"
             width={800}
             height={800}
             alt="logo"
             priority={true}
+            quality={100}
           />
         </div>
         <div className="col-span-4 justify-self-center pr-3 pt-5">
