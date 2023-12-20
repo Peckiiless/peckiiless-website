@@ -5,9 +5,9 @@ import { gsap } from "gsap";
 import { motion } from "framer-motion";
 
 
-const items = ["Welcome to Peckiiless",
-  "where we breathe life into gas monitoring",
-  "and reveal the secrets of gases",];
+const items = ["Welcome to Peckiiless,",
+  "where we breathe life into gas monitoring and",
+  "reveal",];
 
 const PreLoader = () => {
   const itemVariants = {
@@ -47,7 +47,7 @@ const PreLoader = () => {
   return (
     <div className="preloader">
       <div className="texts-container">
-        <div className="text-animation text-center text-[5rem] font-bold ">
+        <div className="text-animation text-center font-bold ">
 
           {items.map((item, i) => (
             <motion.p
@@ -55,10 +55,10 @@ const PreLoader = () => {
               variants={itemVariants}
               initial="initial"
               animate="animate"
-              transition={{ duration: 1, delay: i * 3 }}  
-              className={`${i===0 && "text-[#19416C]"}`}            
+              transition={{ duration: 1, delay: i * 2 }}  
+              className={` ${i===0 ? "text-[#19416C] text-[4.25rem]" : "text-[2.375rem]"}`}            
             >
-              {item}
+              <span>{item}</span> <span className={`text-[#9A1750]  ${i===2 ?"inline-block" : "hidden"}`}>The secrets of gases.</span>
             </motion.p>
           ))}
         </div>

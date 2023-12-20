@@ -28,7 +28,7 @@ const HomeLogo = () => {
         scrollTrigger: {
           trigger: "#industry",
           scrub: 1,
-          start: "-300px",
+          start: "-310px",
           end: "+=2000",
           // markers: true,
           pin: "#wrapper",
@@ -37,9 +37,9 @@ const HomeLogo = () => {
       .from("#sustainability", {
         y: 400,
       })
-      .to("#healthcare", { scale: 0.6, y: 340 }, "dddd")
-      .to("#industry", { scale: 0.6, y: 180, x: 21 }, "dddd")
-      .to("#sustainability", { scale: 0.6, y: 110, x: -60 }, "dddd");
+      .to("#healthcare", { scale: 0.6, y: 290 }, "dddd")
+      .to("#industry", { scale: 0.6, y: 130, x: 20.6 }, "dddd")
+      .to("#sustainability", { scale: 0.6, y: 60, x: -60 }, "dddd");
     gsap.to(".rotate", {
       rotation: 360,
       transformOrigin: "center",
@@ -55,8 +55,13 @@ const HomeLogo = () => {
         <div id="healthcare">
           <Image width={750} height={750} src="/healthcare.svg" alt="" />
           <div className="absolute top-[6rem] left-[4rem] flex flex-col">
-            <p className="text-white text-[1.75rem] font-medium ">Health care</p>{" "}
-            <Link href="/healthcare" className="rounded bg-button text-white font-medium text-center text-[1rem] p-1">
+            <p className="text-white text-[1.75rem] font-medium ">
+              Health care
+            </p>{" "}
+            <Link
+              href="/healthcare"
+              className="rounded bg-button text-white font-medium text-center text-[1rem] p-1"
+            >
               Read more
             </Link>
           </div>
@@ -65,7 +70,10 @@ const HomeLogo = () => {
           <Image width={750} height={750} src="/industry.svg" alt="" />
           <div className="absolute top-[8rem] left-[34rem] flex flex-col">
             <p className="text-white text-[1.75rem] font-medium">Industry</p>{" "}
-            <Link href="/sensor" className="rounded bg-button text-white font-medium text-center text-[1rem] p-1">
+            <Link
+              href="/sensor"
+              className="rounded bg-button text-white font-medium text-center text-[1rem] p-1"
+            >
               Read more
             </Link>
           </div>
@@ -80,7 +88,10 @@ const HomeLogo = () => {
           />
           <div className="absolute top-[8rem] left-[6rem] text-black flex flex-col">
             <p className="text-[1.75rem] font-medium">Sustainabilty</p>{" "}
-            <Link href="/sustainability" className="rounded bg-button font-medium text-center text-[1rem] py-1">
+            <Link
+              href="/sustainability"
+              className="rounded bg-button font-medium text-center text-[1rem] py-1"
+            >
               Read more
             </Link>
           </div>
