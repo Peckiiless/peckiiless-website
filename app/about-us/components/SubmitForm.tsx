@@ -3,8 +3,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-import CustomButton from "@/app/components/CustomButton";
 import FadeIn from "@/app/components/FadeIn";
+import { toast } from "sonner";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -13,8 +13,8 @@ const formSchema = z.object({
   email: z.string().email({
     message: "Email must be in proper format",
   }),
-  content: z.string().min(2, {
-    message: "Content must be at least 2 characters.",
+  content: z.string().min(10, {
+    message: "Content must be at least 10 characters.",
   }),
 });
 
@@ -22,16 +22,14 @@ export default function SubmitForm() {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    reset,
+    formState: { errors, isSubmitting },
   } = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    // TODO: implement
-    console.log(values);
-
-    await fetch("/api/send", {
+    const data = await fetch("/api/send", {
       method: "POST",
       body: JSON.stringify({
         name: values.name,
@@ -39,6 +37,13 @@ export default function SubmitForm() {
         content: values.content,
       }),
     });
+    if (data.statusText === "OK") {
+      toast.success("Email sent!");
+      reset();
+      return;
+    } else {
+      toast.error("Something went wrong!");
+    }
   }
   return (
     <FadeIn className="max-w-[80rem] mx-auto mt-20 px-10">
@@ -114,17 +119,12 @@ export default function SubmitForm() {
             )}
           </div>
           <div className="">
-            {/* <div className="pt-5">
-              <CustomButton
-                title="Submit"
-                containerStyles="bg-primary-700 font-medium md:text-[1.625rem] xs:text-[1.25rem] text-[.75rem] text-white rounded-[2.5rem] py-3 px-24"
-              />
-            </div> */}
             <button
+              disabled={isSubmitting}
               type="submit"
-              className="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
+              className="inline-block bg-primary-700 font-medium md:text-[1.625rem] xs:text-[1.25rem] text-[.75rem] text-white rounded-[2.5rem] py-3 px-12 transition-colors hover:bg-primary-900 disabled:cursor-not-allowed disabled:opacity-50"
             >
-              Send Message
+              {isSubmitting ? "Submitting..." : "Submit"}
             </button>
           </div>
         </form>

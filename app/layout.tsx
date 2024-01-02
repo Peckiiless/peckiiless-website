@@ -1,6 +1,5 @@
 import "./globals.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Providers from "./components/Providers";
 
 export const metadata = {
   title: "Peckiiless AB",
@@ -16,9 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="dark:bg-slate-800">
-        {/* <Navbar /> */}
-        {children}
-        {/* <Footer /> */}
+        <Providers> {children}</Providers>
       </body>
     </html>
   );
