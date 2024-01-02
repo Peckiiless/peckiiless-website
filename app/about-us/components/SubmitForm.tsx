@@ -37,7 +37,7 @@ export default function SubmitForm() {
         content: values.content,
       }),
     });
-    if (data.statusText === "OK") {
+    if (data.status === 200) {
       toast.success("Email sent!");
       reset();
       return;
