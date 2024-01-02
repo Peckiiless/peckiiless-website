@@ -7,6 +7,7 @@ import Awards from "./components/Awards";
 import Supports from "./components/Supports";
 import Navbar from "../components/Navbar";
 import SubmitForm from "./components/SubmitForm";
+import Footer from "../components/Footer";
 
 export default function AboutUsPage() {
   return (
@@ -19,7 +20,8 @@ export default function AboutUsPage() {
       <Partners />
       <Awards />
       <Supports />
-      {/* <SubmitForm /> */}
+      <SubmitForm />
+      <Footer />
     </div>
   );
 }
