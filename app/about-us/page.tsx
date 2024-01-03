@@ -20,7 +20,6 @@ export default function AboutUsPage() {
       <Partners />
       <Awards />
       <Supports />
-      {/* <SubmitForm /> */}
       <Footer />
     </div>
   );

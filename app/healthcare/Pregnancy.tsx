@@ -44,11 +44,11 @@ export default function Pregnancy() {
             disruption.
           </p>
         </div>
-        <div className="col-span-5 justify-self-center pr-3">
+        <div className="col-span-5 justify-self-center pr-3 mt-20">
           <Image
             src="/pregnant.png"
-            width={460}
-            height={460}
+            width={450}
+            height={450}
             alt="logo"
             priority={true}
             quality={100}

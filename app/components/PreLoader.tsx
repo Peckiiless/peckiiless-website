@@ -4,18 +4,33 @@ import React, { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { motion } from "framer-motion";
 
-
-const items = ["Welcome to Peckiiless,",
-  "where we breathe life into gas monitoring and",
-  "reveal",];
+const words = [
+  "Welcome to Peckiiless,",
+  "where we breathe life into gas monitoring",
+  "and reveal the secrets of gases.",
+];
+export const opacity = {
+  initial: {
+    opacity: 0,
+  },
+  enter: {
+    opacity: 0.75,
+    transition: { duration: 1, delay: 0.2 },
+  },
+};
 
 const PreLoader = () => {
-  const itemVariants = {
-    initial: { opacity: 0 },
-    animate: { x: 0, opacity: 1 },
-  };
+  const [index, setIndex] = useState(0);
 
- 
+  useEffect(() => {
+    if (index == words.length - 1) return;
+    setTimeout(
+      () => {
+        setIndex(index + 1);
+      },
+      index == 0 ? 2000 : 2000
+    );
+  }, [index]);
   useEffect(() => {
     const tl = gsap.timeline();
     tl.to(".texts-container", {
@@ -25,7 +40,7 @@ const PreLoader = () => {
     })
       .from(".texts-container .text-animation", {
         duration: 1.5,
-        delay: 9,
+        delay: 6,
         stagger: 0.4,
         ease: "Power3.easeOut",
       })
@@ -35,6 +50,7 @@ const PreLoader = () => {
         {
           duration: 1.5,
           opacity: 0,
+          ease: "Power3.easeOut",
         },
         "-=2"
       )
@@ -47,20 +63,17 @@ const PreLoader = () => {
   return (
     <div className="preloader">
       <div className="texts-container">
-        <div className="text-animation text-center font-bold ">
-
-          {items.map((item, i) => (
-            <motion.p
-            key={i}
-              variants={itemVariants}
-              initial="initial"
-              animate="animate"
-              transition={{ duration: 1, delay: i * 2 }}  
-              className={` ${i===0 ? "text-[#19416C] text-[4.25rem]" : "text-[2.375rem]"}`}            
-            >
-              <span>{item}</span> <span className={`text-[#9A1750]  ${i===2 ?"inline-block" : "hidden"}`}>The secrets of gases.</span>
-            </motion.p>
-          ))}
+        <div className="text-animation text-[#19416C] text-center text-[5rem] font-bold">
+          <motion.p initial= {{
+    opacity: 0,
+  }}
+  transition= {{ duration: 1, ease: "easeOut" }}
+  animate= {{
+    opacity: 0.75,
+    transition: { duration: 1, delay: 0.2 },
+  }}>
+            {words[index]}
+          </motion.p>
         </div>
       </div>
     </div>

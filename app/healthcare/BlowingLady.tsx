@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function BlowingLady() {
   return (
     <section className="pt-10">
+      <p className="font-medium xs:text-[2rem] md:text-[2.25rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] py-10 sm:py-24 mt-20 max-w-[100rem] mx-auto px-12">
+        Have you ever considered that every exhale you take isn&#39;t just
+        releasing air - it&#39;s setting free a powerhouse of potential?
+      </p>
       <div className="grid grid-cols-12 ">
         <div className=" col-span-8 pb-24  md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
-          <p className="font-medium xs:text-[2rem] text-[1.375rem] text-primary-800 leading-[2.75rem] pb-2 lg:pb-10">
-            Have you ever considered that every exhale you take isn&#39;t just
-            releasing air - it&#39;s setting free a powerhouse of potential?
-          </p>
           <Image
-            src="/bubble-lady.png"
+            src="/bubble-lady.svg"
             width={800}
             height={800}
             alt="logo"
