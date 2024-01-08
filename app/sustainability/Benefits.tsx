@@ -1,7 +1,10 @@
+
 import BenefitsDesktop from "./BenefitsDesktop";
 import BenefitsMobile from "./BenefitsMobile";
+import BenefitsSensorDesktop from "./BenefitsSensorDesktop";
 
-const Benefits = () => {
+const Benefits = ({view}: {view: string}) => {
+  
   return (
     <div className="p-[2%]">    
       <div className="">
@@ -17,7 +20,7 @@ const Benefits = () => {
       </p>
       </div>
       <div className="hidden md:block">
-        <BenefitsDesktop />
+        {view === "breathalyzer" ? <BenefitsDesktop /> : <BenefitsSensorDesktop />} 
       </div>
       <div className="md:hidden">
         <BenefitsMobile />
