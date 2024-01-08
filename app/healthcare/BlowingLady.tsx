@@ -3,23 +3,22 @@ import Image from "next/image";
 export default function BlowingLady() {
   return (
     <section className="pt-10">
-      <p className="font-medium xs:text-[2rem] md:text-[2.25rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] py-10 sm:py-24 mt-20 max-w-[100rem] mx-auto px-12">
+      <p className="mb-20 py-4 text-center bg-primary-200 rounded-[3.125rem] mx-10 font-medium xs:text-[2rem] md:text-[2.25rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] sm:py-10  max-w-[100rem] px-20">
         Have you ever considered that every exhale you take isn&#39;t just
         releasing air - it&#39;s setting free a powerhouse of potential?
       </p>
-      <div className="grid grid-cols-12 ">
-        <div className=" col-span-8 pb-24  md:px-[4rem] px-1 self-center xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+      <div className="relative md:h-[50rem] xs:h-[34rem] h-[28rem] p-[2%]">
+        <div className="absolute bottom-0 pl-10">
           <Image
             src="/bubble-lady.svg"
-            width={800}
-            height={800}
+            width={1200}
+            height={1200}
             alt="logo"
             priority={true}
-            quality={100}
           />
         </div>
-        <div className="col-span-4 justify-self-center pr-3 pt-5">
-          <p className="hidden xs:block xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]">
+        <div className="sm:max-w-[70%] absolute bottom-24 left-[39%]">
+          <p className="md:text-[1.25rem] lg:text-[1.75rem] text-[1rem]">
             Exhalation breath is like a secret code, carrying over 1,000
             volatile organic compounds (VOCs) straight from the depths of your
             body&#39;s biochemical universe. These compounds are like tiny
