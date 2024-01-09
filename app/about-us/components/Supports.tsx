@@ -3,7 +3,7 @@ import FadeIn, { FadeInStagger } from "@/app/components/FadeIn";
 
 export default function Supports() {
   return (
-    <section className="bg-patternLady bg-no-repeat bg-cover">
+    <section className="bg-patternLady bg-no-repeat bg-cover mt-10">
       <FadeIn className="text-center font-bold text-[2.625rem] text-primary-800 pt-10">
         Get Support From
       </FadeIn>

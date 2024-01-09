@@ -20,8 +20,14 @@ const Footer = () => {
         </h1>
         <div className={`${currentRoute !== "/about-us" && "hidden"}`}>
           <SubmitForm />
+          
         </div>
-        <FadeInStagger faster className="flex justify-center px-4">
+        <FadeInStagger
+          faster
+          className={`${
+            currentRoute === "/about-us" && "hidden"
+          } flex justify-center px-4`}
+        >
           <div className="flex flex-wrap gap-6 xs:gap-12  mt-6 xs:mt-14">
             <FadeIn className="flex gap-2 xs:gap-4 items-center">
               <svg
