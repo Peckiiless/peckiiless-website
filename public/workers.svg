@@ -1,6 +1,6 @@
 <svg width="1440" height="791" viewBox="0 0 1440 791" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path d="M0 0H1440V685.589C1440 685.589 1180 448.413 858 685.589C536 922.764 0 685.589 0 685.589V0Z" fill="url(#paint0_linear_2767_158)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M1096.47 586.392C1030.28 591.562 955.487 615.883 876.25 674.247C850.411 693.279 822.938 708.691 794.376 721H424V100H1096.47V586.392Z" fill="url(#pattern0)"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M1096.47 586.392C1030.28 591.562 955.487 615.883 876.25 674.247C850.411 693.279 822.938 708.691 794.376 721H424V100H1096.47V586.392Z" fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_2767_158" transform="matrix(0.000261233 0 0 0.000282884 0 -0.000280577)"/>

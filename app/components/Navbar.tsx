@@ -18,17 +18,14 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
   ];
 
   return (
-    <header style={{color: navColor}}>
+    <header style={{ color: navColor }}>
       <nav className="flex justify-between items-center w-[92%] h-[4.6875rem] mx-auto text-[1.25rem]">
         <h1 className="grid place-content-center mb-2 md:mb-0 z-10">
           <Link
-            href="/"
+            href="/home"
             className=" no-underline hover:text-white/90 flex items-center gap-1"
           >
-            <Logo
-              fillLogo={navColor}
-              fillText={navColor}
-            />
+            <Logo fillLogo={navColor} fillText={navColor} />
           </Link>
         </h1>
         <div
@@ -65,8 +62,8 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
               fill="none"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M0 2V0H18V2H0ZM0 7H18V5H0V7ZM0 12H18V10H0V12Z"
                 fill="white"
               />
