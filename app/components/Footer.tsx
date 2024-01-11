@@ -20,7 +20,6 @@ const Footer = () => {
         </h1>
         <div className={`${currentRoute !== "/about-us" && "hidden"}`}>
           <SubmitForm />
-          
         </div>
         <FadeInStagger
           faster

@@ -11,60 +11,60 @@ export default function Supports() {
       <FadeInStagger className="section">
         <div className="flex gap-5 justify-between items-center">
           <FadeIn>
-          <Image
-            src="/images/Almi.png"
-            width={104}
-            height={37}
-            alt="logo"
-            priority={true}
-          />
+            <Image
+              src="/Almi.svg"
+              width={161}
+              height={57}
+              alt="logo"
+              priority={true}
+            />
           </FadeIn>
-<FadeIn>
-          <Image
-            src="/images/Euipo.png"
-            width={203}
-            height={57}
-            alt="logo"
-            priority={true}
-          />
+          <FadeIn>
+            <Image
+              src="/Euipo.svg"
+              width={310}
+              height={85}
+              alt="logo"
+              priority={true}
+            />
           </FadeIn>
-<FadeIn>
-          <Image
-            src="/images/Sten.png"
-            width={96}
-            height={63}
-            alt="logo"
-            priority={true}
-          />
+          <FadeIn>
+            <Image
+              src="/Sten.svg"
+              width={147}
+              height={94}
+              alt="logo"
+              priority={true}
+            />
           </FadeIn>
-<FadeIn>
-          <Image
-            src="/images/chalmers.png"
-            width={74}
-            height={93}
-            alt="logo"
-            priority={true}
-          />
+          <FadeIn>
+            <Image
+              src="/chalmers.svg"
+              width={112}
+              height={142}
+              alt="logo"
+              priority={true}
+            />
           </FadeIn>
         </div>
         <div className="flex gap-5 justify-around items-center mt-14">
           <FadeIn>
-          <Image
-            src="/images/sodertalje.png"
-            width={149}
-            height={71}
-            alt="logo"
-            priority={true}
-          />
+            <Image
+              src="/sscp.svg"
+              width={261}
+              height={91}
+              alt="logo"
+              priority={true}
+            />
           </FadeIn>
-<FadeIn>
-          <Image
-            src="/images/incubators.png"
-            width={224}
-            height={37}
-            alt="logo"
-            priority={true}
-          />
+          <FadeIn>
+            <Image
+              src="/incubators.svg"
+              width={191}
+              height={126}
+              alt="logo"
+              priority={true}
+            />
           </FadeIn>
         </div>
       </FadeInStagger>
