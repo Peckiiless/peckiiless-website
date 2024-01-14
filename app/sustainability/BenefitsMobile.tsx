@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BenefitsMobile = () => {
   return (
-    <div>
+    <div id="first-section">
       <div className="grid grid-cols-12 mt-8">
         <Image
           src="/images/green-s.png"

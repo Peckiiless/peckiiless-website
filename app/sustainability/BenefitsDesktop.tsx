@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BenefitsDesktop = () => {
   return (
-    <div><div className="grid grid-cols-12 mt-36">
+    <div id="first-section"><div className="grid grid-cols-12 mt-36">
         <div className="col-span-4 justify-self-center pr-1 flex flex-col justify-around gap-20">
           <Image
             src="/images/green-s.png"
