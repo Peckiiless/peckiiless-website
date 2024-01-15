@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function BlowingLady() {
   return (
-    <section className="pt-10">
-      <p className="mb-20 py-4 text-center bg-primary-200 rounded-[3.125rem] mx-10 font-medium xs:text-[2rem] md:text-[2.25rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] sm:py-10  max-w-[100rem] px-20">
+    <section className="pt-10 xl:my-10">
+      <p className=" text-center bg-primary-200 rounded-[1.25rem]  font-medium sm:text-[2rem] md:text-[2.25rem] text-[1.25rem] text-primary-800 mb-10 xs:mb-20 xs:py-4  sm:py-10  max-w-[90rem] mx-1 px-1 xs:mx-10 2xl:mx-auto sm:px-6 md:px-20 xl:px-40">
         Have you ever considered that every exhale you take isn&#39;t just
         releasing air - it&#39;s setting free a powerhouse of potential?
       </p>
       <div className="relative md:h-[50rem] xs:h-[34rem] h-[28rem] p-[2%]">
-        <div className="absolute bottom-0 pl-10">
+        <div className="sm:absolute bottom-0 pl-10">
           <Image
             src="/bubble-lady.svg"
             width={1200}
@@ -17,7 +17,7 @@ export default function BlowingLady() {
             priority={true}
           />
         </div>
-        <div className="sm:max-w-[70%] absolute bottom-24 left-[39%]">
+        <div className="sm:max-w-[70%] sm:absolute bottom-24 left-[39%]">
           <p className="md:text-[1.25rem] lg:text-[1.75rem] text-[1rem]">
             Exhalation breath is like a secret code, carrying over 1,000
             volatile organic compounds (VOCs) straight from the depths of your
@@ -28,22 +28,13 @@ export default function BlowingLady() {
             can be. It&#39;s not just a solution; it&#39;s a thrilling journey
             into the captivating world within you.
           </p>
+          <p className=" md:hidden font-medium text-[1rem] cursor-pointer py-1">
+            Read more
+          </p>
         </div>
       </div>
-
-      <p className="xs:hidden text-right px-5 xs:text-[1.25rem] md:text-[1.75rem] text-[1rem]  leading-[1.625rem] xs:leading-[2.625rem] py-20 xs:py-44 xs:px-10 max-w-[70rem] mx-auto">
-        Exhalation breath is like a secret code, carrying over 1,000 volatile
-        organic compounds (VOCs) straight from the depths of your body&#39;s
-        biochemical universe. These compounds are like tiny storytellers,
-        explaining the mysteries of your biochemistry. Now, enter Exhalation
-        Breath - a revolutionary approach that delves into this biochemical
-        adventure, all while keeping you as comfortable as can be. It&#39;s not
-        just a solution; it&#39;s a thrilling journey into the captivating world
-        within you.
-      </p>
-
       <div className="px-[2%]">
-        <p className="xs:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.625rem] px-1 py-14 xs:px-10 max-w-[95rem] mx-auto">
+        <p className="hidden sm:block xs:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.625rem] px-1 py-14 xs:px-10 max-w-[95rem] mx-auto">
           Breath sampling emerges as a non-invasive, pain-free, and universally
           applicable method. Unlike other sampling techniques, it requires no
           specialized facilities or extensive training, seamlessly fitting into

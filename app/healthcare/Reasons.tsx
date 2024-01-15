@@ -5,15 +5,14 @@ export default function Reasons() {
   const [more, setMore] = useState(false);
   return (
     <div>
-      <div className="px-[2%]">
-        <p className="text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] py-20 mt-20 max-w-[75rem] mx-auto px-2">
+      <div className="px-[1%]">
+        <p className="text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.25rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] py-10 xl:py-32  max-w-[75rem] mx-auto px-2">
           Why choose exhalation breath sampling? Let us unveil the compelling
           reasons that make it a game-changer in healthcare.
         </p>
       </div>
-      <div className="rounded-[1.25rem] bg-primary-100 mx-4">
-        <div className="xs:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.5rem] xs:p-10 max-w-[90rem] mx-auto">
-         
+      <div className="rounded-[.625rem] bg-primary-100 mx-2">
+        <div className="xs:text-[1.625rem] md:text-[1.75rem] text-[.9375rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.5rem] p-2 xs:p-10 max-w-[90rem] mx-auto">
           <p className="">
             <span className="font-medium">1.Non-invasive Marvel:</span> Breath
             collection takes a gentle approach, offering a pain-free and
@@ -29,15 +28,15 @@ export default function Reasons() {
             It&#39;s like having a health monitor that reads the entire story,
             not just a single chapter.{" "}
           </p>
-          <p className="">
+          <p>
             <span className="font-medium">3.Accessibility at Its Core:</span>{" "}
             Breath sampling is designed for universal application. Its
             simplicity requires no specialized facilities or extensive training,
             making it seamlessly adaptable to diverse care contexts. Health
             insights, once a luxury, are now within reach for everyone.{" "}
           </p>
-         
-          <p className="py-2">
+
+          <p className={`${more ? "block" : "hidden"} py-2`}>
             <span className="font-medium">4.Acceptance by Design:</span> People
             embrace breath sampling because it respects their comfort. The
             process is user-friendly, ensuring that individuals of all ages and
@@ -60,8 +59,9 @@ export default function Reasons() {
             background or location, health insights are now at your fingertips.{" "}
           </p>
 
+          
           <p
-            className="font-bold text-[1.75rem] cursor-pointer py-2"
+            className="font-medium text-[1rem] cursor-pointer py-1"
             onClick={() => setMore(!more)}
           >
             {more ? "Read less" : "Read more"}

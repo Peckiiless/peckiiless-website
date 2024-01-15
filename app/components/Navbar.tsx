@@ -30,7 +30,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
         </h1>
         <div
           className={`${
-            active && "top-[0rem] z-10"
+            active && "top-[0rem] z-10 graidient text-white"
           } duration-500 md:static absolute z-10  md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5`}
         >
           <ul className="flex md:flex-row flex-col items-center mx-auto  md:gap-[4vw] gap-8">
@@ -52,7 +52,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
           onClick={() => setActive(!active)}
         >
           {active ? (
-            <div className="text-3xl  cursor-pointer md:hidden z-10">x</div>
+            <div className="text-3xl text-white cursor-pointer md:hidden z-10">x</div>
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
                 fillRule="evenodd"
                 clipRule="evenodd"
                 d="M0 2V0H18V2H0ZM0 7H18V5H0V7ZM0 12H18V10H0V12Z"
-                fill="white"
+                fill={navColor}
               />
             </svg>
           )}
