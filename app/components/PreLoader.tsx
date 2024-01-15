@@ -5,9 +5,9 @@ import { gsap } from "gsap";
 import { motion } from "framer-motion";
 
 const words = [
-  "Welcome to Peckiiless,",
+  "Welcome to Peckiiless",
   "where we breathe life into gas monitoring",
-  "and reveal the secrets of gases.",
+  "and reveal the secrets of gases",
 ];
 export const opacity = {
   initial: {
@@ -28,7 +28,7 @@ const PreLoader = () => {
       () => {
         setIndex(index + 1);
       },
-      index == 0 ? 2000 : 2000
+      index === 0 ? 2000 : 3000
     );
   }, [index]);
   useEffect(() => {
@@ -40,7 +40,7 @@ const PreLoader = () => {
     })
       .from(".texts-container .text-animation", {
         duration: 1.5,
-        delay: 6,
+        delay: 8,
         stagger: 0.4,
         ease: "Power3.easeOut",
       })
@@ -63,15 +63,17 @@ const PreLoader = () => {
   return (
     <div className="preloader">
       <div className="texts-container">
-        <div className="text-animation text-[#19416C] text-center text-[5rem] font-bold">
-          <motion.p initial= {{
-    opacity: 0,
-  }}
-  transition= {{ duration: 1, ease: "easeOut" }}
-  animate= {{
-    opacity: 0.75,
-    transition: { duration: 1, delay: 0.2 },
-  }}>
+        <div className="text-animation text-nav text-center text-[3.2rem] md:text-[5rem] font-bold">
+          <motion.p
+            initial={{
+              opacity: 0,
+            }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            animate={{
+              opacity: 0.75,
+              transition: { duration: 1, delay: 0.2 },
+            }}
+          >
             {words[index]}
           </motion.p>
         </div>
