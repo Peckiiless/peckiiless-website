@@ -6,13 +6,13 @@ export default function Reasons() {
   return (
     <div>
       <div className="px-[1%]">
-        <p className="font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.25rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] py-10 xl:py-32  max-w-[85rem] mx-auto px-2">
+        <p className="text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.25rem] text-primary-800 leading-[1.5625rem] sm:leading-[2.75rem]  lg:leading-[3.5rem] py-10 xl:py-32  max-w-[85rem] mx-auto px-2">
           Why choose exhalation breath sampling? Let us unveil the compelling
           reasons that make it a game-changer in healthcare.
         </p>
       </div>
-      <div className="rounded-[1.625rem] bg-primary-100 mx-2 xs:mx-6">
-        <div className="xs:text-[1.25rem] md:text-[1.75rem] text-[.9375rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.5rem] p-2 xs:p-10 max-w-[90rem] mx-auto">
+      <div className="rounded-[.625rem] bg-primary-100 mx-2 xs:mx-6">
+        <div className="xs:text-[1.25rem] md:text-[1.75rem] text-[.9375rem]  leading-[1.25rem] sm:leading-[1.75rem]  lg:leading-[2.5rem] p-2 xs:p-10 max-w-[90rem] mx-auto">
           <p className="">
             <span className="font-medium">1.Non-invasive Marvel:</span> Breath
             collection takes a gentle approach, offering a pain-free and
@@ -60,7 +60,7 @@ export default function Reasons() {
           </p>
 
           <p
-            className="font-medium text-[.8755rem] sm:text-[1.25rem] lg:text-[1.75rem] cursor-pointer py-1"
+            className="font-medium text-[.9375rem] sm:text-[1.25rem] lg:text-[1.75rem] cursor-pointer py-1"
             onClick={() => setMore(!more)}
           >
             {more ? "Read less" : "Read more"}

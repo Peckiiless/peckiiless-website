@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function BlowingLady() {
   return (
     <section className="pt-10 xl:my-10">
-      <p className=" text-center bg-primary-200 rounded-[1.25rem]  font-medium sm:text-[2rem] md:text-[2.25rem] text-[1.25rem] text-primary-800 mb-10 xs:mb-20 xs:py-4  sm:py-10  max-w-[90rem] mx-1 px-1 xs:mx-10 2xl:mx-auto sm:px-6 md:px-20 xl:px-40">
+      <p className=" text-center bg-primary-200 rounded-[.625rem]  font-medium sm:text-[2rem] md:text-[2.25rem] text-[1.25rem] leading-[1.5rem] sm:leading-[2.5rem]  lg:leading-[3.5rem] text-primary-800 mb-10 xs:mb-20 p-3  sm:py-10  max-w-[90rem] mx-3 xs:mx-10 2xl:mx-auto sm:px-6 md:px-20 xl:px-40">
         Have you ever considered that every exhale you take isn&#39;t just
         releasing air - it&#39;s setting free a powerhouse of potential?
       </p>
-      <div className="relative md:h-[50rem] xs:h-[34rem] h-[28rem] md:p-[2%]">
+      <div className="relative lg:h-[50rem] sm:h-[34rem]  md:p-[2%]">
         <div className="sm:absolute bottom-0 pl-1 md:pl-6 max-w-[70rem]">
           <Image
             src="/bubble-lady.svg"
@@ -17,8 +17,8 @@ export default function BlowingLady() {
             priority={true}
           />
         </div>
-        <div className="sm:max-w-[70%] sm:absolute sm:bottom-0 md:bottom-12 left-[40%]">
-          <p className="sm:text-[1.1875rem] lg:text-[1.75rem] text-[1rem] p-2">
+        <div className="sm:max-w-[70%] sm:absolute sm:bottom-0 md:bottom-12 left-[40%] p-3">
+          <p className="sm:text-[1.1875rem] lg:text-[1.75rem] text-[.9375rem] leading-[1.375rem] sm:leading-[1.625rem]  lg:leading-[2.625rem] ">
             Exhalation breath is like a secret code, carrying over 1,000
             volatile organic compounds (VOCs) straight from the depths of your
             body&#39;s biochemical universe. These compounds are like tiny
@@ -28,13 +28,13 @@ export default function BlowingLady() {
             can be. It&#39;s not just a solution; it&#39;s a thrilling journey
             into the captivating world within you.
           </p>
-          <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1">
+          <p className="sm:hidden font-medium text-[.9375rem] cursor-pointer py-1">
             Read more
           </p>
         </div>
       </div>
       <div className="px-[2%]">
-        <p className="hidden sm:block sm:text-[1.25rem] lg:text-[1.75rem] text-[1rem]  px-1 py-14 xs:px-1 max-w-[95rem] mx-auto">
+        <p className="hidden sm:block sm:text-[1.25rem] lg:text-[1.75rem] text-[.9375rem] leading-[1.375rem] sm:leading-[1.875rem]  lg:leading-[2.6875rem]  px-1 py-14 xs:px-1 max-w-[95rem] mx-auto">
           Breath sampling emerges as a non-invasive, pain-free, and universally
           applicable method. Unlike other sampling techniques, it requires no
           specialized facilities or extensive training, seamlessly fitting into
