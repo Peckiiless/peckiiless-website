@@ -1,11 +1,11 @@
 import { MainPage } from "./components/MainPage";
-import PreLoader from "./components/PreLoader";
+import Home from "./home/page";
 
 export default function SplashPage() {
   return (
     <main>
-      <PreLoader />
       <MainPage />
+      <Home />
     </main>
   );
 }

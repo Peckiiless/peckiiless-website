@@ -6,9 +6,9 @@ import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
-    <div>    
-        <Navbar />
-        <HeroBanner />    
+    <div>
+      {/* <Navbar navColor="#19416C" /> */}
+      <HeroBanner />
       <div className="hidden md:block">
         <HomeLogo />
       </div>

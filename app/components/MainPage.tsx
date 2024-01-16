@@ -14,7 +14,6 @@ export const MainPage = () => {
           quality={100}
         />
       </div>
-      <Link href="/home" className="scroll-down"></Link>
     </div>
   );
 };
