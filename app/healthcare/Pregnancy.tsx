@@ -4,7 +4,7 @@ export default function Pregnancy() {
   return (
     <section className="mx-auto max-w-[100rem] sm:mt-20">
       <div className="">
-        <p className="font-medium sm:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] sm:leading-[2.5rem]  lg:leading-[2.625rem]  px-2 py-8 md:px-8 max-w-[85rem] mx-auto">
+        <p className="font-medium sm:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] sm:leading-[2.5rem]  lg:leading-[2.625rem]  px-2 py-8 sm:py-14 md:px-8 max-w-[85rem] mx-auto">
           In the world of health monitoring, current tools have long leaned on
           blood tests. These tests, however, come with a set of challenges -they
           take time, can be painful, require special facilities or training, and
@@ -16,8 +16,8 @@ export default function Pregnancy() {
         </p>
       </div>
       <div className="grid grid-cols-12 ">
-        <div className="col-span-8  sm:col-span-7 lg:col-span-7 xl:col-span-8 2xl:col-span-7 text-right xs:pt-16  md:px-[3rem] px-3 sm:pr-4 self-center leading-[1.25rem] sm:leading-[1.625rem]  lg:leading-[2.625rem] text-[1rem] xs:text-[1.15rem] sm:text-[1.25rem] lg:text-[1.45rem] xl:text-[1.75rem] 2xl:text-[1.75rem]">
-          <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem]  xs:pb-8 xl:pb-4">
+        <div className="col-span-8  sm:col-span-7 lg:col-span-7 xl:col-span-8 2xl:col-span-7 text-right sm:pt-2 px-3 sm:pr-1 self-center leading-[1.25rem] sm:leading-[1.625rem]  lg:leading-[2.625rem] text-[1rem] xs:text-[1.15rem] sm:text-[1.25rem] lg:text-[1.45rem] xl:text-[1.75rem] 2xl:text-[1.75rem]">
+          <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] ">
             Living with Diabetes
           </p>
           <p className="pb-1 xs:pb-5 md:pb-10">
@@ -47,7 +47,7 @@ export default function Pregnancy() {
             Read more
           </p>
         </div>
-        <div className="w-[80%] sm:w-[99%] relative col-span-4 sm:col-span-5 lg:col-span-5 xl:col-span-4 2xl:col-span-5 justify-self-center pr-3 mt-1 sm:mt-28">
+        <div className="w-[80%] sm:w-full relative col-span-4 sm:col-span-5 lg:col-span-5 xl:col-span-4 2xl:col-span-5 justify-self-center pr-3 mt-1 sm:mt-27">
           <Image
             src="/pregnant.png"
             layout="fill"

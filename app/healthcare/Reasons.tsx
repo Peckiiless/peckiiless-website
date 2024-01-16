@@ -6,7 +6,7 @@ export default function Reasons() {
   return (
     <div>
       <div className="px-[1%]">
-        <p className="text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.25rem] text-primary-800 leading-[1.5625rem] sm:leading-[2.75rem]  lg:leading-[3.5rem] py-10 xl:py-32  max-w-[85rem] mx-auto px-2">
+        <p className="text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.25rem] text-primary-800 leading-[1.5625rem] sm:leading-[2.75rem]  lg:leading-[3.5rem] py-14 sm:py-24 xl:py-32  max-w-[85rem] mx-auto px-2">
           Why choose exhalation breath sampling? Let us unveil the compelling
           reasons that make it a game-changer in healthcare.
         </p>
@@ -28,7 +28,7 @@ export default function Reasons() {
             It&#39;s like having a health monitor that reads the entire story,
             not just a single chapter.{" "}
           </p>
-          <p className={`${more ? "block" : "hidden md:block"}`}>
+          <p className={`${more ? "block" : "hidden sm:block"}`}>
             <span className="font-medium">3.Accessibility at Its Core:</span>{" "}
             Breath sampling is designed for universal application. Its
             simplicity requires no specialized facilities or extensive training,

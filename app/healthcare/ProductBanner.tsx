@@ -10,9 +10,9 @@ export default function ProductBanner() {
           delivering non-invasive comfort to everyone worldwide
         </p>
       </div>
-      <div className="grid grid-cols-12 xl:gap-4 text-right pt-5 leading-[1.375rem] sm:leading-[1.875rem]  lg:leading-[2.625rem]">
+      <div className="grid grid-cols-12 sm:gap-4 text-right pt-5 leading-[1.375rem] sm:leading-[1.875rem]  lg:leading-[2.625rem]">
         <div className="col-span-4 xs:col-span-5 ">
-          <p className="font-bold xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 pb-2 xs:pb-10">
+          <p className="font-bold xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 pb-5 lg:pb-10">
             Breathalyzer
           </p>
           <div>
@@ -27,7 +27,7 @@ export default function ProductBanner() {
             </p>
           </div>
 
-          <p className="hidden sm:block xs:text-[1.25rem] md:text-[1.75rem] text-[.875rem] xl:pl-[20%]">
+          <p className="hidden sm:block xs:text-[1.25rem] md:text-[1.75rem] text-[.875rem] sm:pl-[17%]">
             Empower your well-being with our state of-the-art breathalyzer -
             where every exhale reveals a roadmap to a healthier, more vibrant
             life. Click below to discover more about how it works and seamlessly
