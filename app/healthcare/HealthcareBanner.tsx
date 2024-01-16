@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HealthcareBanner() {
   return (
-    <div className="h-[39vw] md:h-[45vw] lg:h-[50vw]">
+    <div className="h-[39vw] md:h-[45vw] 2xl:h-[47vw]">
       <Image
         src="/adam.png"
         alt="Image Alt Text"

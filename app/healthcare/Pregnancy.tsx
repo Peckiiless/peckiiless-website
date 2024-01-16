@@ -17,7 +17,7 @@ export default function Pregnancy() {
       </div>
       <div className="grid grid-cols-12 ">
         <div className="col-span-8  sm:col-span-7 lg:col-span-7 xl:col-span-8 2xl:col-span-7 text-right sm:pt-2 px-3 sm:pr-1 self-center leading-[1.25rem] sm:leading-[1.625rem]  lg:leading-[2.625rem] text-[1rem] xs:text-[1.15rem] sm:text-[1.25rem] lg:text-[1.45rem] xl:text-[1.75rem] 2xl:text-[1.75rem]">
-          <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] ">
+          <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem] sm:pb-2">
             Living with Diabetes
           </p>
           <p className="pb-1 xs:pb-5 md:pb-10">
