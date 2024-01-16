@@ -1,4 +1,3 @@
-import Title from "../components/Title";
 import Image from "next/image";
 import CustomButton from "../components/CustomButton";
 
