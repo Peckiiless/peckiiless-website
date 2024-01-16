@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Pregnancy() {
   return (
-    <section className="mx-auto max-w-[100rem] sm:mt-10">
-      <div className="px-1">
-        <p className="text-center font-medium xs:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.625rem]  px-1 py-8 xs:px-8 max-w-[85rem] mx-auto">
+    <section className="mx-auto max-w-[100rem] sm:mt-20">
+      <div className="">
+        <p className="font-medium sm:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.625rem]  px-2 py-8 md:px-8 max-w-[85rem] mx-auto">
           In the world of health monitoring, current tools have long leaned on
           blood tests. These tests, however, come with a set of challenges -they
           take time, can be painful, require special facilities or training, and
@@ -16,8 +16,8 @@ export default function Pregnancy() {
         </p>
       </div>
       <div className="grid grid-cols-12 ">
-        <div className="col-span-8 md:col-span-7 lg:col-span-7 xl:col-span-8 2xl:col-span-7 text-right xs:pt-16  md:px-[3rem] px-1 self-center xs:text-[1.15rem] sm:text-[1.35rem] md:text-[1.20rem] lg:text-[1.45rem] xl:text-[1.75rem] 2xl:text-[1.75rem] text-[1rem]">
-          <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem]  xs:pb-8 xl:pb-10">
+        <div className="col-span-8  sm:col-span-7 lg:col-span-7 xl:col-span-8 2xl:col-span-7 text-right xs:pt-16  md:px-[3rem] px-1 sm:pr-4 self-center  text-[1rem] xs:text-[1.15rem] sm:text-[1.25rem] lg:text-[1.45rem] xl:text-[1.75rem] 2xl:text-[1.75rem]">
+          <p className="font-medium xs:text-[2rem] md:text-[2.875rem] text-[1.375rem] text-primary-800 leading-[3.75rem]  xs:pb-8 xl:pb-4">
             Living with Diabetes
           </p>
           <p className="pb-1 xs:pb-5 md:pb-10">
@@ -34,7 +34,7 @@ export default function Pregnancy() {
             optimization of personal treatment and the prevention of potential
             complications.
           </p>
-          <p className="hidden md:block">
+          <p className="hidden sm:block">
             Discovering a new era in health monitoring that goes beyond
             inconvenience is crucial. Saying goodbye to constant pricking and
             hello to a seamless, accessible approach empowers everyone to take
@@ -43,13 +43,12 @@ export default function Pregnancy() {
             monitoring becomes a part of everybody&#39;s lifestyle, not a
             disruption.
           </p>
-          <p className=" md:hidden font-medium text-[1rem] cursor-pointer py-1">
-             Read more
+          <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1">
+            Read more
           </p>
         </div>
         <div
-          style={{ width: "90%", height: "90%", position: "relative" }}
-          className="col-span-4 md:col-span-5 lg:col-span-5 xl:col-span-4 2xl:col-span-5 justify-self-center pr-3 mt-6 xl:mt-24"
+          className="w-[90%] sm:w-[99%] relative col-span-4 sm:col-span-5 lg:col-span-5 xl:col-span-4 2xl:col-span-5 justify-self-center pr-3 mt-6 sm:mt-28"
         >
           <Image
             src="/pregnant.png"

@@ -7,8 +7,8 @@ export default function BlowingLady() {
         Have you ever considered that every exhale you take isn&#39;t just
         releasing air - it&#39;s setting free a powerhouse of potential?
       </p>
-      <div className="relative md:h-[50rem] xs:h-[34rem] h-[28rem] p-[2%]">
-        <div className="sm:absolute bottom-0 pl-10">
+      <div className="relative md:h-[50rem] xs:h-[34rem] h-[28rem] md:p-[2%]">
+        <div className="sm:absolute bottom-0 pl-1 md:pl-6 max-w-[70rem]">
           <Image
             src="/bubble-lady.svg"
             width={1200}
@@ -17,8 +17,8 @@ export default function BlowingLady() {
             priority={true}
           />
         </div>
-        <div className="sm:max-w-[70%] sm:absolute bottom-24 left-[39%]">
-          <p className="md:text-[1.25rem] lg:text-[1.75rem] text-[1rem]">
+        <div className="sm:max-w-[70%] sm:absolute sm:bottom-0 md:bottom-12 left-[40%]">
+          <p className="sm:text-[1.1875rem] lg:text-[1.75rem] text-[1rem] p-2">
             Exhalation breath is like a secret code, carrying over 1,000
             volatile organic compounds (VOCs) straight from the depths of your
             body&#39;s biochemical universe. These compounds are like tiny
@@ -28,13 +28,13 @@ export default function BlowingLady() {
             can be. It&#39;s not just a solution; it&#39;s a thrilling journey
             into the captivating world within you.
           </p>
-          <p className=" md:hidden font-medium text-[1rem] cursor-pointer py-1">
+          <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1">
             Read more
           </p>
         </div>
       </div>
       <div className="px-[2%]">
-        <p className="hidden sm:block xs:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.625rem] px-1 py-14 xs:px-10 max-w-[95rem] mx-auto">
+        <p className="hidden sm:block sm:text-[1.25rem] lg:text-[1.75rem] text-[1rem]  px-1 py-14 xs:px-1 max-w-[95rem] mx-auto">
           Breath sampling emerges as a non-invasive, pain-free, and universally
           applicable method. Unlike other sampling techniques, it requires no
           specialized facilities or extensive training, seamlessly fitting into

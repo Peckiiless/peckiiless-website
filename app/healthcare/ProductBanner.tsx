@@ -5,7 +5,7 @@ export default function ProductBanner() {
   return (
     <div>
       <div className="px-[2%]">
-        <p className="text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] py-8 sm:pb-24 mt-20 max-w-[75rem] mx-auto px-2">
+        <p className="text-center font-medium xs:text-[2rem] md:text-[2.625rem] text-[1.375rem] text-primary-800 leading-[1.875rem] xs:leading-[3.5rem] py-8 sm:pb-24 mt-20 pt-20 sm:pt-0 max-w-[75rem] mx-auto px-2">
           At Peckiiless, we unlock the potential of Exhalation Breath,
           delivering non-invasive comfort to everyone worldwide
         </p>
