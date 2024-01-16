@@ -59,9 +59,8 @@ export default function Reasons() {
             background or location, health insights are now at your fingertips.{" "}
           </p>
 
-          
           <p
-            className="font-medium text-[1.75rem] cursor-pointer py-1"
+            className="font-medium text-[.8755rem] sm:text-[1.25rem] lg:text-[1.75rem] cursor-pointer py-1"
             onClick={() => setMore(!more)}
           >
             {more ? "Read less" : "Read more"}
