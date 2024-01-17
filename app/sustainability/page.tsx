@@ -8,7 +8,7 @@ import SustainabilityBanner from "./SustainabilityBanner";
 import Footer from "../components/Footer";
 
 const SustainabilityPage = () => {
-  const [view, setView] = useState("");
+  const [view, setView] = useState("breathalyzer");
   return (
     <div>
       <Navbar navColor="#19416C"/>
