@@ -1,5 +1,5 @@
-import { MainPage } from "./components/MainPage";
-import Home from "./home/page";
+import { MainPage } from "./home/MainPage";
+import Home from "./home/Home";
 
 export default function SplashPage() {
   return (

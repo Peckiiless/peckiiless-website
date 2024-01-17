@@ -12,7 +12,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
   const links = [
     { path: "/healthcare", label: "Healthcare" },
     { path: "/breathalyzer", label: "Breathalyzer" },
-    { path: "/sensor", label: "Sensor" },
+    { path: "/sensor", label: "Gas Sensor" },
     { path: "/sustainability", label: "Sustainability" },
     { path: "/about-us", label: "About Us" },
   ];
@@ -22,7 +22,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
       <nav className="flex justify-between items-center w-[92%] h-[4.6875rem] mx-auto text-[1.25rem]">
         <h1 className="grid place-content-center mb-2 md:mb-0 z-10">
           <Link
-            href="/home"
+            href="/"
             className=" no-underline hover:text-white/90 flex items-center gap-1"
           >
             <Logo fillLogo={navColor} fillText={navColor} />

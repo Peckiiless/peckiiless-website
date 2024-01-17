@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
-import HeroBanner from "../components/HeroBanner";
-import HomeLogo from "../components/HomeLogo";
-import HomeLogoMobile from "../components/HomeLogoMobile";
+import HeroBanner from "./HeroBanner";
+import HomeLogo from "./HomeLogo";
+import HomeLogoMobile from "./HomeLogoMobile";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
