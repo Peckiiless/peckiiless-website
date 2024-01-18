@@ -7,7 +7,7 @@ type Props = {
 
 export const Title1 = ({ title }: { title: string }) => {
   return (
-    <p className="text-center font-medium leading-[1.875rem] sm:leading-[2.75rem] lg:leading-[2.975] sm:text-[2rem] lg:text-[2.875rem] text-[1.25rem] text-primary-700">
+    <p className="text-center font-medium leading-[1.875rem] sm:leading-[2.75rem] lg:leading-[3.875rem] sm:text-[2rem] lg:text-[2.875rem] text-[1.25rem] text-primary-700">
       {title}
     </p>
   );
@@ -24,7 +24,7 @@ export const Title2 = ({ title }: { title: string }) => {
 export const Text1 = ({children} : Props) => {
   return (
     <p
-      className="text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] lg:text-[1.75rem] lg:leading-[2.5rem]"
+      className="text-[.9375rem] leading-[1.3125rem] md:text-[1.25rem] sm:leading-[1.75rem] lg:text-[1.75rem] lg:leading-[2.5rem]"
     >
       {children}
     </p>

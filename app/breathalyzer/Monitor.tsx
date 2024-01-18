@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Monitor() {
   return (
-    <div className="h-[40rem] max-w-[70rem] mx-auto mt-20">
+    <div className="h-[24rem] sm:h-[34rem] md:h-[40rem] max-w-[70rem] mx-auto mt-20">
       <div className="grid grid-cols-12 ">
         <div className="col-span-5 ">
           <div className="relative">
