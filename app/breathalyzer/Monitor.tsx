@@ -102,11 +102,11 @@ export default function Monitor() {
             </div>
           </div>
 
-          <p className=" text-[2.875rem] text-primary-800  font-medium leading-[3rem]">
+          <p className="text-[1.125rem] sm:text-[2rem] md:text-[2.875rem]  text-primary-800  font-medium ">
             Monitor your glucose levels directly in our mobile application.
           </p>
 
-          <p className="text-[1.375rem] py-2">
+          <p className="text-[.9375rem] sm:text-[1.25rem] md:text-[1.75rem] py-2">
             Connect your Peckiiless breather device to our our application and
             observe previous and current levels.
           </p>
@@ -229,7 +229,7 @@ export default function Monitor() {
                 </filter>
               </defs>
             </svg>
-            <div className="flex flex-col justify-center text-[1.375rem]">
+            <div className="flex flex-col justify-center text-[1.0625rem] sm:text-[1.375rem] md:text-[1.875rem]">
               <p>Available on</p>
               <p>App Store & Google Play</p>
             </div>

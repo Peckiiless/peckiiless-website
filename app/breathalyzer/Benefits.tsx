@@ -1,7 +1,7 @@
 const Benefits = () => {
   return (
     <>
-      <section className="max-w-[90rem] mx-auto grid items-center grid-cols-12 gap-6 sm:gap-3 xl:gap-10 mt-10 py-10 bg-primary-200 rounded-[3.125rem] mx-2 px-2">
+      <section className="max-w-[90rem] xl:mx-auto grid items-center grid-cols-12 gap-6 sm:gap-3 xl:gap-10 mt-10 py-10 bg-primary-200 rounded-[3.125rem] mx-2 px-2">
         <p className="col-span-4 sm:col-span-5 font-medium text-primary-700 xs:text-[1rem] sm:text-[1.5rem] md:text-[2rem] text-[.75rem]">
           Peckiiless Breathalyzer offers portability, ease of use, and multiple
           applications for a convenient and reliable breath analysis experience.
