@@ -3,21 +3,22 @@ import Image from "next/image";
 export default function ProductInfoBanner() {
   return (
     <div className="h-[39vw] md:h-[45vw] lg:h-[50vw] ">
-       <div className="absolute top-40 z-10 ">
-           <p className="font-bold font-dm text-[3.3125rem] text-primary-800  uppercase leading-[3.25rem] ml-10 pb-5">
-             Don&apos;t prick
-           </p>
-           <p className="font-bold font-dm text-[3.75rem] text-primary-800  uppercase leading-[3.25rem] ml-20">
-             just exhale
-           </p>           
-         </div>
+      <div
+        className="absolute top-20 sm:top-28 md:top-40 z-10 text-[1.2rem] xs:text-[1.5rem] sm:text-[2rem] md:text-[2.65rem] 2xl:text-[3.125rem] uppercase md:leading-[3.25rem] leading-[1.75rem]
+text-primary-800 "
+      >
+        <p className="font-bold font-dm ml-1 xs:ml-[5] sm:ml-10 md:ml-10 pb-1 sm:pb-5">
+          Don&apos;t prick
+        </p>
+        <p className="font-bold font-dm ml-2 xs:ml-10 sm:ml-12 md:ml-20">just exhale</p>
+      </div>
       <Image
         src="/pattern-lady2.svg"
         alt="Image Alt Text"
         width={0}
         height={0}
         sizes="100vw"
-        className="w-full absolute -top-20"
+        className="w-full absolute -z-10 xl:-top-[10%] top-0"
         priority={true}
       />
     </div>
