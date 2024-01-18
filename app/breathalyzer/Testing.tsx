@@ -1,7 +1,6 @@
 import Image from "next/image";
 import CustomButton from "../components/CustomButton";
-import Text1 from "../components/Text1";
-import { Title1 } from "../components/Title";
+import { Title1,Text1 } from "../components/Text";
 
 const Testing = () => {
   return (

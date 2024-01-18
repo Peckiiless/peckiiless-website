@@ -1,19 +1,22 @@
 import Image from "next/image";
+import { Text2 } from "../components/Text";
 
 export default function Pregnancy() {
   return (
     <section className="mx-auto max-w-[100rem] sm:mt-20">
       <div className="">
-        <p className="font-medium sm:text-[1.625rem] xl:text-[1.75rem] text-[1rem]  leading-[1.5rem] sm:leading-[2.5rem]  lg:leading-[2.625rem]  px-2 py-8 sm:py-14 md:px-8 max-w-[85rem] mx-auto">
-          In the world of health monitoring, current tools have long leaned on
-          blood tests. These tests, however, come with a set of challenges -they
-          take time, can be painful, require special facilities or training, and
-          sometimes cause inflammation and anxiety. To make matters worse, they
-          contribute to a considerable amount of single-use waste that poses
-          recycling challenges. Take, for example, the routine of individuals
-          with diabetes who find themselves frequently puncturing their fingers
-          throughout the day.
-        </p>
+        <div className="px-2 py-8 sm:py-14 md:px-8 max-w-[85rem] mx-auto font-medium">
+          <Text2>
+            In the world of health monitoring, current tools have long leaned on
+            blood tests. These tests, however, come with a set of challenges
+            -they take time, can be painful, require special facilities or
+            training, and sometimes cause inflammation and anxiety. To make
+            matters worse, they contribute to a considerable amount of
+            single-use waste that poses recycling challenges. Take, for example,
+            the routine of individuals with diabetes who find themselves
+            frequently puncturing their fingers throughout the day.
+          </Text2>
+        </div>
       </div>
       <div className="grid grid-cols-12 ">
         <div className="col-span-8  sm:col-span-7  xl:col-span-8 2xl:col-span-7 text-right sm:pt-2 px-3 sm:pr-1 self-center leading-[1.25rem] sm:leading-[1.625rem]  lg:leading-[2.625rem] text-[1rem] xs:text-[1.15rem] sm:text-[1.25rem] xl:text-[1.45rem] xl:text-[1.75rem] 2xl:text-[1.75rem]">
