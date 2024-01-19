@@ -53,12 +53,12 @@ const HomeLogo = () => {
         <div id="healthcare">
           <Image width={750} height={750} src="/healthcare.svg" alt="" />
           <div className="absolute top-[6rem] left-[4rem] flex flex-col">
-            <p className="text-white text-[1.75rem] font-medium ">
+            <p className="text-white text-[2.5rem] font-medium ">
               Health care
             </p>{" "}
             <Link
               href="/healthcare"
-              className="rounded bg-button text-white font-medium text-center text-[1rem] p-1"
+              className="rounded bg-button text-white font-medium text-center text-[1.75rem] p-1"
             >
               Read more
             </Link>
