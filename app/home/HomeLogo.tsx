@@ -55,7 +55,7 @@ const HomeLogo = () => {
           <div className="absolute top-[6rem] left-[4rem] flex flex-col">
             <p className="text-white text-[2.5rem] font-medium ">
               Health care
-            </p>{" "}
+            </p>
             <Link
               href="/healthcare"
               className="rounded bg-button text-white font-medium text-center text-[1.75rem] p-1"
