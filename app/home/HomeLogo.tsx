@@ -52,13 +52,11 @@ const HomeLogo = () => {
       <div>
         <div id="healthcare">
           <Image width={750} height={750} src="/healthcare.svg" alt="" />
-          <div className="absolute top-[6rem] left-[4rem] flex flex-col">
-            <p className="text-white text-[2.5rem] font-medium ">
-              Health care
-            </p>
+          <div className="absolute top-[6rem] left-[4rem]  flex-col items-center text-center">
+            <p className="text-white text-[1.75rem] font-medium">Health care</p>
             <Link
               href="/healthcare"
-              className="rounded bg-button text-white font-medium text-center text-[1.75rem] p-1"
+              className="rounded bg-button text-white font-medium text-center text-[1.75rem] px-1"
             >
               Read more
             </Link>
@@ -66,11 +64,11 @@ const HomeLogo = () => {
         </div>
         <div id="industry" className="absolute top-[25.2rem] -left-[2rem] ">
           <Image width={750} height={750} src="/industry.svg" alt="" />
-          <div className="absolute top-[8rem] left-[34rem] flex flex-col">
+          <div className="absolute top-[8rem] left-[34rem]  flex-col items-center text-center">
             <p className="text-white text-[1.75rem] font-medium">Industry</p>{" "}
             <Link
               href="/sensor"
-              className="rounded bg-button text-white font-medium text-center text-[1rem] p-1"
+              className="rounded bg-button text-white font-medium text-center text-[1rem] px-1"
             >
               Read more
             </Link>
@@ -84,7 +82,7 @@ const HomeLogo = () => {
             alt=""
             className="rotate"
           />
-          <div className="absolute top-[8rem] left-[6rem] text-black flex flex-col">
+          <div className="absolute top-[8rem] left-[6rem] text-black flex-col items-center text-center">
             <p className="text-[1.75rem] font-medium">Sustainabilty</p>{" "}
             <Link
               href="/sustainability"
