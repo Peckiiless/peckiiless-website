@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function IndustryfoBanner() {
   return (
-    <div className="h-[39vw] md:h-[45vw] lg:h-[50vw]">    
+    <div className="h-[25vw] xs:h-[39vw] md:h-[45vw] lg:h-[50vw]">    
       <Image
         src="/workers.svg"
         alt="Image Alt Text"

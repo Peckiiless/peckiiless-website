@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Text3 } from "../components/Text";
 
 export default function BlowingLady() {
   return (
@@ -33,8 +34,8 @@ export default function BlowingLady() {
           </p>
         </div>
       </div>
-      <div className="px-[2%]">
-        <p className="hidden sm:block sm:text-[1.25rem] xl:text-[1.75rem] text-[.9375rem] leading-[1.375rem] sm:leading-[1.875rem]  lg:leading-[2.6875rem]  px-1 py-14 xs:px-1 max-w-[95rem] mx-auto">
+      <div className="px-[2%] hidden sm:block py-14 xs:px-1 max-w-[95rem] mx-auto">
+        <Text3>
           Breath sampling emerges as a non-invasive, pain-free, and universally
           applicable method. Unlike other sampling techniques, it requires no
           specialized facilities or extensive training, seamlessly fitting into
@@ -45,7 +46,7 @@ export default function BlowingLady() {
           breath collection becomes a valuable and accessible tool. It offers a
           clear and simple pathway to understanding, ensuring that its benefits
           are accessible to all.
-        </p>
+        </Text3>
       </div>
     </section>
   );

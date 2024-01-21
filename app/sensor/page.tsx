@@ -2,6 +2,8 @@ import Benefits from "./Benefits";
 import Navbar from "../components/Navbar";
 import IndustryBanner from "./IndustryBanner";
 import Footer from "../components/Footer";
+import SensorBenefits from "./SensorBenefits";
+import Hydrogen from "./Hydrogen";
 
 const IndustryPage = () => {
   return (
@@ -9,6 +11,8 @@ const IndustryPage = () => {
       <Navbar />
       <IndustryBanner />
       <Benefits />
+      <SensorBenefits />
+      <Hydrogen />
       <Footer />
     </div>
   );
