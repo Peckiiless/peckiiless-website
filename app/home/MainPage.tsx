@@ -1,8 +1,5 @@
 import Image from "next/image";
 import etty from "../../public/main-screen.png"
-
-
-
 export const MainPage = () => {
   return (
     <div className="relative min-h-screen max-w-[70rem] overflow-hidden flex justify-center mx-auto">
