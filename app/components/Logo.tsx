@@ -9,7 +9,7 @@ const Logo = ({
 }) => {
   return (
     <div
-      className={`flex gap-6 flex-${direction} justify-center items-center w-[70%] md:w-[100%] h-[70%] md:h-[100%]`}
+      className={`flex gap-4 md:gap-6 flex-${direction} justify-center items-center w-[70%] md:w-[100%] h-[70%] md:h-[100%]`}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

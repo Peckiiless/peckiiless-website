@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ProductPackage() {
   return (
     <div className="">
-      <div className="text-center font-medium sm:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] xs:leading-[2.5rem]  md:leading-[2.625rem] my-2 xs:my-10 px-1 xs:px-10 max-w-[95rem] mx-auto">
+      <div className="text-center font-medium sm:text-[1.625rem] md:text-[1.75rem] text-[1rem]  leading-[1.5rem] sm:leading-[2.5rem]  md:leading-[2.625rem] my-2 xs:my-10 px-1 xs:px-10 max-w-[95rem] mx-auto">
         <p className="">
           Imagine taking a snapshot of your body&#39;s inner workings in
           real-time, not through complex procedures, but with a simple breath.
