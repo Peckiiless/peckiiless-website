@@ -1,13 +1,16 @@
 import Image from "next/image";
-import { Text3 } from "../components/Text";
+import { Text3, Title2625rem } from "../components/Text";
 
 export default function BlowingLady() {
   return (
     <section className="pt-10 xl:my-10">
-      <p className=" text-center bg-primary-200 rounded-[.625rem]  font-medium sm:text-[2rem] xl:text-[2.25rem] text-[1.25rem] leading-[1.5rem] sm:leading-[2.5rem]  lg:leading-[3.5rem] text-primary-800 mb-10 xs:mb-20 p-3  sm:py-10  max-w-[90rem] mx-3 xs:mx-10 2xl:mx-auto sm:px-8 md:px-20 xl:px-40">
-        Have you ever considered that every exhale you take isn&#39;t just
-        releasing air - it&#39;s setting free a powerhouse of potential?
-      </p>
+      <div className="bg-primary-200 rounded-[.625rem] mb-10 xs:mb-20 p-3  sm:py-10  max-w-[90rem] mx-3 xs:mx-10 2xl:mx-auto sm:px-8 md:px-20 xl:px-40">
+        <Title2625rem>
+          Have you ever considered that every exhale you take isn&#39;t just
+          releasing air - it&#39;s setting free a powerhouse of potential?
+        </Title2625rem>
+      </div>
+  
       <div className="relative xl:h-[50rem] lg:h-[35rem] sm:h-[25rem]">
         <div className="sm:absolute bottom-0 pl-1 sm:pl-0 max-w-[70rem] sm:w-[80%]">
           <Image

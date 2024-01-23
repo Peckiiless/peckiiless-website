@@ -1,15 +1,18 @@
 "use client";
 import { useState } from "react";
+import { Title2625rem } from "../components/Text";
 
 export default function Reasons() {
   const [more, setMore] = useState(false);
   return (
     <div>
       <div className="px-[1%]">
-        <p className="text-center font-medium sm:text-[2rem] xl:text-[2.625rem] text-[1.25rem] text-primary-800 leading-[1.5625rem] sm:leading-[2.75rem]  lg:leading-[3.5rem] py-14 sm:py-24 xl:py-32  max-w-[85rem] mx-auto px-2">
-          Why choose exhalation breath sampling? Let us unveil the compelling
-          reasons that make it a game-changer in healthcare.
-        </p>
+        <div className="py-14 sm:py-24 xl:py-32  max-w-[85rem] mx-auto px-2">
+          <Title2625rem>
+            Why choose exhalation breath sampling? Let us unveil the compelling
+            reasons that make it a game-changer in healthcare.
+          </Title2625rem>
+        </div>
       </div>
       <div className="rounded-[.625rem] bg-primary-100 mx-2 xs:mx-6">
         <div className="sm:text-[1.25rem] xl:text-[1.75rem] text-[.9375rem]  leading-[1.25rem] sm:leading-[1.75rem]  lg:leading-[2.5rem] p-2 xs:p-10 max-w-[90rem] mx-auto">

@@ -3,7 +3,7 @@ import { Text175rem, Title2875rem } from "../components/Text";
 
 export default function Monitor() {
   return (
-    <div className="h-[24rem] sm:h-[34rem] md:h-[40rem] max-w-[80rem] mx-auto mt-20 pl-2 md:pl-10">
+    <div className="h-[20rem] sm:h-[34rem] md:h-[40rem] max-w-[80rem] mx-auto mt-20 pl-2 md:pl-10">
       <div className="grid grid-cols-12 ">
         <div className="col-span-5 ">
           <div className="relative">

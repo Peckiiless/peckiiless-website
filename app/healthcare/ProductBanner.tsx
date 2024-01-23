@@ -1,14 +1,17 @@
 import Image from "next/image";
 import CustomButton from "../components/CustomButton";
+import { Title2625rem } from "../components/Text";
 
 export default function ProductBanner() {
   return (
     <div>
       <div className="px-[2%]">
-        <p className="text-center font-medium sm:text-[2rem] xl:text-[2.625rem] text-[1.375rem] text-primary-800 leading-[1.5rem] sm:leading-[2.625rem]  lg:leading-[3.5rem] py-8 max-w-[75rem] mx-auto px-2">
+        <div className="py-8 max-w-[75rem] mx-auto px-2">
+        <Title2625rem>
           At Peckiiless, we unlock the potential of Exhalation Breath,
           delivering non-invasive comfort to everyone worldwide
-        </p>
+        </Title2625rem>
+        </div>
       </div>
       <div className="grid grid-cols-12 sm:gap-4 text-right pt-5 lg:pt-16 leading-[1.375rem] sm:leading-[1.875rem]  lg:leading-[2.625rem]">
         <div className="col-span-5 xs:col-span-5 ">

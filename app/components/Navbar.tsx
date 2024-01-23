@@ -19,7 +19,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
 
   return (
     <header style={{ color: navColor }}>
-      <nav className="flex justify-between items-center w-[92%] h-[3rem] sm:h-[4.6875rem] mx-auto text-[1.25rem]">
+      <nav className="flex justify-between items-center w-[92%] h-[3rem] sm:h-[4.6875rem] mx-auto text-[1rem] lg:text-[1.25rem]">
         <h1 className="grid place-content-center mb-2 md:mb-0 z-10">
           <Link
             href="/"
@@ -33,7 +33,7 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
             active && "top-[0rem] z-10 graidient text-white"
           } duration-500 md:static absolute z-10  md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5`}
         >
-          <ul className="flex md:flex-row flex-col items-center mx-auto  md:gap-[4vw] gap-8">
+          <ul className="flex md:flex-row flex-col items-center mx-auto  md:gap-6 gap-8">
             {links.map(({ path, label }) => (
               <Link key={path} href={path} passHref>
                 <div
