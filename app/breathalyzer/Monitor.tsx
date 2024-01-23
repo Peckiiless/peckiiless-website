@@ -3,29 +3,19 @@ import { Text175rem, Title2875rem } from "../components/Text";
 
 export default function Monitor() {
   return (
-    <div className="h-[20rem] sm:h-[34rem] md:h-[40rem] max-w-[80rem] mx-auto mt-20 pl-2 md:pl-10">
+    <div className="max-w-[80rem] mx-auto mt-4 sm:mt-20 p-4">
       <div className="grid grid-cols-12 ">
-        <div className="col-span-5 ">
-          <div className="relative">
-            <Image
-              src="/mobile1.png"
-              width={300}
-              height={300}
-              alt="logo"
-              priority={true}
-              className="bottom absolute"
-            />
-            <Image
-              src="/mobile2.png"
-              width={300}
-              height={300}
-              alt="logo"
-              priority={true}
-              className="top absolute"
-            />
-          </div>
+        <div className="col-span-5 lg:col-span-6 relative justify-center">
+          <Image
+            src="/mobile1.png"
+            fill
+            objectFit="contain"
+            alt="logo"
+            priority={true}
+          />
         </div>
-        <div className="col-span-7">
+
+        <div className="col-span-7 lg:col-span-6">
           <div className="mb-0 md:mb-10 flex justify-center">
             <div>
               <svg

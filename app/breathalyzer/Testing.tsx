@@ -11,16 +11,16 @@ const Testing = () => {
           Connect to the Body&#39;s Metabolic Activity
         </Title2625rem>
       </div>
-      <div className="grid grid-cols-3 place-content-center	 relative max-w-[90rem]">
-        <div className="absolute rotate-[90deg]  top-0 left-12 origin-left">
+      <div className="grid grid-cols-12 relative">
+        <div className="col-span-2 2xl:col-span-2">
           <CustomButton
             title="Your Body’s Story in a Breath"
-            containerStyles="bg-primary-700 font-medium text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] lg:text-[1.75rem] lg:leading-[2.5rem] text-white rounded-t-[1.875rem] py-7 px-12 max-w-[30rem]"
+            containerStyles="absolute rotate-[90deg] -top-10 md:-top-5 left-7 sm:left-10 origin-left bg-primary-700 font-medium text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] xl:text-[1.75rem] xl:leading-[2.5rem] text-white rounded-t-[1.875rem] py-5 px-2 md:py-7 md:px-12 max-w-[30rem]"
           />
         </div>
-        <div className="text-right pl-24 sm:pl-[20%] pt-[20%] sm:pt-4 w-[97%] col-span-2 self-start">
+        <div className="text-right col-span-6 2xl:col-span-5">
           <Text175rem>
-            <div className="hidden sm:block p-8">
+            <div className="hidden sm:block p-2">
               <p>
                 Volatile organic compounds (VOCs) are gaseous molecules that can
                 be sampled quickly and non-invasively from breath.
@@ -49,29 +49,32 @@ const Testing = () => {
             </p>
           </Text175rem>
         </div>
-
-        <Image
-          src="/testing.png"
-          width={423}
-          height={739}
-          alt="logo"
-          priority={true}
-          className="pt-[20%] xl:pt-[10%] w-[100%] xs:w-[80%] sm:w-[90%] md:w-[90%] lg:w-[60%] xl:w-[70%] justify-self-center image-float"
-        />
+        <div className="col-span-4 2xl:col-span-5 relative">
+          <Image
+            src="/testing.png"
+            fill
+            objectFit="contain"
+            alt="logo"
+            priority={true}
+            className="image-float"
+          />
+        </div>
       </div>
-      <div className="grid grid-cols-12 items-center relative mt-10">
-        <Image
-          src="/testing1.png"
-          width={300}
-          height={300}
-          alt="logo"
-          priority={true}
-          className="col-span-5 w-[250px] sm:w-[500px] md:w-[360px] lg:w-[350px] xl:w-[400px] justify-self-center  image-float"
-        />
+      <div className="grid grid-cols-12 relative py-24">
+        <div className="col-span-4 2xl:col-span-5 relative">
+          <Image
+            src="/testing1.png"
+            fill
+            objectFit="contain"
+            alt="logo"
+            priority={true}
+            className="image-float"
+          />
+        </div>
 
-        <div className=" pt-[15%]  col-span-6">
+        <div className="col-span-6 2xl:col-span-5 ">
           <Text175rem>
-            <div className="hidden sm:block p-8">
+            <div className="hidden sm:block p-2">
               <p>
                 Your lungs, the silent storytellers of your health, are masters
                 at exchanging chemicals with your blood. They capture volatile
@@ -97,23 +100,23 @@ const Testing = () => {
             </p>
           </Text175rem>
         </div>
-        <div className="absolute rotate-[-90deg] top-5 right-12 origin-right col-span-1">
+        <div className="col-span-2 2xl:col-span-2 ">
           <CustomButton
             title="The Respiratory Marvel"
-            containerStyles="bg-primary-700 font-medium text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] lg:text-[1.75rem] lg:leading-[2.5rem] text-white rounded-t-[1.875rem] py-7 px-12 max-w-[30rem]"
+            containerStyles="absolute rotate-[-90deg] top-10 right-6  md:top-20  sm:right-10 origin-right bg-primary-700 font-medium text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] lg:text-[1.75rem] lg:leading-[2.5rem] text-white rounded-t-[1.875rem] py-7 px-12 max-w-[30rem]"
           />
         </div>
       </div>
-      <div className="grid grid-cols-3 items-center relative max-w-[90rem]">
-        <div className="absolute rotate-[90deg] top-0 left-12 origin-left">
+      <div className="grid grid-cols-12 relative">
+        <div className="col-span-2 2xl:col-span-2">
           <CustomButton
-            title="Your Body’s Story in a Breath"
-            containerStyles="bg-primary-700 font-medium text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] lg:text-[1.75rem] lg:leading-[2.5rem] text-white rounded-t-[1.875rem] py-7 px-12 max-w-[30rem]"
+            title="Rapid transfer of VOCs from blood to breath"
+            containerStyles="absolute rotate-[90deg] -top-10 md:-top-5 left-7 sm:left-10 origin-left bg-primary-700 font-medium text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] xl:text-[1.75rem] xl:leading-[2.5rem] text-white rounded-t-[1.875rem] py-5 px-2 md:py-7 md:px-6 max-w-[14rem] sm:max-w-[20rem] xl:max-w-[30rem]"
           />
         </div>
-        <div className="text-right pl-24 sm:pl-[20%] pt-[20%] sm:pt-0 w-[97%] col-span-2 self-start">
+        <div className="text-right col-span-6 2xl:col-span-5">
           <Text175rem>
-            <div className="hidden sm:block p-4">
+            <div className="hidden sm:block p-2">
               <p>
                 Deep within your lungs reside tiny, magical sacs called alveoli.
                 They&#39;re not just air-filled bubbles; These structures play a
@@ -139,29 +142,32 @@ const Testing = () => {
             </p>
           </Text175rem>
         </div>
-
-        <Image
-          src="/testing2.png"
-          width={600}
-          height={600}
-          alt="logo"
-          priority={true}
-          className="w-[250px] sm:w-[500px] md:w-[360px] lg:w-[350px] xl:w-[400px] justify-self-center image-float"
-        />
+        <div className="col-span-4 2xl:col-span-5 relative">
+          <Image
+            src="/testing2.png"
+            fill
+            objectFit="contain"
+            alt="logo"
+            priority={true}
+            className="image-float"
+          />
+        </div>
       </div>
-      <div className="grid grid-cols-3 items-center relative mt-10">
-        <Image
-          src="/testing3.png"
-          width={300}
-          height={300}
-          alt="logo"
-          priority={true}
-          className="w-[250px] sm:w-[500px] md:w-[360px] lg:w-[350px] xl:w-[400px] justify-self-center image-float"
-        />
+      <div className="grid grid-cols-12 relative py-24">
+        <div className="col-span-4 2xl:col-span-5 relative">
+          <Image
+            src="/testing3.png"
+            fill
+            objectFit="contain"
+            alt="logo"
+            priority={true}
+            className="image-float"
+          />
+        </div>
 
-        <div className="pr-[32%] pt-[25%] w-[97%] col-span-2">
+        <div className="col-span-6 2xl:col-span-5 ">
           <Text175rem>
-            <div className="hidden sm:block p-8">
+            <div className="hidden sm:block p-2">
               <p>
                 In this microscopic realm, a solitary air sac, encircled by
                 intricate blood vessels, directs the silent choreography of gas
@@ -185,10 +191,10 @@ const Testing = () => {
             </p>
           </Text175rem>
         </div>
-        <div className="absolute rotate-[-90deg] top-5 right-12 origin-right">
+        <div className="col-span-2 2xl:col-span-2 ">
           <CustomButton
-            title="The Respiratory Marvel"
-            containerStyles="bg-primary-700 font-medium text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] lg:text-[1.75rem] lg:leading-[2.5rem] text-white rounded-t-[1.875rem] py-7 px-12 max-w-[30rem]"
+            title="Alveoli"
+            containerStyles="absolute rotate-[-90deg] top-10 right-6  md:top-20  sm:right-10 origin-right bg-primary-700 font-medium text-[.9375rem] leading-[1.3125rem] sm:text-[1.25rem] sm:leading-[1.75rem] lg:text-[1.75rem] lg:leading-[2.5rem] text-white rounded-t-[1.875rem] py-6 px-24"
           />
         </div>
       </div>
