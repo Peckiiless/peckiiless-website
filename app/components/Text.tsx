@@ -27,6 +27,13 @@ export const Title2rem = ({ children }: Props) => {
     </p>
   );
 };
+export const Title2875rem = ({ children }: Props) => {
+  return (
+    <p className="xl:text-[2.875rem] xl:leading-[3.375rem] sm:text-[2rem] sm:leading-[2.5rem] text-[1.25rem] leading-[1.5rem] font-medium text-primary-700">
+      {children}
+    </p>
+  );
+};
 
 export const Text1 = ({ children }: Props) => {
   return (
@@ -67,7 +74,7 @@ export const Text1875rem = ({ children }: Props) => {
 };
 export const Text175rem = ({ children }: Props) => {
   return (
-    <p className="xl:text-[1.75rem] xl:leading-[2.625rem] md:text-[1.625rem] md:leading-[2.5rem] text-[1rem] leading-[1.5rem]">
+    <p className="xl:text-[1.75rem] xl:leading-[2.5rem] md:text-[1.25rem] md:leading-[1.75rem] text-[1rem] leading-[1.5rem]">
       {children}
     </p>
   );

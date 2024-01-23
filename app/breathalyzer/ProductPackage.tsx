@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Text175rem } from "../components/Text";
+import { Text175rem, Title2875rem } from "../components/Text";
 
 export default function ProductPackage() {
   return (
@@ -29,9 +29,9 @@ export default function ProductPackage() {
       <div>
         <div className="grid grid-cols-12 gap-2 xl:gap-10  pt-10 md:pt-20">
           <div className="col-span-4 sm:col-span-5 md:col-span-6 text-right">
-            <p className="font-bold leading-[1.5rem] sm:leading-10 md:text-[1.875rem] xl:text-[2.875rem] text-[1.375rem] text-primary-800 pb-1 md:pb-8 sm:px-[4%]">
-              Breathalyzer benefits
-            </p>
+            <div className="pb-1 md:pb-8 sm:px-[4%]">
+              <Title2875rem> Breathalyzer benefits</Title2875rem>             
+            </div>
             <Text175rem>
               We&#39;re delighted to introduce one of our most innovative
               applications: non invasive glucose monitoring through exhalation
