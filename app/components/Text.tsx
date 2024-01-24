@@ -12,10 +12,10 @@ export const Title1 = ({ title }: { title: string }) => {
   );
 };
 
-export const Title2 = ({ title }: { title: string }) => {
+export const Title2 = ({ children }: Props) => {
   return (
     <p className="font-medium sm:text-[1.625rem] xl:text-[1.75rem] text-[1rem] leading-[1.5rem] sm:leading-[2.5rem] lg:leading-[2.625rem]">
-      {title}
+      {children}
     </p>
   );
 };
