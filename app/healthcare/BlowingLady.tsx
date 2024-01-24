@@ -4,13 +4,13 @@ import { Text3, Title2625rem } from "../components/Text";
 export default function BlowingLady() {
   return (
     <section className="pt-10 xl:my-10">
-      <div className="bg-primary-200 rounded-[.625rem] mb-10 xs:mb-20 p-3  sm:py-10  max-w-[90rem] mx-3 xs:mx-10 2xl:mx-auto sm:px-8 md:px-20 xl:px-40">
+      <div className="bg-primary-200 rounded-[.625rem] mb-10 xs:mb-20 md:mb-30 lg:mb-20 p-3  sm:py-10  max-w-[80rem] mx-3 xs:mx-10 2xl:mx-auto sm:px-8 md:px-10 xl:px-30">
         <Title2625rem>
           Have you ever considered that every exhale you take isn&#39;t just
           releasing air - it&#39;s setting free a powerhouse of potential?
         </Title2625rem>
       </div>
-  
+
       <div className="relative xl:h-[50rem] lg:h-[35rem] sm:h-[25rem]">
         <div className="sm:absolute bottom-0 pl-1 sm:pl-0 max-w-[70rem] sm:w-[80%]">
           <Image
@@ -21,8 +21,8 @@ export default function BlowingLady() {
             priority={true}
           />
         </div>
-        <div className="sm:max-w-[70%] sm:absolute sm:bottom-0 md:bottom-12 left-[40%] sm:left-[35%] p-3 sm:p-2">
-          <p className="sm:text-[1.1875rem] xl:text-[1.75rem] text-[.9375rem] leading-[1.375rem] sm:leading-[1.625rem]  lg:leading-[2.625rem] ">
+        <div className="sm:max-w-[60rem] sm:absolute sm:bottom-0 md:-bottom-14 lg:bottom-10 left-[40%] sm:left-[35%] p-3 sm:p-2">
+          <Text3>
             Exhalation breath is like a secret code, carrying over 1,000
             volatile organic compounds (VOCs) straight from the depths of your
             body&#39;s biochemical universe. These compounds are like tiny
@@ -31,13 +31,13 @@ export default function BlowingLady() {
             this biochemical adventure, all while keeping you as comfortable as
             can be. It&#39;s not just a solution; it&#39;s a thrilling journey
             into the captivating world within you.
-          </p>
+          </Text3>
           <p className="sm:hidden font-medium text-[.9375rem] cursor-pointer py-1">
             Read more
           </p>
         </div>
       </div>
-      <div className="px-[2%] hidden sm:block py-14 xs:px-1 max-w-[95rem] mx-auto">
+      <div className="px-4 md:px-6 hidden sm:block py-10 md:py-20 lg:py-10 max-w-[95rem] mx-auto">
         <Text3>
           Breath sampling emerges as a non-invasive, pain-free, and universally
           applicable method. Unlike other sampling techniques, it requires no

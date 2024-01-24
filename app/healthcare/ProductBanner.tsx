@@ -1,6 +1,6 @@
 import Image from "next/image";
 import CustomButton from "../components/CustomButton";
-import { Title2625rem } from "../components/Text";
+import { Title2625rem, Title2875rem, Text3 } from "../components/Text";
 
 export default function ProductBanner() {
   return (
@@ -15,32 +15,38 @@ export default function ProductBanner() {
       </div>
       <div className="grid grid-cols-12 sm:gap-4 text-right pt-5 lg:pt-16 leading-[1.375rem] sm:leading-[1.875rem]  lg:leading-[2.625rem]">
         <div className="col-span-5 xs:col-span-5 ">
-          <p className="font-bold sm:text-[2rem] xl:text-[2.875rem] text-[1.375rem] text-primary-800 pb-5 lg:pb-10">
-            Breathalyzer
-          </p>
+          <div className=" pb-5 lg:pb-10">
+            <Title2875rem>Breathalyzer</Title2875rem>
+            
+          </div>
           <div>
-            <p className="sm:hidden sm:text-[1.25rem] xl:text-[1.75rem] text-[.875rem]  pl-4">
+            <div className="sm:hidden pl-4">
+              <Text3>
               Empower your well-being with our state of-the-art breathalyzer -
               where every exhale reveals a roadmap to a healthier, more vibrant
               life.
-            </p>
+              </Text3>
+            </div>
             <p className="sm:hidden font-medium text-[.9375rem] cursor-pointer py-1">
               Read more
             </p>
           </div>
 
-          <p className="hidden sm:block sm:text-[1.25rem] xl:text-[1.75rem] text-[.875rem] sm:pl-[17%]">
+          <div className="hidden sm:block sm:pl-[17%]">
+          <Text3>
             Empower your well-being with our state of-the-art breathalyzer -
             where every exhale reveals a roadmap to a healthier, more vibrant
             life. Click below to discover more about how it works and seamlessly
             connects to your smartphone, putting your health insights at your
             fingertips.
-          </p>
+          </Text3>
+          
+          </div>
 
           <div className="lg:col-span-4 pt-5 lg:pt-20 self-end">
             <CustomButton
               title="More Information"
-              containerStyles="bg-primary-700 font-medium xl:text-[1.625rem] sm:text-[1.25rem] text-[.75rem] text-white rounded-[2.5rem] md:py-7 md:px-12 py-3 px-5"
+              containerStyles="bg-primary-700 font-medium xl:text-[1.625rem] md:text-[1.25rem] text-[.75rem] text-white rounded-[2.5rem] md:py-7 md:px-12 py-3 px-5"
             />
           </div>
         </div>

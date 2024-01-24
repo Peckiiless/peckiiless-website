@@ -29,14 +29,14 @@ export const Title2rem = ({ children }: Props) => {
 };
 export const Title2625rem = ({ children }: Props) => {
   return (
-    <p className="xl:text-[2.625rem] xl:leading-[3.5rem]  md:text-[2rem] md:leading-[2.75rem]  text-[1.25rem] leading-[1.5rem] text-primary-800 text-center font-medium">
+    <p className="xl:text-[2.625rem] xl:leading-[3.5rem]  md:text-[2rem] md:leading-[2.75rem]  text-[1.25rem] leading-[1.5rem] text-primary-700 text-center font-medium">
       {children}
     </p>
   );
 };
 export const Title2875rem = ({ children }: Props) => {
   return (
-    <p className="xl:text-[2.875rem] xl:leading-[3.375rem] sm:text-[2rem] sm:leading-[2.5rem] text-[1.25rem] leading-[1.5rem] font-medium text-primary-700">
+    <p className="xl:text-[2.875rem] xl:leading-[3.375rem] md:text-[2rem] md:leading-[2.5rem] text-[1.25rem] leading-[1.5rem] font-medium text-primary-700">
       {children}
     </p>
   );
@@ -52,14 +52,14 @@ export const Text1 = ({ children }: Props) => {
 
 export const Text2 = ({ children }: Props) => {
   return (
-    <p className="sm:text-[1.625rem] xl:text-[1.75rem] text-[1rem] leading-[1.5rem] sm:leading-[2.5rem] lg:leading-[2.625rem]">
+    <p className="md:text-[1.625rem] xl:text-[1.75rem] text-[1rem] leading-[1.5rem] md:leading-[2.5rem] xl:leading-[2.625rem]">
       {children}
     </p>
   );
 };
 export const Text3 = ({ children }: Props) => {
   return (
-    <p className="sm:text-[1.25rem] xl:text-[1.75rem] text-[.9375rem] leading-[1.375rem] sm:leading-[1.875rem]  xl:leading-[2.6875rem] ">
+    <p className="md:text-[1.25rem] xl:text-[1.75rem] text-[.9375rem] leading-[1.375rem] md:leading-[1.875rem]  xl:leading-[2.6875rem] ">
       {children}
     </p>
   );
