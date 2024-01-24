@@ -28,9 +28,9 @@ export default function ProductPackage() {
       </div>
       <div>
         <div className="grid grid-cols-12 gap-2 xl:gap-10  pt-10 md:pt-20">
-          <div className="col-span-4 sm:col-span-5 md:col-span-6 text-right">
-            <div className="pb-1 md:pb-8 sm:px-[4%]">
-              <Title2875rem> Breathalyzer benefits</Title2875rem>             
+          <div className="col-span-5 sm:col-span-5 md:col-span-6 text-right px-[4%]">
+            <div className="pb-1 md:pb-8 ">
+              <Title2875rem> Breathalyzer benefits</Title2875rem>
             </div>
             <Text175rem>
               We&#39;re delighted to introduce one of our most innovative
@@ -51,7 +51,7 @@ export default function ProductPackage() {
               Read more
             </p>
           </div>
-          <div className="col-span-8 sm:col-span-7 md:col-span-6 self-center p-2 xl:w-[90%]">
+          <div className="relative col-span-7 sm:col-span-7 md:col-span-6 self-center p-2 xl:w-[90%]">
             <Image
               src="/package.svg"
               width={1000}

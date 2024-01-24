@@ -22,7 +22,7 @@ export const Title2 = ({ children }: Props) => {
 
 export const Title2rem = ({ children }: Props) => {
   return (
-    <p className="xl:text-[2rem] xl:leading-[2.75rem] sm:text-[1.5rem] sm:leading-[2rem] text-[.75rem] leading-[1rem] font-medium text-primary-700">
+    <p className="xl:text-[2rem] xl:leading-[2.75rem] md:text-[1.5rem] md:leading-[2rem] xs:text-[1rem] xs:leading-[1.5rem] text-[.835rem] leading-[1rem] font-medium text-primary-700">
       {children}
     </p>
   );
