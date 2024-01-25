@@ -86,3 +86,24 @@ export const Text175rem = ({ children }: Props) => {
     </p>
   );
 };
+export const Text1625rem = ({ children }: Props) => {
+  return (
+    <p className="xl:text-[1.625rem] xl:leading-[2.5rem] md:text-[1.25rem] md:leading-[1.75rem] text-[.75rem] leading-[.875rem] font-medium">
+      {children}
+    </p>
+  );
+};
+export const Text125rem = ({ children }: Props) => {
+  return (
+    <p className="xl:text-[1.25rem] xl:leading-[1.875rem] md:text-[1.125rem] md:leading-[1.375rem] text-[.75rem] leading-[.875rem]">
+      {children}
+    </p>
+  );
+};
+export const Text1125rem = ({ children }: Props) => {
+  return (
+    <p className="xl:text-[1.125rem] xl:leading-[1.25rem] md:text-[1rem] md:leading-[1.25rem] text-[.75rem] leading-[.875rem] font-light">
+      {children}
+    </p>
+  );
+};
