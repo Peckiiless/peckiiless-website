@@ -19,6 +19,13 @@ export const Title2 = ({ children }: Props) => {
     </p>
   );
 };
+export const Title3625 = ({ children }: Props) => {
+  return (
+    <p className=" xl:text-[3.625rem] xl:text-[3rem] text-[1.25rem] leading-[1.125rem] sm:text-[2.625rem] sm:leading-[3rem] font-bold text-primary-800">
+      {children}
+    </p>
+  );
+};
 
 export const Title2rem = ({ children }: Props) => {
   return (
@@ -103,6 +110,14 @@ export const Text125rem = ({ children }: Props) => {
 export const Text1125rem = ({ children }: Props) => {
   return (
     <p className="xl:text-[1.125rem] xl:leading-[1.25rem] md:text-[1rem] md:leading-[1.25rem] text-[.75rem] leading-[.875rem] font-light">
+      {children}
+    </p>
+  );
+};
+
+export const Text15rem = ({ children }: Props) => {
+  return (
+    <p className="xl:text-[1.5rem] xl:leading-[2.5rem] md:text-[.875rem] md:leading-[1.75rem] text-[.75rem] leading-[.8125rem]">
       {children}
     </p>
   );

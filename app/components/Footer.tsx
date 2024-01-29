@@ -3,6 +3,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Logo from "./Logo";
 import SubmitForm from "../about-us/components/SubmitForm";
+import { Text15rem } from "./Text";
 
 const Footer = () => {
   const currentRoute = usePathname();
@@ -41,7 +42,7 @@ const Footer = () => {
                 />
               </svg>
 
-              <p className="">info@peckiiless.com</p>
+              <Text15rem>info@peckiiless.com</Text15rem>
             </div>
 
             <div className="flex gap-2 items-center">
@@ -67,7 +68,7 @@ const Footer = () => {
                 />
               </svg>
 
-              <p className="">Peckiiless</p>
+              <Text15rem>Peckiiless</Text15rem>
             </div>
             <div className="flex gap-2 items-center">
               <svg
@@ -83,13 +84,15 @@ const Footer = () => {
                   fill="white"
                 />
               </svg>
-              <p className="">Chalmersplatsen 4, 412 96 Göteborg</p>
+              <Text15rem>Chalmersplatsen 4, 412 96 Göteborg</Text15rem>
             </div>
           </div>
         </div>
       </div>
       <div className="text-center py-5 xs:py-10">
+        <Text15rem>
         @2023 www.peckiiless.com all copyrights reserved.
+        </Text15rem>
       </div>
       <div className="bg-footer h-[5rem] sm:h-[15rem] bg-bottom xs:bg-top bg-contain xs:bg-cover bg-no-repeat"></div>
     </div>

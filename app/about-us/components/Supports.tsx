@@ -1,11 +1,16 @@
 import Image from "next/image";
 import FadeIn, { FadeInStagger } from "@/app/components/FadeIn";
+import { Title3625 } from "@/app/components/Text";
+
 
 export default function Supports() {
   return (
     <section className="bg-patternLady bg-no-repeat bg-cover mt-10">
-      <FadeIn className="text-center font-bold text-[2.625rem] text-primary-800 pt-10">
+      <FadeIn className="text-center font-bold text-[2.625rem] text-primary-800 py-10">
+         <Title3625>
         Get Support From
+         </Title3625>
+        
       </FadeIn>
 
       <FadeInStagger className="section">
@@ -47,7 +52,7 @@ export default function Supports() {
             />
           </FadeIn>
         </div>
-        <div className="flex gap-5 justify-around items-center mt-14">
+        <div className="flex gap-5 justify-around items-center mt-6 md:mt-14">
           <FadeIn>
             <Image
               src="/sscp.svg"

@@ -1,11 +1,14 @@
 import Image from "next/image";
 import FadeIn, { FadeInStagger } from "@/app/components/FadeIn";
+import { Title3625 } from "@/app/components/Text";
 
 export default function Partners() {
   return (
-    <section className="mt-10 py-10  bg-primary-200 rounded-[3.125rem] mx-10">
-      <FadeIn className="text-center font-bold text-[2.625rem] text-primary-800 pt-10">
+    <section className="mt-10 bg-primary-200 rounded-[3.125rem] mx-10 pb-10">
+      <FadeIn className="text-center py-10">
+        <Title3625>
         Part of the
+         </Title3625>
       </FadeIn>
       <FadeInStagger faster className="section">
         <div className="flex gap-5 justify-between items-center">
@@ -38,7 +41,7 @@ export default function Partners() {
           </FadeIn>
         
         </div>
-        <div className="flex gap-5 justify-between items-center mt-20">
+        <div className="flex gap-5 justify-between items-center mt-8 md:mt-14">
           <FadeIn>
             <Image
               src="/images/tillvaxtverket2.svg"
