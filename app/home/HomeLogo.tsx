@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
+import HomeNavbar from "../components/HomeNavbar";
 
 const HomeLogo = () => {
 gsap.registerPlugin(ScrollTrigger);
@@ -48,7 +49,13 @@ useEffect(() => {
 });
 
   return (
+    <div>
+      <div className="flex justify-end m-20 text-[2rem]">                  
+        <HomeNavbar />
+      </div>
+
     <div id="wrapper" className="relative h-[75rem] w-[50rem] mx-auto">
+
         <div id="healthcare">
           <Image width={750} height={750} src="/healthcare.svg" alt="" />
           <div className="absolute top-[6rem] left-[4rem]  flex-col items-center text-center">
@@ -91,6 +98,7 @@ useEffect(() => {
             </Link>
           </div>
         </div>
+    </div>
     </div>
   );
 };

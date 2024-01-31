@@ -3,11 +3,11 @@ import HeroBanner from "./HeroBanner";
 import HomeLogo from "./HomeLogo";
 import HomeLogoMobile from "./HomeLogoMobile";
 import Navbar from "../components/Navbar";
+import HomeNavbar from "../components/HomeNavbar";
 
 export default function Home() {
   return (
     <div>
-      {/* <Navbar navColor="#19416C" /> */}
       <HeroBanner />
       <div className="hidden md:block">
         <HomeLogo />

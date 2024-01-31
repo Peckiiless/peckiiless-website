@@ -5,11 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Logo from "./Logo";
 
-export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
-  const currentRoute = usePathname();
-  const [active, setActive] = useState(false);
-
-  const links = [
+ const links = [
     { path: "/healthcare", label: "Healthcare" },
     { path: "/breathalyzer", label: "Breathalyzer" },
     { path: "/sensor", label: "Gas Sensor" },
@@ -17,6 +13,10 @@ export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
     { path: "/about-us", label: "About Us" },
   ];
 
+
+export default function Navbar({ navColor = "#fff" }: { navColor?: string }) {
+  const currentRoute = usePathname();
+  const [active, setActive] = useState(false); 
   return (
     <header style={{ color: navColor }}>
       <nav className="flex justify-between items-center w-[92%] h-[3rem] sm:h-[4.6875rem] mx-auto text-[1rem] lg:text-[1.25rem]">
