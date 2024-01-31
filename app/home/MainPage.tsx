@@ -15,7 +15,6 @@ export const MainPage = () => {
             alt="logo"
             priority={true}
             quality={100}
-            placeholder="blur"
             className="px-6"
           />
         </div>
