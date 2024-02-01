@@ -74,7 +74,7 @@ export const Text3 = ({ children }: Props) => {
 
 export const Text2rem = ({ children }: Props) => {
   return (
-    <div className="xl:text-[2rem] xl:leading-[2.625rem] sm:text-[1.625rem] sm:leading-[2.5rem] text-[1.25rem] leading-[1.625rem]    ">
+    <div className="xl:text-[2rem] xl:leading-[2.625rem] md:text-[1.625rem] md:leading-[2rem] text-[1.25rem] leading-[1.625rem]    ">
       {children}
     </div>
   );
