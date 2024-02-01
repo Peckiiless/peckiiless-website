@@ -5,7 +5,7 @@ export default function Pregnancy() {
   return (
     <section className="mx-auto max-w-[100rem]">
       <div className="">
-        <div className="px-4 py-8 sm:py-14 md:px-8 max-w-[85rem] mx-auto font-medium">
+        <div className="px-4 py-8 sm:py-14 md:px-8 max-w-[85rem] mx-auto font-medium text-center">
           <Text2>
             In the world of health monitoring, current tools have long leaned on
             blood tests. These tests, however, come with a set of challenges
@@ -19,7 +19,7 @@ export default function Pregnancy() {
         </div>
       </div>
       <div className="grid grid-cols-12 ">
-        <div className="col-span-8  sm:col-span-7  xl:col-span-8 2xl:col-span-7 text-right sm:pt-2 px-3 sm:pr-1 self-center ">
+        <div className="col-span-8  sm:col-span-7  xl:col-span-8 2xl:col-span-7 text-right sm:pt-2 px-14 sm:pr-1 self-center ">
           <div className=" sm:pb-2">
             <Title2875rem>Living with Diabetes</Title2875rem>
           </div>

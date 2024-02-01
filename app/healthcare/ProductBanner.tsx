@@ -14,8 +14,8 @@ export default function ProductBanner() {
         </div>
       </div>
       <div className="grid grid-cols-12 sm:gap-4 text-right pt-5 lg:pt-16 leading-[1.375rem] sm:leading-[1.875rem]  lg:leading-[2.625rem]">
-        <div className="col-span-5 xs:col-span-5 ">
-          <div className=" pb-5 lg:pb-10">
+        <div className="col-span-5 xs:col-span-5 self-center">
+          <div className=" pb-5 lg:pb-6">
             <Title2875rem>Breathalyzer</Title2875rem>
             
           </div>
@@ -43,7 +43,7 @@ export default function ProductBanner() {
           
           </div>
 
-          <div className="lg:col-span-4 pt-5 lg:pt-20 self-end">
+          <div className="lg:col-span-4 pt-5 lg:pt-12 self-end">
             <CustomButton
               title="More Information"
               containerStyles="bg-primary-700 font-medium xl:text-[1.625rem] md:text-[1.25rem] text-[.75rem] text-white rounded-[2.5rem] md:py-7 md:px-12 py-3 px-5"
