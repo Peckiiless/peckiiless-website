@@ -35,7 +35,7 @@ export const MainPage = () => {
           />
         </div>
         <div className="text-nav col-span-2 relative">
-          <FadeIn className="absolute top-[12%] -left-[150%] xl:-left-[130%]">
+          <FadeIn className="absolute top-[10%] -left-[140%] xl:-left-[120%]">
             <Text2rem>
               <div>From a Silent Breath to</div>
               <div className="font-semibold">Peace of Mind</div>

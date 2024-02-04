@@ -18,6 +18,9 @@ module.exports = {
       fontFamily: {
         dm: ["Roboto Serif", "sans-serif"],
       },
+      boxShadow: {
+        btn: "1px 1px 6px #151D4F,-1px -1px 6px #FFFBFE",
+      },
       colors: {
         "black-100": "#2B2C35",
         primary: {
@@ -33,6 +36,7 @@ module.exports = {
         nav: "#19416C",
         "light-white": {
           DEFAULT: "rgba(59,60,152,0.03)",
+          200: "#DCDAE4",
           100: "rgba(59,60,152,0.02)",
         },
         grey: "#2B3341",
