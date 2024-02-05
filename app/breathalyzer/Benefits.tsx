@@ -4,16 +4,16 @@ const Benefits = () => {
   return (
     <>
       <section className="max-w-[90rem] mx-auto">
-        <div className="grid items-center grid-cols-12 gap-6 sm:gap-3 xl:gap-10 mt-10 py-5 px-2 bg-primary-200 lg:rounded-[3.125rem] md:rounded-[1.5625rem] rounded-[.9375rem] mx-2 md:mx-4">
-          <div className="col-span-4 lg:col-span-5 ">
+        <div className="grid items-center grid-cols-12 gap-1 mt-10 py-6 px-2 lg:px-10 bg-primary-200 lg:rounded-[3.125rem] md:rounded-[1.5625rem] rounded-[.9375rem] mx-2 md:mx-4">
+          <div className="col-span-5 p-2">
             <Title2rem>
               Peckiiless Breathalyzer offers portability, ease of use, and
               multiple applications for a convenient and reliable breath
               analysis experience.
             </Title2rem>
           </div>
-          <div className="col-span-8 lg:col-span-7">
-            <div className="grid grid-cols-4 gap-1 sm:gap-4 2xl:gap-12">
+          <div className="col-span-7">
+            <div className="grid grid-cols-4">
               <div className="flex flex-col items-center gap-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const Benefits = () => {
                   height="113"
                   viewBox="0 0 112 113"
                   fill="none"
-                  className="w-[70%] h-[60%] sm:h-[100%]  2xl:w-full"
+                  className="h-[60%] w-[45%]"
                 >
                   <circle cx="56" cy="56.2871" r="56" fill="#B2335E" />
                   <path
@@ -29,7 +29,7 @@ const Benefits = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="2xl:text-[1.125rem] xl:text-[1rem] md:text-[.875rem] text-[.625rem] font-medium text-center">
+                <p className=" py-0 xs:py-2 sm:py-4 xl:text-[1rem] md:text-[.875rem] text-[.5rem] font-medium text-center">
                   Needlefree
                 </p>
               </div>
@@ -40,7 +40,7 @@ const Benefits = () => {
                   height="113"
                   viewBox="0 0 113 113"
                   fill="none"
-                  className="w-[70%] h-[60%] sm:h-[100%]  2xl:w-full"
+                  className="h-[60%] w-[45%]"
                 >
                   <circle cx="56.4414" cy="56.2871" r="56" fill="#B2335E" />
                   <path
@@ -52,7 +52,7 @@ const Benefits = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="2xl:text-[1.125rem] xl:text-[1rem] md:text-[.875rem] text-[.625rem] font-medium text-center">
+                <p className=" py-0 xs:py-2 sm:py-4 xl:text-[1rem] md:text-[.875rem] text-[.5rem] font-medium text-center">
                   Highly accurate
                 </p>
               </div>
@@ -63,7 +63,7 @@ const Benefits = () => {
                   height="113"
                   viewBox="0 0 112 113"
                   fill="none"
-                  className="w-[70%] h-[60%] sm:h-[100%]  2xl:w-full"
+                  className="h-[60%] w-[45%]"
                 >
                   <circle cx="56.0039" cy="56.2871" r="56" fill="#B2335E" />
                   <path
@@ -75,7 +75,7 @@ const Benefits = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="2xl:text-[1.125rem] xl:text-[1rem] md:text-[.875rem] text-[.625rem] font-medium text-center">
+                <p className=" py-0 xs:py-2 sm:py-4 xl:text-[1rem] md:text-[.875rem] text-[.5rem] font-medium text-center">
                   Universally available
                 </p>
               </div>
@@ -86,7 +86,7 @@ const Benefits = () => {
                   height="113"
                   viewBox="0 0 113 113"
                   fill="none"
-                  className="w-[70%] h-[60%] sm:h-[100%]  2xl:w-full"
+                  className="h-[60%] w-[45%]"
                 >
                   <circle cx="56.5273" cy="56.8359" r="56" fill="#B2335E" />
                   <path
@@ -94,7 +94,7 @@ const Benefits = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="2xl:text-[1.125rem] xl:text-[1rem] md:text-[.875rem] text-[.625rem] font-medium text-center">
+                <p className=" py-0 xs:py-2 sm:py-4 xl:text-[1rem] md:text-[.875rem] text-[.5rem] font-medium text-center">
                   Reliable
                 </p>
               </div>
@@ -105,7 +105,7 @@ const Benefits = () => {
                   height="113"
                   viewBox="0 0 112 113"
                   fill="none"
-                  className="w-[70%] h-[60%] sm:h-[100%]  2xl:w-full"
+                  className="h-[60%] w-[45%]"
                 >
                   <circle cx="56" cy="56.2285" r="56" fill="#B2335E" />
                   <path
@@ -115,7 +115,7 @@ const Benefits = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="2xl:text-[1.125rem] xl:text-[1rem] md:text-[.875rem] text-[.625rem] font-medium text-center">
+                <p className=" py-0 xs:py-2 sm:py-4 xl:text-[1rem] md:text-[.875rem] text-[.5rem] font-medium text-center">
                   Convenient
                 </p>
               </div>
@@ -127,7 +127,7 @@ const Benefits = () => {
                   height="113"
                   viewBox="0 0 113 113"
                   fill="none"
-                  className="w-[70%] h-[60%] sm:h-[100%]  2xl:w-full"
+                  className="h-[60%] w-[45%]"
                 >
                   <circle cx="56.4395" cy="56.5527" r="56" fill="#B2335E" />
                   <path
@@ -138,7 +138,7 @@ const Benefits = () => {
                     stroke-linejoin="round"
                   />
                 </svg>
-                <p className="2xl:text-[1.125rem] xl:text-[1rem] md:text-[.875rem] text-[.625rem] font-medium text-center">
+                <p className=" py-0 xs:py-2 sm:py-4 xl:text-[1rem] md:text-[.875rem] text-[.5rem] font-medium text-center">
                   Easy-to-use
                 </p>
               </div>
@@ -150,7 +150,7 @@ const Benefits = () => {
                   height="113"
                   viewBox="0 0 112 113"
                   fill="none"
-                  className="w-[70%] h-[60%] sm:h-[100%]  2xl:w-full"
+                  className="h-[60%] w-[45%]"
                 >
                   <circle cx="56.002" cy="56.5527" r="56" fill="#B2335E" />
                   <path
@@ -158,7 +158,7 @@ const Benefits = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="2xl:text-[1.125rem] xl:text-[1rem] md:text-[.875rem] text-[.625rem] font-medium text-center">
+                <p className=" py-0 xs:py-2 sm:py-4 xl:text-[1rem] md:text-[.875rem] text-[.5rem] font-medium text-center">
                   Enviromentally friendly
                 </p>
               </div>
@@ -169,7 +169,7 @@ const Benefits = () => {
                   height="113"
                   viewBox="0 0 113 113"
                   fill="none"
-                  className="w-[70%] h-[60%] sm:h-[100%]  2xl:w-full"
+                  className="h-[60%] w-[45%]"
                 >
                   <circle cx="56.5176" cy="56.2109" r="56" fill="#B2335E" />
                   <path
@@ -177,7 +177,7 @@ const Benefits = () => {
                     fill="white"
                   />
                 </svg>
-                <p className="2xl:text-[1.125rem] xl:text-[1rem] md:text-[.875rem] text-[.625rem] font-medium text-center">
+                <p className=" py-0 xs:py-2 sm:py-4 xl:text-[1rem] md:text-[.875rem] text-[.5rem] font-medium text-center">
                   Cost efficient
                 </p>
               </div>

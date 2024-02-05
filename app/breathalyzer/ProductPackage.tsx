@@ -4,24 +4,25 @@ import { Text175rem, Title2875rem } from "../components/Text";
 export default function ProductPackage() {
   return (
     <div className="">
-      <div className="text-center font-medium  my-2 xs:my-10 px-1 xs:px-10 max-w-[95rem] mx-auto">
+      <div className="text-center font-medium  my-2 xs:my-10 px-1 xs:px-14 max-w-[90rem] mx-auto">
         <Text175rem>
           Imagine taking a snapshot of your body&#39;s inner workings in
           real-time, not through complex procedures, but with a simple breath.
           Bio markers in your exhalation are like tiny messengers that carry
           tales of your body&#39;s condition.
-        </Text175rem>
-        <p className="py-10">
+       
+        <div className="py-4">
           Your health journey begins with a{" "}
           <span className="text-[1.375rem] md:text-[2rem] xl:text-[2.25rem]">
-            breath
+            breath,
           </span>
-          , and we&#39;re here to make it{" "}
+           and we&#39;re here to make it{" "}
           <span className="text-[1.375rem] md:text-[2rem] xl:text-[2.25rem]">
-            extraordinary
+            extraordinary.
           </span>
-          .
-        </p>
+          
+        </div>
+         </Text175rem>
         <p className="text-primary-800 md:text-[2.25rem] lg:text-[2.875rem] text-[1.375rem]">
           Welcome to a Breath of Innovation!
         </p>
