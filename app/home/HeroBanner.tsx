@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <section className="text-center text-nav font-medium max-w-[59rem] mx-auto px-2 my-10 md:my-24">
+    <section className="text-center text-nav font-medium max-w-[59rem] mx-auto px-2 my-10 md:mt-10 md:mb-20">
       <div>
         <p className="sm:text-[4.25rem] text-[2.4rem] pb-2">
           Welcome to Peckiiless

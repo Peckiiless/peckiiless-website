@@ -17,6 +17,7 @@ const Sidebar = () => {
 
   return (
     <>
+    
       {showSidebar ? (
         <button
           className="flex text-4xl text-nav items-center cursor-pointer  right-10 top-6 z-50"
