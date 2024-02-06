@@ -66,7 +66,7 @@ const HomeLogo = () => {
         <HomeNavbar />
       </div>
 
-      <div id="wrapper" className="relative h-[75rem] w-[50rem] mx-auto">
+      <div id="wrapper" className="relative h-[75rem] w-[50rem] mx-auto -z-10">
         <div id="healthcare">
           <Image width={750} height={750} src="/healthcare.svg" alt="" />
           <div className="absolute top-[6rem] left-[4rem]  flex-col items-center text-center">

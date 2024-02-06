@@ -1,23 +1,21 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Text2rem } from "./Text";
 
- const links = [
-    { path: "/healthcare", label: "Healthcare" },
-    { path: "/breathalyzer", label: "Breathalyzer" },
-    { path: "/sensor", label: "Gas Sensor" },
-    { path: "/sustainability", label: "Sustainability" },
-    { path: "/about-us", label: "About Us" },
-  ];
+const links = [
+  { path: "/healthcare", label: "Healthcare" },
+  { path: "/breathalyzer", label: "Breathalyzer" },
+  { path: "/sensor", label: "Gas Sensor" },
+  { path: "/sustainability", label: "Sustainability" },
+  { path: "/about-us", label: "About Us" },
+];
 
 const Sidebar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
-  const currentRoute = usePathname();
 
   return (
     <>
-    
       {showSidebar ? (
         <button
           className="flex text-4xl text-nav items-center cursor-pointer  right-10 top-6 z-50"
@@ -41,19 +39,17 @@ const Sidebar = () => {
       )}
 
       <div
-        className={`flex items-center top-0 left-0 w-[35vw] bg-nav  p-10 pl-20 text-white fixed h-full z-40  ease-in-out duration-300 ${
-          showSidebar ? "translate-x-0 " : "-translate-x-full"
+        className={`flex items-center top-0 left-0 w-[70%] xs:w-[35vw] bg-nav  p-10 pl-20 text-white fixed h-full z-40  ease-in-out duration-300 ${
+          showSidebar ? "translate-x-0 " : "-translate-x-full opacity-0"
         }`}
       >
         <ul className="flex  flex-col items-center justify-center mx-auto  gap-8">
           {links.map(({ path, label }) => (
             <Link key={path} href={path} passHref>
               <div
-                className={`no-underline ${
-                  currentRoute === path ? "font-bold" : "font-normal"
-                }`}
+                className="no-underline"
               >
-                {label}
+                <Text2rem>{label}</Text2rem>                
               </div>
             </Link>
           ))}
