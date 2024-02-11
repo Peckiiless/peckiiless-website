@@ -8,7 +8,7 @@ const HomeLogoMobile = () => {
       <div className="flex justify-end m-2 text-[2rem] bottom-0 right-0">
         <HomeNavbar />
       </div>
-      <div className="flex justify-center mt-20 relative text-[1rem] xs:text-[1.2rem] sm:text-[1.6rem] text-center font-medium -z-10">
+      <div className="flex justify-center mt-20 relative text-[1rem] xs:text-[1.2rem] sm:text-[1.6rem] text-center font-medium ">
         <Image width={800} height={800} src="/home-logo.svg" alt="home-logo" />
         <div className="absolute top-[8%] left-[14%] ">
           <p className="text-white">Health care</p>{" "}
