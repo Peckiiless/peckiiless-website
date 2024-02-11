@@ -14,7 +14,7 @@ export default function ProductPackage() {
         <div className="py-4">
           Your health journey begins with a{" "}
           <span className="text-[1.375rem] md:text-[2rem] xl:text-[2.25rem]">
-            breath,
+            breath, {" "}
           </span>
            and we&#39;re here to make it{" "}
           <span className="text-[1.375rem] md:text-[2rem] xl:text-[2.25rem]">
