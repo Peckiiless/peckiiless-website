@@ -5,12 +5,9 @@ import { Title3625 } from "@/app/components/Text";
 
 export default function Supports() {
   return (
-    <section className="bg-patternLady bg-no-repeat bg-cover mt-10">
-      <FadeIn className="text-center font-bold text-[2.625rem] text-primary-800 py-10">
-         <Title3625>
-        Get Support From
-         </Title3625>
-        
+    <section className="bg-patternLady bg-no-repeat bg-cover">
+      <FadeIn className="text-center font-bold text-[2.625rem] text-primary-800 py-8 xl:py-20">
+        <Title3625>Get Support From</Title3625>
       </FadeIn>
 
       <FadeInStagger className="section">
@@ -52,7 +49,7 @@ export default function Supports() {
             />
           </FadeIn>
         </div>
-        <div className="flex gap-5 justify-around items-center mt-6 md:mt-14">
+        <div className="flex gap-5 justify-around items-center py-8 xl:py-28">
           <FadeIn>
             <Image
               src="/sscp.svg"

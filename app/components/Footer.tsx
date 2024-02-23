@@ -9,7 +9,7 @@ import Image from "next/image";
 const Footer = () => {
   const currentRoute = usePathname();
   return (
-    <div className="md:text-[1.5rem] xs:text-[1.125rem] text-[.625rem] mt-20 md:mt-44">
+    <div className="md:text-[1.5rem] xs:text-[1.125rem] text-[.625rem] mt-10 md:mt-24">
       <div className="mx-auto">
         <h1 className="flex justify-center mt-5">
           <Link
@@ -71,8 +71,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center py-5 xs:py-10">
-        <p className="lg:text-[.75rem] md:text-[.625rem] text-[.5rem]">
-          @2023 www.peckiiless.com all copyrights reserved.
+        <p className="lg:text-[1.5rem] md:text-[.75rem] text-[.5rem]">
+          @2024 www.peckiiless.com all copyrights reserved.
         </p>
       </div>
       <div className="bg-footer h-[5rem] sm:h-[15rem] bg-bottom xs:bg-top bg-contain xs:bg-cover bg-no-repeat"></div>

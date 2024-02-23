@@ -105,10 +105,10 @@ export default function CompanyFamilyOthers() {
                   quality={100}
                 />
                 <div className="pt-5 text-center">
-                  <Text1625rem>Martin Andersson</Text1625rem>
+                  <Text1625rem>Anders Hellman</Text1625rem>
                   <Text125rem>Technical collaborator</Text125rem>
-                  <Text1125rem>Professor at</Text1125rem>
-                  <Text1125rem>Chalmers University</Text1125rem>
+                  <Text1125rem>Professor at </Text1125rem>
+                  <Text1125rem>University Chalmers</Text1125rem>
                 </div>
               </div>
             </div>
