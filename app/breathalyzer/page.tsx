@@ -6,7 +6,7 @@ import Testing from "./Testing";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const ProductInfoPage = () => {
+const BreathalyzerPage = () => {
   return (
     <div>
       <Navbar navColor="#19416C"/>
@@ -20,4 +20,4 @@ const ProductInfoPage = () => {
   );
 };
 
-export default ProductInfoPage;
+export default BreathalyzerPage;

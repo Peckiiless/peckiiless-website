@@ -1,4 +1,3 @@
-import Image from "next/image";
 import etty from "../../public/main-screen.png";
 import { Text1875rem } from "../components/Text";
 import FadeIn from "../components/FadeIn";
@@ -26,9 +25,7 @@ export const MainPage = () => {
         <div className="col-span-12 sm:col-span-8 relative sm:px-20">
           <BlurImage
             src={etty}
-            alt="logo"
-            priority={true}
-            quality={100}
+            alt="etty fidele spash"
             width={0}
             height={0}
             sizes="100vw"

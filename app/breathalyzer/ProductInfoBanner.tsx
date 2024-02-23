@@ -1,4 +1,5 @@
-import Image from "next/image";
+import BlurImage from "../components/BlurImage";
+import patternLady from "../../public/pattern-lady2.svg";
 
 export default function ProductInfoBanner() {
   return (
@@ -12,15 +13,15 @@ text-primary-800 "
           just exhale
         </p>
       </div>
-      <Image
-        src="/pattern-lady2.svg"
-        alt="Image Alt Text"
-        width={0}
-        height={0}
-        sizes="100vw"
-        className="w-full absolute -z-10 xl:-top-[5%] top-0"
-        priority={true}
-      />
+      <div className="w-full absolute -z-10 xl:-top-[5%] top-0">
+        <BlurImage
+          src={patternLady}
+          alt="Blowing lady with brethalyzer"
+          width={0}
+          height={0}
+          sizes="100vw"
+        />
+      </div>
     </div>
   );
 }
