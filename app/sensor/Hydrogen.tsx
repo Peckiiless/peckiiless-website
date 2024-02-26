@@ -13,7 +13,7 @@ export default function Hydrogen() {
           priority={true}
         />
       </div>
-      <div className="px-[5%] max-w-[95rem] mx-auto">
+      <div className="px-[5%] max-w-[95rem] mx-auto text-center">
         <Text3>
           In the realm of hydrogen purity, our gas sensor technology plays a
           crucial role in ensuring compliance with stringent standards such as

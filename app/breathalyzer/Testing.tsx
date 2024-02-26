@@ -1,8 +1,12 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import CustomButton from "../components/CustomButton";
 import { Text175rem, Title2625rem } from "../components/Text";
 
 const Testing = () => {
+  const [more, setMore] = useState("");
+
   return (
     <div className="">
       <div className="py-14 sm:py-24 xl:py-32  max-w-[85rem] mx-auto px-2">
@@ -20,34 +24,33 @@ const Testing = () => {
         </div>
         <div className="text-right col-span-6 2xl:col-span-5">
           <Text175rem>
-            <div className="hidden sm:block p-2">
+            <div className="p-2">
               <p>
                 Volatile organic compounds (VOCs) are gaseous molecules that can
-                be sampled quickly and non-invasively from breath.
+                be sampled quickly and non-invasively from breath.Some VOCs are born within, whispering secrets about your
+                  internal processes (endogenous VOCs). Others come from the
+                  outside
+                  <span className={`${more ==="body" ? "block" : "hidden sm:block"}`}>
+                    world, bringing stories of your diet, the medications you
+                    take, and the air you breathe (exogenous VOCs).
+                  
+                  It&#39;s like your body narrating its story with every exhale,
+                  a unique blend of internal and external chapters unveiled in
+                  the invisible language of molecules. Inhale, and let the
+                  captivating tale of your whole-body metabolic snapshot begin.
+                  </span>
+              
               </p>
-              <p className="py-4">
-                Some VOCs are born within, whispering secrets about your
-                internal processes (endogenous VOCs). Others come from the
-                outside world, bringing stories of your diet, the medications
-                you take, and the air you breathe (exogenous VOCs).
-              </p>
-              <p>
-                It&#39;s like your body narrating its story with every exhale, a
-                unique blend of internal and external chapters unveiled in the
-                invisible language of molecules. Inhale, and let the captivating
-                tale of your whole-body metabolic snapshot begin.
-              </p>
-            </div>
-            <p className="sm:hidden">
-              Volatile organic compounds (VOCs) are gaseous molecules that can
-              be sampled quickly and non-invasively from breath.Some VOCs are
-              born within, whispering secrets about your internal processes
-              (endogenous VOCs). Others come from the outside -
+                <p
+              className="font-medium text-[1rem] cursor-pointer py-1"
+              onClick={() => !more ? setMore("body") : setMore("")}
+            >
+              {more ? "Read less" : "Read more"}
             </p>
-            <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1">
-              Read more
-            </p>
+            </div>           
+            
           </Text175rem>
+        
         </div>
         <div className="col-span-4 2xl:col-span-5 relative">
           <Image
@@ -74,31 +77,30 @@ const Testing = () => {
 
         <div className="col-span-6 2xl:col-span-5 ">
           <Text175rem>
-            <div className="hidden sm:block p-2">
+            <div className="p-2">
               <p>
                 Your lungs, the silent storytellers of your health, are masters
                 at exchanging chemicals with your blood. They capture volatile
                 metabolites and biomarkers, whispering clues about your
                 well-being, even in the earliest stages of a potential ailment.
-              </p>
-              <p className="py-4">
+                <span className={`${more ==="resp" ? "block" : "hidden sm:block"}`}>
                 Imagine this: in just around One minute, your entire blood
                 volume completes a journey around your body, carrying with it
                 the intricate narrative of your health. The dance between your
                 lungs and blood paints a vivid picture of your body&#39;s inner
-                workings, revealing its secrets with each breath and heartbeat.
+                workings, revealing its secrets with each breath and heartbeat.            
+                </span>
               </p>
+               <p
+              className="font-medium text-[1rem] cursor-pointer py-1"
+              onClick={() => !more ? setMore("resp") : setMore("")}
+            >
+              {more ? "Read less" : "Read more"}
+            </p>
             </div>
-            <p className="sm:hidden">
-              Your lungs, the silent storytellers of your health, are masters at
-              exchanging chemicals with your blood. They capture volatile
-              metabolites and biomarkers, whispering clues about your
-              well-being, even in the earliest stages of a potential ailment.
-            </p>
-            <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1">
-              Read more
-            </p>
+            
           </Text175rem>
+          
         </div>
         <div className="col-span-2 2xl:col-span-2 ">
           <CustomButton
@@ -116,31 +118,32 @@ const Testing = () => {
         </div>
         <div className="text-right col-span-6 2xl:col-span-5">
           <Text175rem>
-            <div className="hidden sm:block p-2">
+            <div className="p-2">
               <p>
                 Deep within your lungs reside tiny, magical sacs called alveoli.
                 They&#39;re not just air-filled bubbles; These structures play a
                 crucial role in the respiratory system, facilitating the
                 transfer of gases between the lungs and the bloodstream. The
-                alveoli are surrounded by a dense network of capillaries, small
+                alveoli are surrounded by a dense network of capillaries,
+                <span className={`${more==="voc" ? "block" : "hidden sm:block"}`}>small
                 blood vessels with thin walls. This proximity allows for rapid
                 gas exchange between the alveoli and the blood. large surface
                 area and thin walls of the alveoli optimize this exchange,
                 ensuring a rapid and effective transfer of gases to meet the
                 body&#39;s metabolic needs.
+                </span>
               </p>
-            </div>
-            <p className="sm:hidden">
-              Deep within your lungs reside tiny, magical sacs called alveoli.
-              They&#39;re not just air-filled bubbles; These structures play a
-              crucial role in the respiratory system, facilitating the transfer
-              of gases between the lungs and the bloodstream. The alveoli are
-              surrounded by a dense network of capillaries, small -
+                <p
+              className="font-medium text-[1rem] cursor-pointer py-1"
+              onClick={() => !more ? setMore("voc") : setMore("")}
+            >
+              {more ? "Read less" : "Read more"}
             </p>
-            <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1">
-              Read more
-            </p>
+            </div>  
+              
+         
           </Text175rem>
+            
         </div>
         <div className="col-span-4 2xl:col-span-5 relative">
           <Image
@@ -167,28 +170,29 @@ const Testing = () => {
 
         <div className="col-span-6 2xl:col-span-5 ">
           <Text175rem>
-            <div className="hidden sm:block p-2">
+            <div className="p-2">
               <p>
                 In this microscopic realm, a solitary air sac, encircled by
                 intricate blood vessels, directs the silent choreography of gas
                 exchange-a vital rhythm encapsulated in a single image.
-              </p>
-              <p className="py-4">
+              
+              <span className={`${more ==="alveoli" ? "block" : "hidden sm:block"}`}>
                 Armed with this knowledge, the Peckiiless breathalyzer swiftly
                 captures multiple crucial biomarkers from your exhalation
                 breath. Its keen selectivity and sensitivity, paired with the
                 power of Al, go beyond, even calculating your body&#39;s glucose
                 levels. Embrace the journey to wellness&#34;
+              </span>
               </p>
+                <p
+              className="font-medium text-[1rem] cursor-pointer py-1"
+              onClick={() => !more ? setMore("alveoli") : setMore("")}
+            >
+              {more ? "Read less" : "Read more"}
+            </p>
             </div>
-            <p className="sm:hidden">
-              In this microscopic realm, a solitary air sac, encircled by
-              intricate blood vessels, directs the silent choreography of gas
-              exchange-a vital rhythm encapsulated in a single image.
-            </p>
-            <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1">
-              Read more
-            </p>
+        
+           
           </Text175rem>
         </div>
         <div className="col-span-2 2xl:col-span-2 ">

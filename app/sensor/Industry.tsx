@@ -13,7 +13,7 @@ export default function Industry() {
           priority={true}
         />
       </div>
-      <div className="px-[5%] max-w-[95rem] mx-auto">
+      <div className="px-[5%] max-w-[95rem] mx-auto text-center">
         <Text3>
           For the industrial sector, our gas sensor technology finds
           applications in both traditional chemical processing and emerging

@@ -46,16 +46,6 @@ export default function ProductBanner() {
            
           </div>
 
-          {/* <div className="hidden sm:block sm:pl-[10%] md:pl-[12%] lg:pl-[22%] xl:pl-[28%] 2xl:pl-[40%]">
-            <Text3>
-              Empower your well-being with our state of-the-art breathalyzer -
-              where every exhale reveals a roadmap to a healthier, more vibrant
-              life. Click below to discover more about how it works and
-              seamlessly connects to your smartphone, putting your health
-              insights at your fingertips.
-            </Text3>
-          </div> */}
-
           <div className="lg:col-span-4 pt-4 md:pt-8 self-end">
             <Link
               href="/breathalyzer"
