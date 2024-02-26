@@ -1,5 +1,4 @@
-import Image from "next/Image";
-import patternLady from "../../public/pattern-lady2.svg";
+import Image from "next/image";
 
 export default function ProductInfoBanner() {
   return (
