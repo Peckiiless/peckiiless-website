@@ -1,7 +1,11 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import { Text3, Title2625rem } from "../components/Text";
 
 export default function BlowingLady() {
+  const [more, setMore] = useState(false);
+
   return (
     <section className="pt-10 xl:my-10">
       <div className="bg-primary-200 rounded-[.625rem] mb-10 xs:mb-20 md:mb-30 lg:mb-20 p-3  sm:py-10  max-w-[80rem] mx-3 xs:mx-10 2xl:mx-auto sm:px-8 md:px-10 xl:px-30">
@@ -21,7 +25,7 @@ export default function BlowingLady() {
             priority={true}
           />
         </div>
-        <div className="sm:max-w-[60rem] md:absolute sm:bottom-0 md:-bottom-14 lg:bottom-20 xl:bottom-4 left-[40%] sm:left-[35%] px-10">
+        <div className="sm:max-w-[60rem] md:absolute sm:bottom-0 md:-bottom-14 lg:bottom-20 xl:bottom-4 left-[40%] sm:left-[35%] px-6 xs:px-10">
           <Text3>
             Exhalation breath is like a secret code, carrying over 1,000
             volatile organic compounds (VOCs) straight from the depths of your
@@ -32,12 +36,13 @@ export default function BlowingLady() {
             can be. It&#39;s not just a solution; it&#39;s a thrilling journey
             into the captivating world within you.
           </Text3>
-          <p className="md:hidden font-medium text-[.9375rem] cursor-pointer py-1">
-            Read more
-          </p>
         </div>
       </div>
-      <div className="px-4 md:px-10 hidden md:block py-10 md:py-20 lg:py-10 max-w-[95rem] mx-auto text-center">
+      <div
+        className={`${
+          more ? "block" : "hidden sm:block"
+        } px-6 md:px-10 py-2 md:py-20 lg:py-10 max-w-[95rem] mx-auto`}
+      >
         <Text3>
           Breath sampling emerges as a non-invasive, pain-free, and universally
           applicable method. Unlike other sampling techniques, it requires no
@@ -51,6 +56,12 @@ export default function BlowingLady() {
           are accessible to all.
         </Text3>
       </div>
+      <p
+        className="md:hidden font-medium text-[.9375rem] cursor-pointer py-1 ml-6"
+        onClick={() => setMore(!more)}
+      >
+        {more ? "Read less" : "Read more"}
+      </p>
     </section>
   );
 }

@@ -1,8 +1,11 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Title2625rem, Title2875rem, Text3 } from "../components/Text";
 
 export default function ProductBanner() {
+  const [more, setMore] = useState(false);
   return (
     <div>
       <div className="px-[2%]">
@@ -19,19 +22,31 @@ export default function ProductBanner() {
             <Title2875rem>Breathalyzer</Title2875rem>
           </div>
           <div>
-            <div className="sm:hidden pl-[10%]">
+            <div className="sm:pl-[10%] md:pl-[12%] lg:pl-[22%] xl:pl-[28%] 2xl:pl-[40%]">
               <Text3>
                 Empower your well-being with our state of-the-art breathalyzer -
                 where every exhale reveals a roadmap to a healthier, more
                 vibrant life.
               </Text3>
             </div>
-            <p className="sm:hidden font-medium text-[.9375rem] cursor-pointer py-1">
-              Read more
-            </p>
+            <div className={`${more ? "block" : "hidden sm:block"}`}>
+            <Text3>
+              Click below to discover more about how it works and
+              seamlessly connects to your smartphone, putting your health
+              insights at your fingertips.
+            </Text3>           
           </div>
 
-          <div className="hidden sm:block sm:pl-[10%] md:pl-[12%] lg:pl-[22%] xl:pl-[28%] 2xl:pl-[40%]">
+            <p
+              className="sm:hidden font-medium text-[.9375rem] cursor-pointer py-1"
+              onClick={() => setMore(!more)}
+            >
+              {more ? "Read less" : "Read more"}
+            </p>
+           
+          </div>
+
+          {/* <div className="hidden sm:block sm:pl-[10%] md:pl-[12%] lg:pl-[22%] xl:pl-[28%] 2xl:pl-[40%]">
             <Text3>
               Empower your well-being with our state of-the-art breathalyzer -
               where every exhale reveals a roadmap to a healthier, more vibrant
@@ -39,13 +54,9 @@ export default function ProductBanner() {
               seamlessly connects to your smartphone, putting your health
               insights at your fingertips.
             </Text3>
-          </div>
+          </div> */}
 
           <div className="lg:col-span-4 pt-4 md:pt-8 self-end">
-            {/* <CustomButton
-              title="More Information"
-              containerStyles="bg-primary-700 font-medium xl:text-[1.625rem] md:text-[1.25rem] text-[.75rem] text-white rounded-[.5rem] md:py-7 md:px-12 py-3 px-2"
-            /> */}
             <Link
               href="/breathalyzer"
               className="bg-primary-700 font-medium xl:text-[1.375rem] md:text-[1.125rem] text-[.75rem] text-white rounded-[.5rem] md:py-4 md:px-8 py-3 px-2"

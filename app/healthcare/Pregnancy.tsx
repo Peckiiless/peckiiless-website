@@ -1,7 +1,11 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import { Text2, Text3, Title2875rem } from "../components/Text";
 
 export default function Pregnancy() {
+    const [more, setMore] = useState(false);
+
   return (
     <section className="mx-auto max-w-[100rem]">
       <div className="">
@@ -19,8 +23,8 @@ export default function Pregnancy() {
         </div>
       </div>
       <div className="grid grid-cols-12 ">
-        <div className="col-span-8  sm:col-span-7  xl:col-span-8 2xl:col-span-7 text-right sm:pt-2 px-14 sm:pr-1 self-center ">
-          <div className=" sm:pb-2">
+        <div className="col-span-8  sm:col-span-7  xl:col-span-8 2xl:col-span-7 text-right sm:pt-2 px-6 xs:px-14 sm:pr-1 self-center ">
+          <div className="sm:pb-2">
             <Title2875rem>Living with Diabetes</Title2875rem>
           </div>
           <Text3>
@@ -31,14 +35,16 @@ export default function Pregnancy() {
               routine, contributing to the staggering disposal of billions of
               one-time-use needles and test strips every day.
             </div>
-            <p className="hidden sm:block pb-1 xs:pb-5 md:pb-10">
+            <p
+              className={`${more ? "block" : "hidden sm:block"} pb-1 xs:pb-5 md:pb-10` }
+            >
               In the world of chronic diseases, the need for regular monitoring
               is undeniable. However, traditional blood-based health checks pose
               accessibility challenges and tracking difficulties, hindering the
               optimization of personal treatment and the prevention of potential
               complications.
             </p>
-            <p className="hidden sm:block">
+            <p className={`${more ? "block" : "hidden sm:block"}`}>
               Discovering a new era in health monitoring that goes beyond
               inconvenience is crucial. Saying goodbye to constant pricking and
               hello to a seamless, accessible approach empowers everyone to take
@@ -48,8 +54,8 @@ export default function Pregnancy() {
               disruption.
             </p>
           </Text3>
-          <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1">
-            Read more
+          <p className="sm:hidden font-medium text-[1rem] cursor-pointer py-1" onClick={() => setMore(!more)}>
+            {more ? "Read less" : "Read more"}
           </p>
         </div>
         <div className=" relative col-span-4 sm:col-span-5 xl:col-span-4 2xl:col-span-5  pr-3 mt-1 sm:mt-27">
