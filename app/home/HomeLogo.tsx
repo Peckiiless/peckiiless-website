@@ -52,9 +52,8 @@ const HomeLogo = () => {
       .timeline({
         scrollTrigger: {
           trigger: "#healthcare",
-          scrub: 2,
+          scrub: true,
           start: "top 10%",
-          end: "+=1",
         },
       })
       .to(".home-nav", { autoAlpha: 1 });
@@ -62,7 +61,7 @@ const HomeLogo = () => {
 
   return (
     <div>
-      <div className="flex justify-end m-20 text-[2rem] fixed top-0 right-0 home-nav">
+      <div className="flex justify-end m-20 text-[2rem] fixed top-0 right-0 home-nav z-10">
         <HomeNavbar />
       </div>
 

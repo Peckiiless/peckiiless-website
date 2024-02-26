@@ -18,7 +18,7 @@ const Sidebar = () => {
     <>
       {showSidebar ? (
         <button
-          className="flex text-4xl text-nav items-center cursor-pointer  right-10 top-6 z-50"
+          className="flex text-4xl text-nav items-center cursor-pointer  right-10 top-6"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           x
@@ -46,10 +46,8 @@ const Sidebar = () => {
         <ul className="flex  flex-col items-center justify-center mx-auto  gap-8">
           {links.map(({ path, label }) => (
             <Link key={path} href={path} passHref>
-              <div
-                className="no-underline"
-              >
-                <Text2rem>{label}</Text2rem>                
+              <div className="no-underline">
+                <Text2rem>{label}</Text2rem>
               </div>
             </Link>
           ))}
