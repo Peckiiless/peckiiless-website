@@ -13,10 +13,10 @@ const FadeIn = (props) => {
   return (
     <motion.div
       variants={{
-        hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 24 },
-        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0 },
+        visible: { opacity: 1 },
       }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 2 }}
       {...(isInStaggerGroup
         ? {}
         : {
