@@ -15,7 +15,7 @@ export const MainPage = () => {
             </Text1875rem>
           </FadeIn>
 
-          <FadeIn className="absolute bottom-[13%] -right-[70%] sm:-right-[55%] lg:-right-[45%]">
+          <FadeIn className="absolute bottom-[13%] -right-[70%] sm:-right-[55%] lg:-right-[35%]">
             <Text1875rem>
               <div>From Each to</div>
               <div className="font-semibold">Global Impact</div>
@@ -39,7 +39,7 @@ export const MainPage = () => {
             </Text1875rem>
           </FadeIn>
 
-          <FadeIn className="absolute bottom-[30%] -left-[70%] sm:-left-[60%] lg:-left-[50%]">
+          <FadeIn className="absolute bottom-[30%] -left-[70%] sm:-left-[60%] lg:-left-[40%]">
             <Text1875rem>
               <div>From Vibrant Health to</div>
               <div className="font-semibold">Industrial Harmony</div>
