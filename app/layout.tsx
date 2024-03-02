@@ -6,8 +6,7 @@ export const metadata = {
   description:
     "PeckiiLess is a Sweden-based company that has created a nano-sensor that can detect blood glucose levels through human exhalation to an extremely accurate level. Hundreds of millions of people, most diabetics, around the world rely on accurate glucose monitoring to lead a healthy life. Current methods are invasive can be painful, are expensive, wasteful and not universally available. Using the PeckiiLess sensor, we can improve the lives of these people, reduce costs and eliminate the waste of the current blood glucose monitoring methods. PeckiiLess is good for people, the planet and pocketbooks.",
   verification: {
-    google:
-      "google-site-verification=JKlXlIhE83ZKwVxE1c-0ibblPD0K5-pNNjsxmUdYhCs",
+    google: "JKlXlIhE83ZKwVxE1c-0ibblPD0K5-pNNjsxmUdYhCs",
   },
 };
 
