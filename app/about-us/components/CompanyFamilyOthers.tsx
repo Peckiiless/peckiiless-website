@@ -152,7 +152,7 @@ export default function CompanyFamilyOthers() {
             <div className="">
               <div className="flex flex-col items-center">
                 <Image
-                  src="/images/Team.svg"
+                  src="/images/elham.svg"
                   width={317}
                   height={252}
                   alt="logo"
