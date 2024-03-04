@@ -28,8 +28,8 @@ export const MainPage = () => {
             alt="etty fidele spash"
             width={0}
             height={0}
-            sizes="100vw"
-          />          
+            sizes="(max-width: 400px) 100vw,(max-width: 768px) 75vw, (max-width: 1200px) 60vw,(max-width: 1500px) 50vw,(max-width: 2100px) 30vw, 33vw"
+          />
         </div>
         <div className="hidden sm:block text-nav col-span-2 relative">
           <FadeIn className="absolute top-[10%] -left-[140%] xl:-left-[120%]">
