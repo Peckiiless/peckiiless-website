@@ -31,7 +31,7 @@ export default function SustainabilityBanner({
                 type="submit"
                 className={`${
                   view === "breathalyzer" && ""
-                } inline-block shadow-btn   rounded py-1 px-1 transition-colors hover:bg-light-white-200 disabled:cursor-not-allowed disabled:opacity-50`}
+                } inline-block shadow-btn bg-[#DCDAE4] rounded-[8px] py-1 px-1 lg:px-2 transition-colors hover:bg-light-white-200 disabled:cursor-not-allowed disabled:opacity-50`}
               >
                 <Link href="#first-section">Breathalyzer</Link>
               </button>
@@ -57,7 +57,7 @@ export default function SustainabilityBanner({
                 type="submit"
                 className={`${
                   view === "sensor" && ""
-                } inline-block  shadow-btn  rounded xs:p-1 transition-colors hover:bg-light-white-200 disabled:cursor-not-allowed disabled:opacity-50`}
+                } inline-block  shadow-btn bg-[#DCDAE4]  rounded-[8px] py-1 px-1 lg:px-2 transition-colors hover:bg-light-white-200 disabled:cursor-not-allowed disabled:opacity-50`}
               >
                 <Link href="#first-section">Gas sensor</Link>
               </button>

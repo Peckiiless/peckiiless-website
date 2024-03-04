@@ -19,7 +19,7 @@ module.exports = {
         dm: ["Roboto Serif", "sans-serif"],
       },
       boxShadow: {
-        btn: "1px 1px 6px #000000,-1px -1px 6px #000000",
+        btn: "0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.3)",
       },
       colors: {
         "black-100": "#2B2C35",
