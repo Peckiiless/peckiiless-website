@@ -57,26 +57,6 @@ export default function CompanyFamilyOthers() {
             <div className="">
               <div className="flex flex-col items-center">
                 <Image
-                  src="/images/Angela.svg"
-                  width={317}
-                  height={252}
-                  alt="logo"
-                  priority={true}
-                  quality={100}
-                />
-                <div className="pt-5 text-center">
-                  <Text1625rem>Angela Beth grommet</Text1625rem>
-                  <Text125rem>Technical collaborator</Text125rem>
-                  <Text1125rem>Assistant professor at</Text1125rem>
-                  <Text1125rem>Chalmers University</Text1125rem>
-                </div>
-              </div>
-            </div>
-          </FadeIn>
-          <FadeIn className="">
-            <div className="">
-              <div className="flex flex-col items-center">
-                <Image
                   src="/images/Henrik.svg"
                   width={317}
                   height={252}
@@ -93,46 +73,7 @@ export default function CompanyFamilyOthers() {
               </div>
             </div>
           </FadeIn>
-          <FadeIn className="">
-            <div className="">
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/images/Andres.svg"
-                  width={317}
-                  height={252}
-                  alt="logo"
-                  priority={true}
-                  quality={100}
-                />
-                <div className="pt-5 text-center">
-                  <Text1625rem>Anders Hellman</Text1625rem>
-                  <Text125rem>Technical collaborator</Text125rem>
-                  <Text1125rem>Professor at </Text1125rem>
-                  <Text1125rem>University Chalmers</Text1125rem>
-                </div>
-              </div>
-            </div>
-          </FadeIn>
-          <FadeIn className="">
-            <div className="">
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/images/Jens.svg"
-                  width={317}
-                  height={252}
-                  alt="logo"
-                  priority={true}
-                  quality={100}
-                />
-                <div className="pt-5 text-center">
-                  <Text1625rem>Jens Eriksson</Text1625rem>
-                  <Text125rem>Gas measurement expert</Text125rem>
-                  <Text1125rem>Docent at</Text1125rem>
-                  <Text1125rem>Linköping University</Text1125rem>
-                </div>
-              </div>
-            </div>
-          </FadeIn>
+        
           <FadeIn className="">
             <div className="flex flex-col items-center">
               <Image
